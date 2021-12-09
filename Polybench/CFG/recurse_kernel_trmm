@@ -1,0 +1,148 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/trmm -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/trmm/trmm.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/trmm/trmm.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/trmm/trmm.c
+Splitting file    ./recurse.database/Tmp/trmm.cpp_processed.c
+  Module         main
+  Module         kernel_trmm
+  Module         trmm!print_array
+  Module         trmm!init_array
+  Module         trmm!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_trmm.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(trmm!)
+  C_PARSER                       building   PARSED_CODE(kernel_trmm)
+                                 building   CALLEES(kernel_trmm)
+  CONTROLIZER                    building   CODE(kernel_trmm)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_trmm)
+[statement_filter] 	 IN
+int i, j, k;
+
+//BLAS parameters
+//SIDE   = 'L'
+//UPLO   = 'L'
+//TRANSA = 'T'
+//DIAG   = 'U'
+// => Form  B := alpha*A**T*B.
+// A is MxM
+// B is MxN
+#pragma scop
+polybench_timer_start();
+
+for(i = 0; i <= m-1; i += 1)
+   for(j = 0; j <= n-1; j += 1) {
+loop_1:
+      for(k = i+1; k <= m-1; k += 1)
+         B[i][j] += A[k][i]*B[k][j];
+      B[i][j] = alpha*B[i][j];
+   }
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i, j, k;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+//BLAS parameters
+//SIDE   = 'L'
+//UPLO   = 'L'
+//TRANSA = 'T'
+//DIAG   = 'U'
+// => Form  B := alpha*A**T*B.
+// A is MxM
+// B is MxN
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= m-1; i += 1)
+   for(j = 0; j <= n-1; j += 1) {
+loop_1:
+      for(k = i+1; k <= m-1; k += 1)
+         B[i][j] += A[k][i]*B[k][j];
+      B[i][j] = alpha*B[i][j];
+   }
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 0; j <= n-1; j += 1) {
+loop_1:
+   for(k = i+1; k <= m-1; k += 1)
+      B[i][j] += A[k][i]*B[k][j];
+   B[i][j] = alpha*B[i][j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+loop_1:
+for(k = i+1; k <= m-1; k += 1)
+   B[i][j] += A[k][i]*B[k][j];
+B[i][j] = alpha*B[i][j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+loop_1:
+for(k = i+1; k <= m-1; k += 1)
+   B[i][j] += A[k][i]*B[k][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+B[i][j] += A[k][i]*B[k][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+B[i][j] = alpha*B[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_trmm.
+Request: build phase/rule UNSPLIT for module main.
+  PRINT_CODE                     building   PRINTED_FILE(kernel_trmm)
+PRINT_CODE[kernel_trmm] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+PRINT_CODE[kernel_trmm] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

@@ -1,0 +1,738 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/deriche -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/deriche/deriche.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/deriche/deriche.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/deriche/deriche.c
+Splitting file    ./recurse.database/Tmp/deriche.cpp_processed.c
+  Module         main
+  Module         kernel_deriche
+  Module         deriche!print_array
+  Module         deriche!init_array
+  Module         deriche!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_deriche.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(deriche!)
+  C_PARSER                       building   PARSED_CODE(kernel_deriche)
+                                 building   CALLEES(kernel_deriche)
+  CONTROLIZER                    building   CODE(kernel_deriche)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_deriche)
+[statement_filter] 	 IN
+int i, j;
+float xm1, tm1, ym1, ym2;
+float xp1, xp2;
+float tp1, tp2;
+float yp1, yp2;
+
+float k;
+float a1, a2, a3, a4, a5, a6, a7, a8;
+float b1, b2, c1, c2;
+
+#pragma scop
+k = (1.0f-expf(-alpha))*(1.0f-expf(-alpha))/(1.0f+2.0f*alpha*expf(-alpha)-expf(2.0f*alpha));
+a1 = a5 = k;
+a2 = a6 = k*expf(-alpha)*(alpha-1.0f);
+a3 = a7 = k*expf(-alpha)*(alpha+1.0f);
+a4 = a8 = -k*expf(-2.0f*alpha);
+b1 = powf(2.0f, -alpha);
+b2 = -expf(-2.0f*alpha);
+c1 = c2 = 1;
+
+polybench_timer_start();
+
+for(i = 0; i <= w-1; i += 1) {
+   ym1 = 0.0f;
+   ym2 = 0.0f;
+   xm1 = 0.0f;
+loop_1:
+   for(j = 0; j <= h-1; j += 1) {
+      y1[i][j] = a1*imgIn[i][j]+a2*xm1+b1*ym1+b2*ym2;
+      xm1 = imgIn[i][j];
+      ym2 = ym1;
+      ym1 = y1[i][j];
+   }
+}
+
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(i = 0; i <= w-1; i += 1) {
+   yp1 = 0.0f;
+   yp2 = 0.0f;
+   xp1 = 0.0f;
+   xp2 = 0.0f;
+loop_2:
+   for(j = h-1; j >= 0; j += -1) {
+      y2[i][j] = a3*xp1+a4*xp2+b1*yp1+b2*yp2;
+      xp2 = xp1;
+      xp1 = imgIn[i][j];
+      yp2 = yp1;
+      yp1 = y2[i][j];
+   }
+}
+
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(i = 0; i <= w-1; i += 1)
+loop_3:
+   for(j = 0; j <= h-1; j += 1)
+      imgOut[i][j] = c1*(y1[i][j]+y2[i][j]);
+
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(j = 0; j <= h-1; j += 1) {
+   tm1 = 0.0f;
+   ym1 = 0.0f;
+   ym2 = 0.0f;
+loop_4:
+   for(i = 0; i <= w-1; i += 1) {
+      y1[i][j] = a5*imgOut[i][j]+a6*tm1+b1*ym1+b2*ym2;
+      tm1 = imgOut[i][j];
+      ym2 = ym1;
+      ym1 = y1[i][j];
+   }
+}
+
+
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(j = 0; j <= h-1; j += 1) {
+   tp1 = 0.0f;
+   tp2 = 0.0f;
+   yp1 = 0.0f;
+   yp2 = 0.0f;
+loop_5:
+   for(i = w-1; i >= 0; i += -1) {
+      y2[i][j] = a7*tp1+a8*tp2+b1*yp1+b2*yp2;
+      tp2 = tp1;
+      tp1 = imgOut[i][j];
+      yp2 = yp1;
+      yp1 = y2[i][j];
+   }
+}
+
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(i = 0; i <= w-1; i += 1)
+loop_6:
+   for(j = 0; j <= h-1; j += 1)
+      imgOut[i][j] = c2*(y1[i][j]+y2[i][j]);
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i, j;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+float xm1, tm1, ym1, ym2;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+float xp1, xp2;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+float tp1, tp2;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+float yp1, yp2;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+float k;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+float a1, a2, a3, a4, a5, a6, a7, a8;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+float b1, b2, c1, c2;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+#pragma scop
+k = (1.0f-expf(-alpha))*(1.0f-expf(-alpha))/(1.0f+2.0f*alpha*expf(-alpha)-expf(2.0f*alpha));
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+a1 = a5 = k;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+a2 = a6 = k*expf(-alpha)*(alpha-1.0f);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+a3 = a7 = k*expf(-alpha)*(alpha+1.0f);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+a4 = a8 = -k*expf(-2.0f*alpha);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+b1 = powf(2.0f, -alpha);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+b2 = -expf(-2.0f*alpha);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+c1 = c2 = 1;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= w-1; i += 1) {
+   ym1 = 0.0f;
+   ym2 = 0.0f;
+   xm1 = 0.0f;
+loop_1:
+   for(j = 0; j <= h-1; j += 1) {
+      y1[i][j] = a1*imgIn[i][j]+a2*xm1+b1*ym1+b2*ym2;
+      xm1 = imgIn[i][j];
+      ym2 = ym1;
+      ym1 = y1[i][j];
+   }
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+ym1 = 0.0f;
+ym2 = 0.0f;
+xm1 = 0.0f;
+loop_1:
+for(j = 0; j <= h-1; j += 1) {
+   y1[i][j] = a1*imgIn[i][j]+a2*xm1+b1*ym1+b2*ym2;
+   xm1 = imgIn[i][j];
+   ym2 = ym1;
+   ym1 = y1[i][j];
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+ym1 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+ym2 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+xm1 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_1:
+for(j = 0; j <= h-1; j += 1) {
+   y1[i][j] = a1*imgIn[i][j]+a2*xm1+b1*ym1+b2*ym2;
+   xm1 = imgIn[i][j];
+   ym2 = ym1;
+   ym1 = y1[i][j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+y1[i][j] = a1*imgIn[i][j]+a2*xm1+b1*ym1+b2*ym2;
+xm1 = imgIn[i][j];
+ym2 = ym1;
+ym1 = y1[i][j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+y1[i][j] = a1*imgIn[i][j]+a2*xm1+b1*ym1+b2*ym2;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+xm1 = imgIn[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+ym2 = ym1;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+ym1 = y1[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= w-1; i += 1) {
+   yp1 = 0.0f;
+   yp2 = 0.0f;
+   xp1 = 0.0f;
+   xp2 = 0.0f;
+loop_2:
+   for(j = h-1; j >= 0; j += -1) {
+      y2[i][j] = a3*xp1+a4*xp2+b1*yp1+b2*yp2;
+      xp2 = xp1;
+      xp1 = imgIn[i][j];
+      yp2 = yp1;
+      yp1 = y2[i][j];
+   }
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+yp1 = 0.0f;
+yp2 = 0.0f;
+xp1 = 0.0f;
+xp2 = 0.0f;
+loop_2:
+for(j = h-1; j >= 0; j += -1) {
+   y2[i][j] = a3*xp1+a4*xp2+b1*yp1+b2*yp2;
+   xp2 = xp1;
+   xp1 = imgIn[i][j];
+   yp2 = yp1;
+   yp1 = y2[i][j];
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+yp1 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+yp2 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+xp1 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+xp2 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_2:
+for(j = h-1; j >= 0; j += -1) {
+   y2[i][j] = a3*xp1+a4*xp2+b1*yp1+b2*yp2;
+   xp2 = xp1;
+   xp1 = imgIn[i][j];
+   yp2 = yp1;
+   yp1 = y2[i][j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+y2[i][j] = a3*xp1+a4*xp2+b1*yp1+b2*yp2;
+xp2 = xp1;
+xp1 = imgIn[i][j];
+yp2 = yp1;
+yp1 = y2[i][j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+y2[i][j] = a3*xp1+a4*xp2+b1*yp1+b2*yp2;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+xp2 = xp1;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+xp1 = imgIn[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+yp2 = yp1;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+yp1 = y2[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= w-1; i += 1)
+loop_3:
+   for(j = 0; j <= h-1; j += 1)
+      imgOut[i][j] = c1*(y1[i][j]+y2[i][j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+loop_3:
+for(j = 0; j <= h-1; j += 1)
+   imgOut[i][j] = c1*(y1[i][j]+y2[i][j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+imgOut[i][j] = c1*(y1[i][j]+y2[i][j]);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(j = 0; j <= h-1; j += 1) {
+   tm1 = 0.0f;
+   ym1 = 0.0f;
+   ym2 = 0.0f;
+loop_4:
+   for(i = 0; i <= w-1; i += 1) {
+      y1[i][j] = a5*imgOut[i][j]+a6*tm1+b1*ym1+b2*ym2;
+      tm1 = imgOut[i][j];
+      ym2 = ym1;
+      ym1 = y1[i][j];
+   }
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+tm1 = 0.0f;
+ym1 = 0.0f;
+ym2 = 0.0f;
+loop_4:
+for(i = 0; i <= w-1; i += 1) {
+   y1[i][j] = a5*imgOut[i][j]+a6*tm1+b1*ym1+b2*ym2;
+   tm1 = imgOut[i][j];
+   ym2 = ym1;
+   ym1 = y1[i][j];
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+tm1 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+ym1 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+ym2 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_4:
+for(i = 0; i <= w-1; i += 1) {
+   y1[i][j] = a5*imgOut[i][j]+a6*tm1+b1*ym1+b2*ym2;
+   tm1 = imgOut[i][j];
+   ym2 = ym1;
+   ym1 = y1[i][j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+y1[i][j] = a5*imgOut[i][j]+a6*tm1+b1*ym1+b2*ym2;
+tm1 = imgOut[i][j];
+ym2 = ym1;
+ym1 = y1[i][j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+y1[i][j] = a5*imgOut[i][j]+a6*tm1+b1*ym1+b2*ym2;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+tm1 = imgOut[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+ym2 = ym1;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+ym1 = y1[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(j = 0; j <= h-1; j += 1) {
+   tp1 = 0.0f;
+   tp2 = 0.0f;
+   yp1 = 0.0f;
+   yp2 = 0.0f;
+loop_5:
+   for(i = w-1; i >= 0; i += -1) {
+      y2[i][j] = a7*tp1+a8*tp2+b1*yp1+b2*yp2;
+      tp2 = tp1;
+      tp1 = imgOut[i][j];
+      yp2 = yp1;
+      yp1 = y2[i][j];
+   }
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+tp1 = 0.0f;
+tp2 = 0.0f;
+yp1 = 0.0f;
+yp2 = 0.0f;
+loop_5:
+for(i = w-1; i >= 0; i += -1) {
+   y2[i][j] = a7*tp1+a8*tp2+b1*yp1+b2*yp2;
+   tp2 = tp1;
+   tp1 = imgOut[i][j];
+   yp2 = yp1;
+   yp1 = y2[i][j];
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+tp1 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+tp2 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+yp1 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+yp2 = 0.0f;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_5:
+for(i = w-1; i >= 0; i += -1) {
+   y2[i][j] = a7*tp1+a8*tp2+b1*yp1+b2*yp2;
+   tp2 = tp1;
+   tp1 = imgOut[i][j];
+   yp2 = yp1;
+   yp1 = y2[i][j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+y2[i][j] = a7*tp1+a8*tp2+b1*yp1+b2*yp2;
+tp2 = tp1;
+tp1 = imgOut[i][j];
+yp2 = yp1;
+yp1 = y2[i][j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+y2[i][j] = a7*tp1+a8*tp2+b1*yp1+b2*yp2;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+tp2 = tp1;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+tp1 = imgOut[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+yp2 = yp1;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+yp1 = y2[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= w-1; i += 1)
+loop_6:
+   for(j = 0; j <= h-1; j += 1)
+      imgOut[i][j] = c2*(y1[i][j]+y2[i][j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+loop_6:
+for(j = 0; j <= h-1; j += 1)
+   imgOut[i][j] = c2*(y1[i][j]+y2[i][j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+imgOut[i][j] = c2*(y1[i][j]+y2[i][j]);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_deriche.
+Request: build phase/rule UNSPLIT for module main.
+  CONTROLIZER                    building   CODE(deriche!)
+CONTROLIZER[deriche!] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+CONTROLIZER[deriche!] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

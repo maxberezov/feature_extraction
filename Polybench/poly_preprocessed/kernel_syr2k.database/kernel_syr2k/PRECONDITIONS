@@ -1,0 +1,15 @@
+13
+5
+0 T79 (R77 "kernel_syr2k:0`k" R77 "kernel_syr2k:0`j" R77 "kernel_syr2k:0`i" )T63 E28 ((1 kernel_syr2k:0`i 1 kernel_syr2k:0`j 1 kernel_syr2k:0`k 1 kernel_syr2k:m 1 kernel_syr2k:n )()( (-1 kernel_syr2k:0`i ) (1 kernel_syr2k:0`i -1 kernel_syr2k:n 1 . )))))7
+0 T79 (R77 "kernel_syr2k:0`k" R77 "kernel_syr2k:0`j" R77 "kernel_syr2k:0`i" )T63 E28 ((1 kernel_syr2k:0`i 1 kernel_syr2k:0`j 1 kernel_syr2k:0`k 1 kernel_syr2k:m 1 kernel_syr2k:n )()( (-1 kernel_syr2k:0`j ) (-1 kernel_syr2k:0`i ) (1 kernel_syr2k:0`j -1 kernel_syr2k:0`i ) (1 kernel_syr2k:0`i -1 kernel_syr2k:n 1 . )))))9
+0 T79 (R77 "kernel_syr2k:0`k" R77 "kernel_syr2k:0`j" R77 "kernel_syr2k:0`i" )T63 E28 ((1 kernel_syr2k:0`i 1 kernel_syr2k:0`j 1 kernel_syr2k:0`k 1 kernel_syr2k:m 1 kernel_syr2k:n )()( (-1 kernel_syr2k:0`k ) (-1 kernel_syr2k:0`i ) (1 kernel_syr2k:0`k -1 kernel_syr2k:m 1 . ) (1 kernel_syr2k:0`i -1 kernel_syr2k:n 1 . )))))4
+0 T79 ()T63 E28 ((1 kernel_syr2k:m 1 kernel_syr2k:n )()())))2
+0 T79 ()T63 E28 ((1 kernel_syr2k:m 1 kernel_syr2k:n )()())))6
+0 T79 (R77 "kernel_syr2k:0`k" R77 "kernel_syr2k:0`j" R77 "kernel_syr2k:0`i" )T63 E28 ((1 kernel_syr2k:0`i 1 kernel_syr2k:0`j 1 kernel_syr2k:0`k 1 kernel_syr2k:m 1 kernel_syr2k:n )()( (-1 kernel_syr2k:0`i ) (1 kernel_syr2k:0`i -1 kernel_syr2k:n 1 . )))))12
+0 T79 (R77 "kernel_syr2k:0`k" R77 "kernel_syr2k:0`j" R77 "kernel_syr2k:0`i" )T63 E28 ((1 kernel_syr2k:0`i 1 kernel_syr2k:0`j 1 kernel_syr2k:0`k 1 kernel_syr2k:m 1 kernel_syr2k:n )()( (-1 kernel_syr2k:0`i ) (1 kernel_syr2k:n -1 kernel_syr2k:0`i )))))8
+0 T79 (R77 "kernel_syr2k:0`k" R77 "kernel_syr2k:0`j" R77 "kernel_syr2k:0`i" )T63 E28 ((1 kernel_syr2k:0`i 1 kernel_syr2k:0`j 1 kernel_syr2k:0`k 1 kernel_syr2k:m 1 kernel_syr2k:n )( (-1 kernel_syr2k:0`i -1 . 1 kernel_syr2k:0`j ))( (-1 kernel_syr2k:0`i ) (1 kernel_syr2k:0`i -1 kernel_syr2k:n 1 . )))))11
+0 T79 (R77 "kernel_syr2k:0`k" R77 "kernel_syr2k:0`j" R77 "kernel_syr2k:0`i" )T63 E28 ((1 kernel_syr2k:0`i 1 kernel_syr2k:0`j 1 kernel_syr2k:0`k 1 kernel_syr2k:m 1 kernel_syr2k:n )()( (-1 kernel_syr2k:0`i ) (1 kernel_syr2k:n -1 kernel_syr2k:0`i )))))3
+0 T79 ()T63 E28 ((1 kernel_syr2k:m 1 kernel_syr2k:n )()())))13
+0 T79 (R77 "kernel_syr2k:0`k" R77 "kernel_syr2k:0`j" R77 "kernel_syr2k:0`i" )T63 E28 ((1 kernel_syr2k:0`i 1 kernel_syr2k:0`j 1 kernel_syr2k:0`k 1 kernel_syr2k:m 1 kernel_syr2k:n )()( (-1 kernel_syr2k:0`i ) (1 kernel_syr2k:n -1 kernel_syr2k:0`i )))))1
+0 T79 ()T63 E28 ((1 kernel_syr2k:m 1 kernel_syr2k:n )()())))10
+0 T79 (R77 "kernel_syr2k:0`k" R77 "kernel_syr2k:0`j" R77 "kernel_syr2k:0`i" )T63 E28 ((1 kernel_syr2k:0`i 1 kernel_syr2k:0`j 1 kernel_syr2k:0`k 1 kernel_syr2k:m 1 kernel_syr2k:n )()( (-1 kernel_syr2k:0`j ) (-1 kernel_syr2k:0`k ) (-1 kernel_syr2k:0`i ) (1 kernel_syr2k:0`j -1 kernel_syr2k:0`i ) (1 kernel_syr2k:0`k -1 kernel_syr2k:m 1 . ) (1 kernel_syr2k:0`i -1 kernel_syr2k:n 1 . )))))

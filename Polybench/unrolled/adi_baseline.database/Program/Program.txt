@@ -1,0 +1,16 @@
+! module / file
+polybench!: ./adi_baseline.database/Src/polybench.c
+adi!: ./adi_baseline.database/Src/adi.c
+polybench!rtclock: ./adi_baseline.database/Src/polybench.c
+polybench_flush_cache: ./adi_baseline.database/Src/polybench.c
+polybench_prepare_instruments: ./adi_baseline.database/Src/polybench.c
+polybench_timer_start: ./adi_baseline.database/Src/polybench.c
+polybench_timer_stop: ./adi_baseline.database/Src/polybench.c
+polybench_timer_print: ./adi_baseline.database/Src/polybench.c
+polybench!xmalloc: ./adi_baseline.database/Src/polybench.c
+polybench_free_data: ./adi_baseline.database/Src/polybench.c
+polybench_alloc_data: ./adi_baseline.database/Src/polybench.c
+adi!init_array: ./adi_baseline.database/Src/adi.c
+adi!print_array: ./adi_baseline.database/Src/adi.c
+adi!kernel_adi: ./adi_baseline.database/Src/adi.c
+main: ./adi_baseline.database/Src/adi.c

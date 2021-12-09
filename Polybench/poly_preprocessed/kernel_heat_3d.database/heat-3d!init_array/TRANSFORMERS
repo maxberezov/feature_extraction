@@ -1,0 +1,8 @@
+6
+5
+0 T79 (R77 "heat-3d!init_array:0`k" )T63 E28 ((1 heat-3d!init_array:0`i 1 heat-3d!init_array:0`j 1 heat-3d!init_array:0`k 1 heat-3d!init_array:n )()( (1 heat-3d!init_array:0`k -1 heat-3d!init_array:n 1 . ) (-1 heat-3d!init_array:0`k )))))2
+0 T79 ()T63 E28 (()()())))3
+0 T79 (R77 "heat-3d!init_array:0`i" R77 "heat-3d!init_array:0`j" R77 "heat-3d!init_array:0`k" )T63 E28 ((1 heat-3d!init_array:0`i 1 heat-3d!init_array:0`j 1 heat-3d!init_array:0`k 1 *SEMANTICS*:o#2 1 heat-3d!init_array:n )()( (1 heat-3d!init_array:0`i -1 heat-3d!init_array:n 1 . ) (-1 heat-3d!init_array:0`i )))))6
+0 T79 ()T63 E28 ((1 heat-3d!init_array:0`i 1 heat-3d!init_array:0`j 1 heat-3d!init_array:0`k 1 heat-3d!init_array:n )()())))1
+0 T79 ()T63 E28 ((1 heat-3d!init_array:n )()())))4
+0 T79 (R77 "heat-3d!init_array:0`j" R77 "heat-3d!init_array:0`k" )T63 E28 ((1 heat-3d!init_array:0`i 1 heat-3d!init_array:0`j 1 heat-3d!init_array:0`k 1 heat-3d!init_array:n )()( (1 heat-3d!init_array:0`j -1 heat-3d!init_array:n 1 . ) (-1 heat-3d!init_array:0`j )))))

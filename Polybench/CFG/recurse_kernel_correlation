@@ -1,0 +1,426 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/datamining/correlation -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/datamining/correlation/correlation.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/datamining/correlation/correlation.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/datamining/correlation/correlation.c
+Splitting file    ./recurse.database/Tmp/correlation.cpp_processed.c
+  Module         main
+  Module         kernel_correlation
+  Module         correlation!print_array
+  Module         correlation!init_array
+  Module         correlation!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_correlation.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(correlation!)
+  C_PARSER                       building   PARSED_CODE(kernel_correlation)
+                                 building   CALLEES(kernel_correlation)
+  CONTROLIZER                    building   CODE(kernel_correlation)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_correlation)
+[statement_filter] 	 IN
+int i, j, k;
+
+double eps = 0.1;
+
+
+#pragma scop
+polybench_timer_start();
+
+for(j = 0; j <= m-1; j += 1) {
+   mean[j] = 0.0;
+loop_1:
+   for(i = 0; i <= n-1; i += 1)
+      mean[j] += data[i][j];
+   mean[j] /= float_n;
+}
+
+
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(j = 0; j <= m-1; j += 1) {
+   stddev[j] = 0.0;
+loop_2:
+   for(i = 0; i <= n-1; i += 1)
+      stddev[j] += (data[i][j]-mean[j])*(data[i][j]-mean[j]);
+   stddev[j] /= float_n;
+   stddev[j] = sqrt(stddev[j]);
+   /* The following in an inelegant but usual way to handle
+      near-zero std. dev. values, which below would cause a zero-
+      divide. */
+   stddev[j] = stddev[j]<=eps?1.0:stddev[j];
+}
+
+/* Center and reduce the column vectors. */
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(i = 0; i <= n-1; i += 1)
+loop_3:
+   for(j = 0; j <= m-1; j += 1) {
+      data[i][j] -= mean[j];
+      data[i][j] /= sqrt(float_n)*stddev[j];
+   }
+
+/* Calculate the m * m correlation matrix. */
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(i = 0; i <= m-1-1; i += 1) {
+   corr[i][i] = 1.0;
+   for(j = i+1; j <= m-1; j += 1) {
+      corr[i][j] = 0.0;
+loop_4:
+      for(k = 0; k <= n-1; k += 1)
+         corr[i][j] += data[k][i]*data[k][j];
+      corr[j][i] = corr[i][j];
+   }
+}
+polybench_timer_stop();
+
+polybench_timer_print();
+
+corr[m-1][m-1] = 1.0;
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i, j, k;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+double eps = 0.1;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(j = 0; j <= m-1; j += 1) {
+   mean[j] = 0.0;
+loop_1:
+   for(i = 0; i <= n-1; i += 1)
+      mean[j] += data[i][j];
+   mean[j] /= float_n;
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+mean[j] = 0.0;
+loop_1:
+for(i = 0; i <= n-1; i += 1)
+   mean[j] += data[i][j];
+mean[j] /= float_n;
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+mean[j] = 0.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_1:
+for(i = 0; i <= n-1; i += 1)
+   mean[j] += data[i][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+mean[j] += data[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+mean[j] /= float_n;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(j = 0; j <= m-1; j += 1) {
+   stddev[j] = 0.0;
+loop_2:
+   for(i = 0; i <= n-1; i += 1)
+      stddev[j] += (data[i][j]-mean[j])*(data[i][j]-mean[j]);
+   stddev[j] /= float_n;
+   stddev[j] = sqrt(stddev[j]);
+   /* The following in an inelegant but usual way to handle
+      near-zero std. dev. values, which below would cause a zero-
+      divide. */
+   stddev[j] = stddev[j]<=eps?1.0:stddev[j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+stddev[j] = 0.0;
+loop_2:
+for(i = 0; i <= n-1; i += 1)
+   stddev[j] += (data[i][j]-mean[j])*(data[i][j]-mean[j]);
+stddev[j] /= float_n;
+stddev[j] = sqrt(stddev[j]);
+/* The following in an inelegant but usual way to handle
+   near-zero std. dev. values, which below would cause a zero-
+   divide. */
+stddev[j] = stddev[j]<=eps?1.0:stddev[j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+stddev[j] = 0.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_2:
+for(i = 0; i <= n-1; i += 1)
+   stddev[j] += (data[i][j]-mean[j])*(data[i][j]-mean[j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+stddev[j] += (data[i][j]-mean[j])*(data[i][j]-mean[j]);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+stddev[j] /= float_n;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+stddev[j] = sqrt(stddev[j]);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+/* The following in an inelegant but usual way to handle
+   near-zero std. dev. values, which below would cause a zero-
+   divide. */
+stddev[j] = stddev[j]<=eps?1.0:stddev[j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+/* Center and reduce the column vectors. */
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= n-1; i += 1)
+loop_3:
+   for(j = 0; j <= m-1; j += 1) {
+      data[i][j] -= mean[j];
+      data[i][j] /= sqrt(float_n)*stddev[j];
+   }
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+loop_3:
+for(j = 0; j <= m-1; j += 1) {
+   data[i][j] -= mean[j];
+   data[i][j] /= sqrt(float_n)*stddev[j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+data[i][j] -= mean[j];
+data[i][j] /= sqrt(float_n)*stddev[j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+data[i][j] -= mean[j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+data[i][j] /= sqrt(float_n)*stddev[j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+/* Calculate the m * m correlation matrix. */
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= m-1-1; i += 1) {
+   corr[i][i] = 1.0;
+   for(j = i+1; j <= m-1; j += 1) {
+      corr[i][j] = 0.0;
+loop_4:
+      for(k = 0; k <= n-1; k += 1)
+         corr[i][j] += data[k][i]*data[k][j];
+      corr[j][i] = corr[i][j];
+   }
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+corr[i][i] = 1.0;
+for(j = i+1; j <= m-1; j += 1) {
+   corr[i][j] = 0.0;
+loop_4:
+   for(k = 0; k <= n-1; k += 1)
+      corr[i][j] += data[k][i]*data[k][j];
+   corr[j][i] = corr[i][j];
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+corr[i][i] = 1.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(j = i+1; j <= m-1; j += 1) {
+   corr[i][j] = 0.0;
+loop_4:
+   for(k = 0; k <= n-1; k += 1)
+      corr[i][j] += data[k][i]*data[k][j];
+   corr[j][i] = corr[i][j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+corr[i][j] = 0.0;
+loop_4:
+for(k = 0; k <= n-1; k += 1)
+   corr[i][j] += data[k][i]*data[k][j];
+corr[j][i] = corr[i][j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+corr[i][j] = 0.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_4:
+for(k = 0; k <= n-1; k += 1)
+   corr[i][j] += data[k][i]*data[k][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+corr[i][j] += data[k][i]*data[k][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+corr[j][i] = corr[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+corr[m-1][m-1] = 1.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_correlation.
+Request: build phase/rule UNSPLIT for module main.
+  CONTROLIZER                    building   CODE(correlation!)
+CONTROLIZER[correlation!] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+CONTROLIZER[correlation!] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

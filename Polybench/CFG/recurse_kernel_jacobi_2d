@@ -1,0 +1,156 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/jacobi-2d -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/jacobi-2d/jacobi-2d.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/jacobi-2d/jacobi-2d.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/jacobi-2d/jacobi-2d.c
+Splitting file    ./recurse.database/Tmp/jacobi-2d.cpp_processed.c
+  Module         main
+  Module         kernel_jacobi_2d
+  Module         jacobi-2d!print_array
+  Module         jacobi-2d!init_array
+  Module         jacobi-2d!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_jacobi_2d.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(jacobi-2d!)
+  C_PARSER                       building   PARSED_CODE(kernel_jacobi_2d)
+                                 building   CALLEES(kernel_jacobi_2d)
+  CONTROLIZER                    building   CODE(kernel_jacobi_2d)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_jacobi_2d)
+[statement_filter] 	 IN
+int t, i, j;
+
+#pragma scop
+polybench_timer_start();
+
+for(t = 0; t <= tsteps-1; t += 1) {
+   for(i = 1; i <= n-1-1; i += 1)
+      for(j = 1; j <= n-1-1; j += 1)
+         B[i][j] = 0.2*(A[i][j]+A[i][j-1]+A[i][1+j]+A[1+i][j]+A[i-1][j]);
+   for(i = 1; i <= n-1-1; i += 1)
+loop_1:
+      for(j = 1; j <= n-1-1; j += 1)
+         A[i][j] = 0.2*(B[i][j]+B[i][j-1]+B[i][1+j]+B[1+i][j]+B[i-1][j]);
+}
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int t, i, j;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(t = 0; t <= tsteps-1; t += 1) {
+   for(i = 1; i <= n-1-1; i += 1)
+      for(j = 1; j <= n-1-1; j += 1)
+         B[i][j] = 0.2*(A[i][j]+A[i][j-1]+A[i][1+j]+A[1+i][j]+A[i-1][j]);
+   for(i = 1; i <= n-1-1; i += 1)
+loop_1:
+      for(j = 1; j <= n-1-1; j += 1)
+         A[i][j] = 0.2*(B[i][j]+B[i][j-1]+B[i][1+j]+B[1+i][j]+B[i-1][j]);
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(i = 1; i <= n-1-1; i += 1)
+   for(j = 1; j <= n-1-1; j += 1)
+      B[i][j] = 0.2*(A[i][j]+A[i][j-1]+A[i][1+j]+A[1+i][j]+A[i-1][j]);
+for(i = 1; i <= n-1-1; i += 1)
+loop_1:
+   for(j = 1; j <= n-1-1; j += 1)
+      A[i][j] = 0.2*(B[i][j]+B[i][j-1]+B[i][1+j]+B[1+i][j]+B[i-1][j]);
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+for(i = 1; i <= n-1-1; i += 1)
+   for(j = 1; j <= n-1-1; j += 1)
+      B[i][j] = 0.2*(A[i][j]+A[i][j-1]+A[i][1+j]+A[1+i][j]+A[i-1][j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 1; j <= n-1-1; j += 1)
+   B[i][j] = 0.2*(A[i][j]+A[i][j-1]+A[i][1+j]+A[1+i][j]+A[i-1][j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+B[i][j] = 0.2*(A[i][j]+A[i][j-1]+A[i][1+j]+A[1+i][j]+A[i-1][j]);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(i = 1; i <= n-1-1; i += 1)
+loop_1:
+   for(j = 1; j <= n-1-1; j += 1)
+      A[i][j] = 0.2*(B[i][j]+B[i][j-1]+B[i][1+j]+B[1+i][j]+B[i-1][j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+loop_1:
+for(j = 1; j <= n-1-1; j += 1)
+   A[i][j] = 0.2*(B[i][j]+B[i][j-1]+B[i][1+j]+B[1+i][j]+B[i-1][j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+A[i][j] = 0.2*(B[i][j]+B[i][j-1]+B[i][1+j]+B[1+i][j]+B[i-1][j]);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_jacobi_2d.
+Request: build phase/rule UNSPLIT for module main.
+  CONTROLIZER                    building   CODE(jacobi-2d!)
+CONTROLIZER[jacobi-2d!] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+CONTROLIZER[jacobi-2d!] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

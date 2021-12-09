@@ -1,0 +1,16 @@
+! module / file
+polybench!: ./correlation_baseline.database/Src/polybench.c
+correlation!: ./correlation_baseline.database/Src/correlation.c
+polybench!rtclock: ./correlation_baseline.database/Src/polybench.c
+polybench_flush_cache: ./correlation_baseline.database/Src/polybench.c
+polybench_prepare_instruments: ./correlation_baseline.database/Src/polybench.c
+polybench_timer_start: ./correlation_baseline.database/Src/polybench.c
+polybench_timer_stop: ./correlation_baseline.database/Src/polybench.c
+polybench_timer_print: ./correlation_baseline.database/Src/polybench.c
+polybench!xmalloc: ./correlation_baseline.database/Src/polybench.c
+polybench_free_data: ./correlation_baseline.database/Src/polybench.c
+polybench_alloc_data: ./correlation_baseline.database/Src/polybench.c
+correlation!init_array: ./correlation_baseline.database/Src/correlation.c
+correlation!print_array: ./correlation_baseline.database/Src/correlation.c
+correlation!kernel_correlation: ./correlation_baseline.database/Src/correlation.c
+main: ./correlation_baseline.database/Src/correlation.c

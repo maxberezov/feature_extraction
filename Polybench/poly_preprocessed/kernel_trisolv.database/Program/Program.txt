@@ -1,0 +1,14 @@
+! module / file
+polybench_alloc_data!: ./kernel_trisolv.database/Src/polybench_alloc_data.c
+polybench_timer_start!: ./kernel_trisolv.database/Src/polybench_timer_start.c
+polybench_timer_stop!: ./kernel_trisolv.database/Src/polybench_timer_stop.c
+polybench_timer_print!: ./kernel_trisolv.database/Src/polybench_timer_print.c
+trisolv!: ./kernel_trisolv.database/Src/trisolv.c
+polybench_alloc_data: ./kernel_trisolv.database/Src/polybench_alloc_data.c
+polybench_timer_start: ./kernel_trisolv.database/Src/polybench_timer_start.c
+polybench_timer_stop: ./kernel_trisolv.database/Src/polybench_timer_stop.c
+polybench_timer_print: ./kernel_trisolv.database/Src/polybench_timer_print.c
+trisolv!init_array: ./kernel_trisolv.database/Src/trisolv.c
+trisolv!print_array: ./kernel_trisolv.database/Src/trisolv.c
+kernel_trisolv: ./kernel_trisolv.database/Src/trisolv.c
+main: ./kernel_trisolv.database/Src/trisolv.c

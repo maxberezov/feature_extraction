@@ -1,0 +1,12 @@
+delete graph
+setenv PIPS_CPP_FLAGS -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/seidel-2d -DPOLYBENCH_TIME 
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+create  graph  /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/seidel-2d/seidel-2d.c
+setproperty PRINT_DEPENDENCE_GRAPH_USING_SRU_FORMAT TRUE
+apply PRINT_WHOLE_DEPENDENCE_GRAPH[kernel_seidel_2d]
+display DG_FILE[kernel_seidel_2d]
+apply UNSPLIT
+close
+quit

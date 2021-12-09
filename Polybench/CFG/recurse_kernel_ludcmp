@@ -1,0 +1,369 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/solvers/ludcmp -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/solvers/ludcmp/ludcmp.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/solvers/ludcmp/ludcmp.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/solvers/ludcmp/ludcmp.c
+Splitting file    ./recurse.database/Tmp/ludcmp.cpp_processed.c
+  Module         main
+  Module         kernel_ludcmp
+  Module         ludcmp!print_array
+  Module         ludcmp!init_array
+  Module         ludcmp!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_ludcmp.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(ludcmp!)
+  C_PARSER                       building   PARSED_CODE(kernel_ludcmp)
+                                 building   CALLEES(kernel_ludcmp)
+  CONTROLIZER                    building   CODE(kernel_ludcmp)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_ludcmp)
+[statement_filter] 	 IN
+int i, j, k;
+
+double w;
+
+#pragma scop
+polybench_timer_start();
+
+for(i = 0; i <= n-1; i += 1) {
+   for(j = 0; j <= i-1; j += 1) {
+      w = A[i][j];
+      for(k = 0; k <= j-1; k += 1)
+         w -= A[i][k]*A[k][j];
+      A[i][j] = w/A[j][j];
+   }
+   for(j = i; j <= n-1; j += 1) {
+      w = A[i][j];
+loop_1:
+      for(k = 0; k <= i-1; k += 1)
+         w -= A[i][k]*A[k][j];
+      A[i][j] = w;
+   }
+}
+
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(i = 0; i <= n-1; i += 1) {
+   w = b[i];
+loop_2:
+   for(j = 0; j <= i-1; j += 1)
+      w -= A[i][j]*y[j];
+   y[i] = w;
+}
+
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(i = n-1; i >= 0; i += -1) {
+   w = y[i];
+loop_3:
+   for(j = i+1; j <= n-1; j += 1)
+      w -= A[i][j]*x[j];
+   x[i] = w/A[i][i];
+}
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i, j, k;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+double w;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= n-1; i += 1) {
+   for(j = 0; j <= i-1; j += 1) {
+      w = A[i][j];
+      for(k = 0; k <= j-1; k += 1)
+         w -= A[i][k]*A[k][j];
+      A[i][j] = w/A[j][j];
+   }
+   for(j = i; j <= n-1; j += 1) {
+      w = A[i][j];
+loop_1:
+      for(k = 0; k <= i-1; k += 1)
+         w -= A[i][k]*A[k][j];
+      A[i][j] = w;
+   }
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 0; j <= i-1; j += 1) {
+   w = A[i][j];
+   for(k = 0; k <= j-1; k += 1)
+      w -= A[i][k]*A[k][j];
+   A[i][j] = w/A[j][j];
+}
+for(j = i; j <= n-1; j += 1) {
+   w = A[i][j];
+loop_1:
+   for(k = 0; k <= i-1; k += 1)
+      w -= A[i][k]*A[k][j];
+   A[i][j] = w;
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 0; j <= i-1; j += 1) {
+   w = A[i][j];
+   for(k = 0; k <= j-1; k += 1)
+      w -= A[i][k]*A[k][j];
+   A[i][j] = w/A[j][j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+w = A[i][j];
+for(k = 0; k <= j-1; k += 1)
+   w -= A[i][k]*A[k][j];
+A[i][j] = w/A[j][j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+w = A[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(k = 0; k <= j-1; k += 1)
+   w -= A[i][k]*A[k][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+w -= A[i][k]*A[k][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+A[i][j] = w/A[j][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(j = i; j <= n-1; j += 1) {
+   w = A[i][j];
+loop_1:
+   for(k = 0; k <= i-1; k += 1)
+      w -= A[i][k]*A[k][j];
+   A[i][j] = w;
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+w = A[i][j];
+loop_1:
+for(k = 0; k <= i-1; k += 1)
+   w -= A[i][k]*A[k][j];
+A[i][j] = w;
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+w = A[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_1:
+for(k = 0; k <= i-1; k += 1)
+   w -= A[i][k]*A[k][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+w -= A[i][k]*A[k][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+A[i][j] = w;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= n-1; i += 1) {
+   w = b[i];
+loop_2:
+   for(j = 0; j <= i-1; j += 1)
+      w -= A[i][j]*y[j];
+   y[i] = w;
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+w = b[i];
+loop_2:
+for(j = 0; j <= i-1; j += 1)
+   w -= A[i][j]*y[j];
+y[i] = w;
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+w = b[i];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_2:
+for(j = 0; j <= i-1; j += 1)
+   w -= A[i][j]*y[j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+w -= A[i][j]*y[j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+y[i] = w;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = n-1; i >= 0; i += -1) {
+   w = y[i];
+loop_3:
+   for(j = i+1; j <= n-1; j += 1)
+      w -= A[i][j]*x[j];
+   x[i] = w/A[i][i];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+w = y[i];
+loop_3:
+for(j = i+1; j <= n-1; j += 1)
+   w -= A[i][j]*x[j];
+x[i] = w/A[i][i];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+w = y[i];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_3:
+for(j = i+1; j <= n-1; j += 1)
+   w -= A[i][j]*x[j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+w -= A[i][j]*x[j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+x[i] = w/A[i][i];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_ludcmp.
+Request: build phase/rule UNSPLIT for module main.
+  PRINT_CODE                     building   PRINTED_FILE(kernel_ludcmp)
+PRINT_CODE[kernel_ludcmp] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+PRINT_CODE[kernel_ludcmp] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

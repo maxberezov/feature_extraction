@@ -1,0 +1,4 @@
+14 14 W W <a> - <a> levels(1) 
+15 14 R W <a> - <a> levels(1) 
+16 14 R W <a> - <a> levels(1) 
+16 15 W W <A[a+4][b+5]> - <A[a][b]> levels(1) uniform(5,4)

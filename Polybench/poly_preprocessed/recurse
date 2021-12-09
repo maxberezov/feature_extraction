@@ -1,0 +1,10 @@
+delete recurse
+setenv PIPS_CPP_FLAGS -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/seidel-2d -DPOLYBENCH_TIME 
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+create  recurse /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/seidel-2d/seidel-2d.c
+apply GEN_MULTI_RECURSE_EXPLORER[kernel_seidel_2d]
+apply UNSPLIT
+close
+quit

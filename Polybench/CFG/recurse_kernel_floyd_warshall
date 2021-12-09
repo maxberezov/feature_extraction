@@ -1,0 +1,114 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/floyd-warshall -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/floyd-warshall/floyd-warshall.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/floyd-warshall/floyd-warshall.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/floyd-warshall/floyd-warshall.c
+Splitting file    ./recurse.database/Tmp/floyd-warshall.cpp_processed.c
+  Module         main
+  Module         kernel_floyd_warshall
+  Module         floyd-warshall!print_array
+  Module         floyd-warshall!init_array
+  Module         floyd-warshall!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_floyd_warshall.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(floyd-warshall!)
+  C_PARSER                       building   PARSED_CODE(kernel_floyd_warshall)
+                                 building   CALLEES(kernel_floyd_warshall)
+  CONTROLIZER                    building   CODE(kernel_floyd_warshall)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_floyd_warshall)
+[statement_filter] 	 IN
+int i, j, k;
+
+#pragma scop
+polybench_timer_start();
+
+for(k = 0; k <= n-1; k += 1)
+   for(i = 0; i <= n-1; i += 1)
+loop_1:
+      for(j = 0; j <= n-1; j += 1)
+         path[i][j] = path[i][j]<path[i][k]+path[k][j]?path[i][j]:path[i][k]+path[k][j];
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i, j, k;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(k = 0; k <= n-1; k += 1)
+   for(i = 0; i <= n-1; i += 1)
+loop_1:
+      for(j = 0; j <= n-1; j += 1)
+         path[i][j] = path[i][j]<path[i][k]+path[k][j]?path[i][j]:path[i][k]+path[k][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(i = 0; i <= n-1; i += 1)
+loop_1:
+   for(j = 0; j <= n-1; j += 1)
+      path[i][j] = path[i][j]<path[i][k]+path[k][j]?path[i][j]:path[i][k]+path[k][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+loop_1:
+for(j = 0; j <= n-1; j += 1)
+   path[i][j] = path[i][j]<path[i][k]+path[k][j]?path[i][j]:path[i][k]+path[k][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+path[i][j] = path[i][j]<path[i][k]+path[k][j]?path[i][j]:path[i][k]+path[k][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_floyd_warshall.
+Request: build phase/rule UNSPLIT for module main.
+  CONTROLIZER                    building   CODE(floyd-warshall!)
+CONTROLIZER[floyd-warshall!] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+CONTROLIZER[floyd-warshall!] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

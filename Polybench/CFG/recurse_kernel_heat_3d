@@ -1,0 +1,185 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/heat-3d -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/heat-3d/heat-3d.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/heat-3d/heat-3d.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/heat-3d/heat-3d.c
+Splitting file    ./recurse.database/Tmp/heat-3d.cpp_processed.c
+  Module         main
+  Module         kernel_heat_3d
+  Module         heat-3d!print_array
+  Module         heat-3d!init_array
+  Module         heat-3d!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_heat_3d.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(heat-3d!)
+  C_PARSER                       building   PARSED_CODE(kernel_heat_3d)
+                                 building   CALLEES(kernel_heat_3d)
+  CONTROLIZER                    building   CODE(kernel_heat_3d)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_heat_3d)
+[statement_filter] 	 IN
+int t, i, j, k;
+
+#pragma scop
+polybench_timer_start();
+
+for(t = 1; t <= 500; t += 1) {
+   for(i = 1; i <= n-1-1; i += 1)
+      for(j = 1; j <= n-1-1; j += 1)
+         for(k = 1; k <= n-1-1; k += 1)
+            B[i][j][k] = 0.125*(A[i+1][j][k]-2.0*A[i][j][k]+A[i-1][j][k])+0.125*(A[i][j+1][k]-2.0*A[i][j][k]+A[i][j-1][k])+0.125*(A[i][j][k+1]-2.0*A[i][j][k]+A[i][j][k-1])+A[i][j][k];
+   for(i = 1; i <= n-1-1; i += 1)
+      for(j = 1; j <= n-1-1; j += 1)
+loop_1:
+         for(k = 1; k <= n-1-1; k += 1)
+            A[i][j][k] = 0.125*(B[i+1][j][k]-2.0*B[i][j][k]+B[i-1][j][k])+0.125*(B[i][j+1][k]-2.0*B[i][j][k]+B[i][j-1][k])+0.125*(B[i][j][k+1]-2.0*B[i][j][k]+B[i][j][k-1])+B[i][j][k];
+}
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int t, i, j, k;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(t = 1; t <= 500; t += 1) {
+   for(i = 1; i <= n-1-1; i += 1)
+      for(j = 1; j <= n-1-1; j += 1)
+         for(k = 1; k <= n-1-1; k += 1)
+            B[i][j][k] = 0.125*(A[i+1][j][k]-2.0*A[i][j][k]+A[i-1][j][k])+0.125*(A[i][j+1][k]-2.0*A[i][j][k]+A[i][j-1][k])+0.125*(A[i][j][k+1]-2.0*A[i][j][k]+A[i][j][k-1])+A[i][j][k];
+   for(i = 1; i <= n-1-1; i += 1)
+      for(j = 1; j <= n-1-1; j += 1)
+loop_1:
+         for(k = 1; k <= n-1-1; k += 1)
+            A[i][j][k] = 0.125*(B[i+1][j][k]-2.0*B[i][j][k]+B[i-1][j][k])+0.125*(B[i][j+1][k]-2.0*B[i][j][k]+B[i][j-1][k])+0.125*(B[i][j][k+1]-2.0*B[i][j][k]+B[i][j][k-1])+B[i][j][k];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(i = 1; i <= n-1-1; i += 1)
+   for(j = 1; j <= n-1-1; j += 1)
+      for(k = 1; k <= n-1-1; k += 1)
+         B[i][j][k] = 0.125*(A[i+1][j][k]-2.0*A[i][j][k]+A[i-1][j][k])+0.125*(A[i][j+1][k]-2.0*A[i][j][k]+A[i][j-1][k])+0.125*(A[i][j][k+1]-2.0*A[i][j][k]+A[i][j][k-1])+A[i][j][k];
+for(i = 1; i <= n-1-1; i += 1)
+   for(j = 1; j <= n-1-1; j += 1)
+loop_1:
+      for(k = 1; k <= n-1-1; k += 1)
+         A[i][j][k] = 0.125*(B[i+1][j][k]-2.0*B[i][j][k]+B[i-1][j][k])+0.125*(B[i][j+1][k]-2.0*B[i][j][k]+B[i][j-1][k])+0.125*(B[i][j][k+1]-2.0*B[i][j][k]+B[i][j][k-1])+B[i][j][k];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+for(i = 1; i <= n-1-1; i += 1)
+   for(j = 1; j <= n-1-1; j += 1)
+      for(k = 1; k <= n-1-1; k += 1)
+         B[i][j][k] = 0.125*(A[i+1][j][k]-2.0*A[i][j][k]+A[i-1][j][k])+0.125*(A[i][j+1][k]-2.0*A[i][j][k]+A[i][j-1][k])+0.125*(A[i][j][k+1]-2.0*A[i][j][k]+A[i][j][k-1])+A[i][j][k];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 1; j <= n-1-1; j += 1)
+   for(k = 1; k <= n-1-1; k += 1)
+      B[i][j][k] = 0.125*(A[i+1][j][k]-2.0*A[i][j][k]+A[i-1][j][k])+0.125*(A[i][j+1][k]-2.0*A[i][j][k]+A[i][j-1][k])+0.125*(A[i][j][k+1]-2.0*A[i][j][k]+A[i][j][k-1])+A[i][j][k];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(k = 1; k <= n-1-1; k += 1)
+   B[i][j][k] = 0.125*(A[i+1][j][k]-2.0*A[i][j][k]+A[i-1][j][k])+0.125*(A[i][j+1][k]-2.0*A[i][j][k]+A[i][j-1][k])+0.125*(A[i][j][k+1]-2.0*A[i][j][k]+A[i][j][k-1])+A[i][j][k];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+B[i][j][k] = 0.125*(A[i+1][j][k]-2.0*A[i][j][k]+A[i-1][j][k])+0.125*(A[i][j+1][k]-2.0*A[i][j][k]+A[i][j-1][k])+0.125*(A[i][j][k+1]-2.0*A[i][j][k]+A[i][j][k-1])+A[i][j][k];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(i = 1; i <= n-1-1; i += 1)
+   for(j = 1; j <= n-1-1; j += 1)
+loop_1:
+      for(k = 1; k <= n-1-1; k += 1)
+         A[i][j][k] = 0.125*(B[i+1][j][k]-2.0*B[i][j][k]+B[i-1][j][k])+0.125*(B[i][j+1][k]-2.0*B[i][j][k]+B[i][j-1][k])+0.125*(B[i][j][k+1]-2.0*B[i][j][k]+B[i][j][k-1])+B[i][j][k];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 1; j <= n-1-1; j += 1)
+loop_1:
+   for(k = 1; k <= n-1-1; k += 1)
+      A[i][j][k] = 0.125*(B[i+1][j][k]-2.0*B[i][j][k]+B[i-1][j][k])+0.125*(B[i][j+1][k]-2.0*B[i][j][k]+B[i][j-1][k])+0.125*(B[i][j][k+1]-2.0*B[i][j][k]+B[i][j][k-1])+B[i][j][k];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+loop_1:
+for(k = 1; k <= n-1-1; k += 1)
+   A[i][j][k] = 0.125*(B[i+1][j][k]-2.0*B[i][j][k]+B[i-1][j][k])+0.125*(B[i][j+1][k]-2.0*B[i][j][k]+B[i][j-1][k])+0.125*(B[i][j][k+1]-2.0*B[i][j][k]+B[i][j][k-1])+B[i][j][k];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+A[i][j][k] = 0.125*(B[i+1][j][k]-2.0*B[i][j][k]+B[i-1][j][k])+0.125*(B[i][j+1][k]-2.0*B[i][j][k]+B[i][j-1][k])+0.125*(B[i][j][k+1]-2.0*B[i][j][k]+B[i][j][k-1])+B[i][j][k];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_heat_3d.
+Request: build phase/rule UNSPLIT for module main.
+  CONTROLIZER                    building   CODE(heat-3d!)
+CONTROLIZER[heat-3d!] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+CONTROLIZER[heat-3d!] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

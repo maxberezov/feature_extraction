@@ -1,0 +1,32 @@
+30
+17
+0 T79 (R77 "kernel_3mm:0`k" )T63 E28 ((1 kernel_3mm:0`k 1 kernel_3mm:nm )()( (1 kernel_3mm:0`k -1 kernel_3mm:nm 1 . ) (-1 kernel_3mm:0`k )))))24
+0 T79 (R77 "kernel_3mm:0`k" )T63 E28 ((1 kernel_3mm:0`i 1 kernel_3mm:0`j 1 kernel_3mm:0`k 1 kernel_3mm:nj )()( (-1 kernel_3mm:0`k 1 kernel_3mm:nj ) (-1 kernel_3mm:0`k )))))14
+0 T79 (R77 "kernel_3mm:0`j" R77 "kernel_3mm:0`k" )T63 E28 ((1 kernel_3mm:0`i 1 kernel_3mm:0`j 1 kernel_3mm:0`k 1 kernel_3mm:nl 1 kernel_3mm:nm )()( (1 kernel_3mm:0`j -1 kernel_3mm:nl 1 . ) (-1 kernel_3mm:0`j )))))23
+0 T79 (R77 "kernel_3mm:0`j" R77 "kernel_3mm:0`k" )T63 E28 ((1 kernel_3mm:0`i 1 kernel_3mm:0`j 1 kernel_3mm:0`k 1 kernel_3mm:nj 1 kernel_3mm:nl )()( (1 kernel_3mm:0`j -1 kernel_3mm:nl 1 . ) (-1 kernel_3mm:0`j )))))6
+0 T79 (R77 "kernel_3mm:0`k" )T63 E28 ((1 kernel_3mm:0`i 1 kernel_3mm:0`j 1 kernel_3mm:0`k 1 kernel_3mm:nk )()( (-1 kernel_3mm:0`k 1 kernel_3mm:nk ) (-1 kernel_3mm:0`k )))))19
+0 T79 ()T63 E28 (()()())))26
+0 T79 (R77 "kernel_3mm:0`k" )T63 E28 ((1 kernel_3mm:0`k 1 kernel_3mm:nj )()( (1 kernel_3mm:0`k -1 kernel_3mm:nj 1 . ) (-1 kernel_3mm:0`k )))))22
+0 T79 (R77 "kernel_3mm:0`i" R77 "kernel_3mm:0`j" R77 "kernel_3mm:0`k" )T63 E28 ((1 kernel_3mm:0`i 1 kernel_3mm:0`j 1 kernel_3mm:0`k 1 *SEMANTICS*:o#2 1 kernel_3mm:ni 1 kernel_3mm:nj 1 kernel_3mm:nl )()( (1 kernel_3mm:0`i -1 kernel_3mm:ni 1 . ) (-1 kernel_3mm:0`i )))))29
+0 T79 ()T63 E28 (()()())))11
+0 T79 ()T63 E28 (()()())))18
+0 T79 ()T63 E28 (()()())))7
+0 T79 ()T63 E28 ((1 kernel_3mm:0`i 1 kernel_3mm:0`j )()())))20
+0 T79 ()T63 E28 (()()())))8
+0 T79 (R77 "kernel_3mm:0`k" )T63 E28 ((1 kernel_3mm:0`k 1 kernel_3mm:nk )()( (1 kernel_3mm:0`k -1 kernel_3mm:nk 1 . ) (-1 kernel_3mm:0`k )))))12
+0 T79 ()T63 E28 (()()())))9
+0 T79 ()T63 E28 (()()())))25
+0 T79 ()T63 E28 ((1 kernel_3mm:0`i 1 kernel_3mm:0`j )()())))21
+0 T79 ()T63 E28 (()()())))27
+0 T79 ()T63 E28 (()()())))15
+0 T79 (R77 "kernel_3mm:0`k" )T63 E28 ((1 kernel_3mm:0`i 1 kernel_3mm:0`j 1 kernel_3mm:0`k 1 kernel_3mm:nm )()( (-1 kernel_3mm:0`k 1 kernel_3mm:nm ) (-1 kernel_3mm:0`k )))))28
+0 T79 ()T63 E28 (()()())))3
+0 T79 ()T63 E28 (()()())))5
+0 T79 (R77 "kernel_3mm:0`j" R77 "kernel_3mm:0`k" )T63 E28 ((1 kernel_3mm:0`i 1 kernel_3mm:0`j 1 kernel_3mm:0`k 1 kernel_3mm:nj 1 kernel_3mm:nk )()( (1 kernel_3mm:0`j -1 kernel_3mm:nj 1 . ) (-1 kernel_3mm:0`j )))))13
+0 T79 (R77 "kernel_3mm:0`i" R77 "kernel_3mm:0`j" R77 "kernel_3mm:0`k" )T63 E28 ((1 kernel_3mm:0`i 1 kernel_3mm:0`j 1 kernel_3mm:0`k 1 *SEMANTICS*:o#2 1 kernel_3mm:nj 1 kernel_3mm:nl 1 kernel_3mm:nm )()( (1 kernel_3mm:0`i -1 kernel_3mm:nj 1 . ) (-1 kernel_3mm:0`i )))))10
+0 T79 ()T63 E28 (()()())))2
+0 T79 ()T63 E28 (()()())))4
+0 T79 (R77 "kernel_3mm:0`i" R77 "kernel_3mm:0`j" R77 "kernel_3mm:0`k" )T63 E28 ((1 kernel_3mm:0`i 1 kernel_3mm:0`j 1 kernel_3mm:0`k 1 *SEMANTICS*:o#2 1 kernel_3mm:ni 1 kernel_3mm:nj 1 kernel_3mm:nk )()( (1 kernel_3mm:0`i -1 kernel_3mm:ni 1 . ) (-1 kernel_3mm:0`i )))))30
+0 T79 ()T63 E28 (()()())))16
+0 T79 ()T63 E28 ((1 kernel_3mm:0`i 1 kernel_3mm:0`j )()())))1
+0 T79 ()T63 E28 ((1 kernel_3mm:ni 1 kernel_3mm:nj 1 kernel_3mm:nk 1 kernel_3mm:nl 1 kernel_3mm:nm )()())))

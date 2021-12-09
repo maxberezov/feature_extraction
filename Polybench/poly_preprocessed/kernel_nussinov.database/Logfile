@@ -1,0 +1,207 @@
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/nussinov/nussinov.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/nussinov/nussinov.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/nussinov/nussinov.c
+Splitting file    ./kernel_nussinov.database/Tmp/nussinov.cpp_processed.c
+  Module         main
+  Module         kernel_nussinov
+  Module         nussinov!print_array
+  Module         nussinov!init_array
+  Module         nussinov!
+Workspace kernel_nussinov created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+setproperty PRINT_DEPENDENCE_GRAPH_USING_SRU_FORMAT TRUE
+Request: build phase/rule PRINT_WHOLE_DEPENDENCE_GRAPH for module kernel_nussinov.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(nussinov!)
+  C_PARSER                       building   PARSED_CODE(kernel_nussinov)
+                                 building   CALLEES(kernel_nussinov)
+  CONTROLIZER                    building   CODE(kernel_nussinov)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_timer_print)
+                                 building   INPUT_FILE_NAME(polybench_timer_print)
+Registering synthesized file polybench_timer_print.cpp_processed.c
+Registering synthesized compilation unit polybench_timer_print!
+  C_PARSER                       building   PARSED_CODE(polybench_timer_print)
+                                 building   CALLEES(polybench_timer_print)
+  CONTROLIZER                    building   CODE(polybench_timer_print)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_print)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_print)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_print)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_timer_stop)
+                                 building   INPUT_FILE_NAME(polybench_timer_stop)
+Registering synthesized file polybench_timer_stop.cpp_processed.c
+Registering synthesized compilation unit polybench_timer_stop!
+  C_PARSER                       building   PARSED_CODE(polybench_timer_stop)
+                                 building   CALLEES(polybench_timer_stop)
+  CONTROLIZER                    building   CODE(polybench_timer_stop)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_stop)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_stop)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_stop)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_timer_start)
+                                 building   INPUT_FILE_NAME(polybench_timer_start)
+Registering synthesized file polybench_timer_start.cpp_processed.c
+Registering synthesized compilation unit polybench_timer_start!
+  C_PARSER                       building   PARSED_CODE(polybench_timer_start)
+                                 building   CALLEES(polybench_timer_start)
+  CONTROLIZER                    building   CODE(polybench_timer_start)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_start)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_start)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_start)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(kernel_nussinov)
+  ATOMIC_CHAINS                  building   CHAINS(kernel_nussinov)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(kernel_nussinov)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(kernel_nussinov)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(kernel_nussinov)
+  C_PARSER                       building   PARSED_CODE(main)
+                                 building   CALLEES(main)
+  CONTROLIZER                    building   CODE(main)
+  C_PARSER                       building   PARSED_CODE(nussinov!print_array)
+                                 building   CALLEES(nussinov!print_array)
+  CONTROLIZER                    building   CODE(nussinov!print_array)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(nussinov!print_array)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(nussinov!print_array)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(nussinov!print_array)
+  C_PARSER                       building   PARSED_CODE(nussinov!init_array)
+                                 building   CALLEES(nussinov!init_array)
+  CONTROLIZER                    building   CODE(nussinov!init_array)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(nussinov!init_array)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(nussinov!init_array)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(nussinov!init_array)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_alloc_data)
+                                 building   INPUT_FILE_NAME(polybench_alloc_data)
+Registering synthesized file polybench_alloc_data.cpp_processed.c
+Registering synthesized compilation unit polybench_alloc_data!
+  C_PARSER                       building   PARSED_CODE(polybench_alloc_data)
+                                 building   CALLEES(polybench_alloc_data)
+  CONTROLIZER                    building   CODE(polybench_alloc_data)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_alloc_data)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_alloc_data)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_alloc_data)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(main)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(main)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(main)
+  CONTROLIZER                    building   CODE(nussinov!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(nussinov!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(nussinov!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(nussinov!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(nussinov!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(nussinov!init_array)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(nussinov!print_array)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_print)
+  CONTROLIZER                    building   CODE(polybench_timer_print!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_print!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_print!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_print!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_print!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_start)
+  CONTROLIZER                    building   CODE(polybench_timer_start!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_start!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_start!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_start!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_start!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_stop)
+  CONTROLIZER                    building   CODE(polybench_timer_stop!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_stop!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_stop!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_stop!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_stop!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_alloc_data)
+  CONTROLIZER                    building   CODE(polybench_alloc_data!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_alloc_data!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_alloc_data!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_alloc_data!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_alloc_data!)
+  PROGRAM_PRECONDITION           building   PROGRAM_PRECONDITION()
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_timer_print)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_timer_stop)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_timer_start)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(kernel_nussinov)
+  CALLGRAPH                      building   CALLERS(kernel_nussinov)
+                                 building   CALLERS(main)
+                                 building   CALLERS(nussinov!)
+                                 building   CALLERS(nussinov!init_array)
+                                 building   CALLERS(nussinov!print_array)
+                                 building   CALLERS(polybench_alloc_data)
+                                 building   CALLERS(polybench_alloc_data!)
+                                 building   CALLERS(polybench_timer_print)
+                                 building   CALLERS(polybench_timer_print!)
+                                 building   CALLERS(polybench_timer_start)
+                                 building   CALLERS(polybench_timer_start!)
+                                 building   CALLERS(polybench_timer_stop)
+                                 building   CALLERS(polybench_timer_stop!)
+                                 building   HEIGHT(kernel_nussinov)
+                                 building   HEIGHT(main)
+                                 building   HEIGHT(nussinov!)
+                                 building   HEIGHT(nussinov!init_array)
+                                 building   HEIGHT(nussinov!print_array)
+                                 building   HEIGHT(polybench_alloc_data)
+                                 building   HEIGHT(polybench_alloc_data!)
+                                 building   HEIGHT(polybench_timer_print)
+                                 building   HEIGHT(polybench_timer_print!)
+                                 building   HEIGHT(polybench_timer_start)
+                                 building   HEIGHT(polybench_timer_start!)
+                                 building   HEIGHT(polybench_timer_stop)
+                                 building   HEIGHT(polybench_timer_stop!)
+                                 building   DEPTH(kernel_nussinov)
+                                 building   DEPTH(main)
+                                 building   DEPTH(nussinov!)
+                                 building   DEPTH(nussinov!init_array)
+                                 building   DEPTH(nussinov!print_array)
+                                 building   DEPTH(polybench_alloc_data)
+                                 building   DEPTH(polybench_alloc_data!)
+                                 building   DEPTH(polybench_timer_print)
+                                 building   DEPTH(polybench_timer_print!)
+                                 building   DEPTH(polybench_timer_start)
+                                 building   DEPTH(polybench_timer_start!)
+                                 building   DEPTH(polybench_timer_stop)
+                                 building   DEPTH(polybench_timer_stop!)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(nussinov!print_array)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(nussinov!init_array)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_alloc_data)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(main)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(kernel_nussinov)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(kernel_nussinov)
+  RICE_SEMANTICS_DEPENDENCE_GRAPH building   DG(kernel_nussinov)
+  PRINT_WHOLE_DEPENDENCE_GRAPH   building   DG_FILE(kernel_nussinov)
+PRINT_WHOLE_DEPENDENCE_GRAPH made for kernel_nussinov.
+Module kernel_nussinov selected
+Request: build resource DG_FILE for module kernel_nussinov.
+DG_FILE made for kernel_nussinov.
+Request: build phase/rule UNSPLIT for module main.
+  PRINT_CODE                     building   PRINTED_FILE(kernel_nussinov)
+  PRINT_CODE                     building   PRINTED_FILE(main)
+  PRINT_CODE                     building   PRINTED_FILE(nussinov!)
+  PRINT_CODE                     building   PRINTED_FILE(nussinov!init_array)
+  PRINT_CODE                     building   PRINTED_FILE(nussinov!print_array)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_alloc_data)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_alloc_data!)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_print)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_print!)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_start)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_start!)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_stop)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_stop!)
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for main.
+Deletion of obsolete resources:
+none destroyed.
+Closing all modules.
+  Closing module kernel_nussinov.
+  Closing module main.
+  Closing module nussinov!.
+  Closing module nussinov!init_array.
+  Closing module nussinov!print_array.
+  Closing module polybench_alloc_data.
+  Closing module polybench_alloc_data!.
+  Closing module polybench_timer_print.
+  Closing module polybench_timer_print!.
+  Closing module polybench_timer_start.
+  Closing module polybench_timer_start!.
+  Closing module polybench_timer_stop.
+  Closing module polybench_timer_stop!.
+Closing program.
+Closing workspace.
+Workspace kernel_nussinov closed.

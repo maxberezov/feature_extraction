@@ -1,0 +1,9 @@
+delete recurse
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+create  recurse /home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c
+apply GEN_MULTI_RECURSE_EXPLORER[vbor]
+apply UNSPLIT
+close
+quit

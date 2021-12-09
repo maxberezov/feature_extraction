@@ -1,0 +1,143 @@
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4350) 
+Multiple declarations of variable "flat_2d_array".
+Source code after preprocessing:
+real_t flat_2d_array[256*256];
+Input source code, before preprocessing:
+real_t flat_2d_array[256*256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4352) 
+Multiple declarations of variable "x".
+Source code after preprocessing:
+real_t x[32000];
+Input source code, before preprocessing:
+real_t x[32000];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "a".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "b".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "c".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "d".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "e".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "aa".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "bb".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "cc".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "tt".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4356) 
+Multiple declarations of variable "indx".
+Source code after preprocessing:
+int indx[32000];
+Input source code, before preprocessing:
+int indx[32000];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4358) 
+Multiple declarations of variable "xx".
+Source code after preprocessing:
+real_t * restrict xx;
+Input source code, before preprocessing:
+real_t * restrict xx;
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4359) 
+Multiple declarations of variable "yy".
+Source code after preprocessing:
+real_t *yy;
+Input source code, before preprocessing:
+real_t *yy;
+
+(build_real_resources) No source code for module calc_checksum.
+(build_real_resources) No source code for module calc_checksum.
+C_INITIALIZER[calc_checksum] (missing_file_initializer) no source file for calc_checksum: synthetic code is generated
+(make_required) More resources are now requested: 4 instead of 3...
+(build_real_resources) No source code for module dummy.
+(build_real_resources) No source code for module dummy.
+C_INITIALIZER[dummy] (missing_file_initializer) no source file for dummy: synthetic code is generated
+(make_required) More resources are now requested: 4 instead of 3...
+(build_real_resources) No source code for module initialise_arrays.
+(build_real_resources) No source code for module initialise_arrays.
+C_INITIALIZER[initialise_arrays] (missing_file_initializer) no source file for initialise_arrays: synthetic code is generated
+(make_required) More resources are now requested: 4 instead of 3...
+PROPER_EFFECTS[s162] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+CUMULATED_EFFECTS[s162] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+PROPER_EFFECTS[s171] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+CUMULATED_EFFECTS[s171] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+PROPER_EFFECTS[s174] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+CUMULATED_EFFECTS[s174] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+PROPER_EFFECTS[s175] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+CUMULATED_EFFECTS[s175] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+PROPER_EFFECTS[s2710] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+CUMULATED_EFFECTS[s2710] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+PROPER_EFFECTS[s272] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+CUMULATED_EFFECTS[s272] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+PROPER_EFFECTS[s318] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+CUMULATED_EFFECTS[s318] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+PROPER_EFFECTS[s332] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+CUMULATED_EFFECTS[s332] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+PROPER_EFFECTS[vpvts] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+CUMULATED_EFFECTS[vpvts] (generic_proper_effects_of_complex_address_cast_expression) Cast impact on pointer arithmetic and indexing is ignored
+PROGRAM_PRECONDITION[] (get_main_entity_name) No main function found, use "calc_checksum" instead.
+TRANSFORMERS_INTER_FULL[vbor] (call_to_transformer) line 9241 
+at statement:
+
+	initialise_arrays(__func__);
+
+
+Analyzable result of Function "initialise_arrays" is ignored. Should it be casted to "(void)"?
+TRANSFORMERS_INTER_FULL[vbor] (call_to_transformer) line 9264 
+at statement:
+
+	dummy(a, b, c, d, e, aa, bb, cc, 0.);
+
+
+Analyzable result of Function "dummy" is ignored. Should it be casted to "(void)"?

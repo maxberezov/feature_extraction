@@ -1,0 +1,14 @@
+! module / file
+polybench_alloc_data!: ./kernel_deriche.database/Src/polybench_alloc_data.c
+polybench_timer_start!: ./kernel_deriche.database/Src/polybench_timer_start.c
+polybench_timer_stop!: ./kernel_deriche.database/Src/polybench_timer_stop.c
+polybench_timer_print!: ./kernel_deriche.database/Src/polybench_timer_print.c
+deriche!: ./kernel_deriche.database/Src/deriche.c
+polybench_alloc_data: ./kernel_deriche.database/Src/polybench_alloc_data.c
+polybench_timer_start: ./kernel_deriche.database/Src/polybench_timer_start.c
+polybench_timer_stop: ./kernel_deriche.database/Src/polybench_timer_stop.c
+polybench_timer_print: ./kernel_deriche.database/Src/polybench_timer_print.c
+deriche!init_array: ./kernel_deriche.database/Src/deriche.c
+deriche!print_array: ./kernel_deriche.database/Src/deriche.c
+kernel_deriche: ./kernel_deriche.database/Src/deriche.c
+main: ./kernel_deriche.database/Src/deriche.c

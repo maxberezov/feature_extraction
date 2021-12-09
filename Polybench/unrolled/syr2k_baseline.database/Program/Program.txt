@@ -1,0 +1,16 @@
+! module / file
+polybench!: ./syr2k_baseline.database/Src/polybench.c
+syr2k!: ./syr2k_baseline.database/Src/syr2k.c
+polybench!rtclock: ./syr2k_baseline.database/Src/polybench.c
+polybench_flush_cache: ./syr2k_baseline.database/Src/polybench.c
+polybench_prepare_instruments: ./syr2k_baseline.database/Src/polybench.c
+polybench_timer_start: ./syr2k_baseline.database/Src/polybench.c
+polybench_timer_stop: ./syr2k_baseline.database/Src/polybench.c
+polybench_timer_print: ./syr2k_baseline.database/Src/polybench.c
+polybench!xmalloc: ./syr2k_baseline.database/Src/polybench.c
+polybench_free_data: ./syr2k_baseline.database/Src/polybench.c
+polybench_alloc_data: ./syr2k_baseline.database/Src/polybench.c
+syr2k!init_array: ./syr2k_baseline.database/Src/syr2k.c
+syr2k!print_array: ./syr2k_baseline.database/Src/syr2k.c
+syr2k!kernel_syr2k: ./syr2k_baseline.database/Src/syr2k.c
+main: ./syr2k_baseline.database/Src/syr2k.c

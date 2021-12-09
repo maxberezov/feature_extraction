@@ -1,0 +1,24 @@
+22
+20
+0 T79 ()T63 E28 (()()())))16
+0 T79 ()T63 E28 ((1 main:argc 1 main:0`np 1 main:0`nq 1 main:0`nr )()())))5
+0 T79 ()T63 E28 (()()())))6
+0 T79 ()T63 E28 (()()())))19
+0 T79 ()T63 E28 (()()())))22
+0 T79 (R77 "main:main" )T63 E28 ((1 main:main 1 main:main#init )( (1 main:main ))())))2
+0 T79 (R77 "main:0`nr" )T63 E28 ((1 main:0`nr 1 *SEMANTICS*:o#1 )( (-150 . 1 main:0`nr ))())))15
+0 T79 ()T63 E28 (()()())))4
+0 T79 (R77 "main:0`np" )T63 E28 ((1 main:0`np 1 *SEMANTICS*:o#3 )( (-160 . 1 main:0`np ))())))7
+0 T79 ()T63 E28 (()()())))12
+0 T79 ()T63 E28 (()()())))10
+0 T79 ()T63 E28 (()()())))1
+0 T79 (R77 "main:argc" R77 "main:main" )T63 E28 ((1 main:argc 1 *SEMANTICS*:o#0 1 main:main 1 main:main#init )( (1 main:main ))())))13
+0 T79 (R77 "main:0`nr" R77 "main:0`nq" R77 "main:argc" R77 "main:0`np" )T63 E28 ((1 main:argc 1 *SEMANTICS*:o#0 1 main:0`np 1 *SEMANTICS*:o#3 1 main:0`nq 1 *SEMANTICS*:o#2 1 main:0`nr 1 *SEMANTICS*:o#1 )()())))17
+0 T79 ()T63 E28 ((1 main:0`np 1 main:0`nq 1 main:0`nr )()())))21
+0 T79 ()T63 E28 (()()())))3
+0 T79 (R77 "main:0`nq" )T63 E28 ((1 main:0`nq 1 *SEMANTICS*:o#2 )( (-140 . 1 main:0`nq ))())))14
+0 T79 ()T63 E28 (()()())))11
+0 T79 (R77 "main:0`nr" R77 "main:0`nq" R77 "main:argc" R77 "main:0`np" )T63 E28 ((1 main:argc 1 *SEMANTICS*:o#0 1 main:0`np 1 *SEMANTICS*:o#3 1 main:0`nq 1 *SEMANTICS*:o#2 1 main:0`nr 1 *SEMANTICS*:o#1 )()())))9
+0 T79 ()T63 E28 (()()())))18
+0 T79 ()T63 E28 (()()())))8
+0 T79 ()T63 E28 (()()())))

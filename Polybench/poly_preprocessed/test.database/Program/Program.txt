@@ -1,0 +1,16 @@
+! module / file
+polybench!: ./test.database/Src/polybench.c
+correlation!: ./test.database/Src/correlation.c
+polybench!rtclock: ./test.database/Src/polybench.c
+polybench_flush_cache: ./test.database/Src/polybench.c
+polybench_prepare_instruments: ./test.database/Src/polybench.c
+polybench_timer_start: ./test.database/Src/polybench.c
+polybench_timer_stop: ./test.database/Src/polybench.c
+polybench_timer_print: ./test.database/Src/polybench.c
+polybench!xmalloc: ./test.database/Src/polybench.c
+polybench_free_data: ./test.database/Src/polybench.c
+polybench_alloc_data: ./test.database/Src/polybench.c
+correlation!init_array: ./test.database/Src/correlation.c
+correlation!print_array: ./test.database/Src/correlation.c
+kernel_correlation: ./test.database/Src/correlation.c
+main: ./test.database/Src/correlation.c

@@ -1,0 +1,226 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/solvers/gramschmidt -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/solvers/gramschmidt/gramschmidt.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/solvers/gramschmidt/gramschmidt.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/solvers/gramschmidt/gramschmidt.c
+Splitting file    ./recurse.database/Tmp/gramschmidt.cpp_processed.c
+  Module         main
+  Module         kernel_gramschmidt
+  Module         gramschmidt!print_array
+  Module         gramschmidt!init_array
+  Module         gramschmidt!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_gramschmidt.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(gramschmidt!)
+  C_PARSER                       building   PARSED_CODE(kernel_gramschmidt)
+                                 building   CALLEES(kernel_gramschmidt)
+  CONTROLIZER                    building   CODE(kernel_gramschmidt)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_gramschmidt)
+[statement_filter] 	 IN
+int i, j, k;
+
+double nrm;
+
+#pragma scop
+polybench_timer_start();
+
+for(k = 0; k <= n-1; k += 1) {
+   nrm = 0.0;
+   for(i = 0; i <= m-1; i += 1)
+      nrm += A[i][k]*A[i][k];
+   R[k][k] = sqrt(nrm);
+   for(i = 0; i <= m-1; i += 1)
+      Q[i][k] = A[i][k]/R[k][k];
+   for(j = k+1; j <= n-1; j += 1) {
+      R[k][j] = 0.0;
+      for(i = 0; i <= m-1; i += 1)
+         R[k][j] += Q[i][k]*A[i][j];
+loop_1:
+      for(i = 0; i <= m-1; i += 1)
+         A[i][j] = A[i][j]-Q[i][k]*R[k][j];
+   }
+}
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i, j, k;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+double nrm;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(k = 0; k <= n-1; k += 1) {
+   nrm = 0.0;
+   for(i = 0; i <= m-1; i += 1)
+      nrm += A[i][k]*A[i][k];
+   R[k][k] = sqrt(nrm);
+   for(i = 0; i <= m-1; i += 1)
+      Q[i][k] = A[i][k]/R[k][k];
+   for(j = k+1; j <= n-1; j += 1) {
+      R[k][j] = 0.0;
+      for(i = 0; i <= m-1; i += 1)
+         R[k][j] += Q[i][k]*A[i][j];
+loop_1:
+      for(i = 0; i <= m-1; i += 1)
+         A[i][j] = A[i][j]-Q[i][k]*R[k][j];
+   }
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+nrm = 0.0;
+for(i = 0; i <= m-1; i += 1)
+   nrm += A[i][k]*A[i][k];
+R[k][k] = sqrt(nrm);
+for(i = 0; i <= m-1; i += 1)
+   Q[i][k] = A[i][k]/R[k][k];
+for(j = k+1; j <= n-1; j += 1) {
+   R[k][j] = 0.0;
+   for(i = 0; i <= m-1; i += 1)
+      R[k][j] += Q[i][k]*A[i][j];
+loop_1:
+   for(i = 0; i <= m-1; i += 1)
+      A[i][j] = A[i][j]-Q[i][k]*R[k][j];
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+nrm = 0.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(i = 0; i <= m-1; i += 1)
+   nrm += A[i][k]*A[i][k];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+nrm += A[i][k]*A[i][k];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+R[k][k] = sqrt(nrm);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(i = 0; i <= m-1; i += 1)
+   Q[i][k] = A[i][k]/R[k][k];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+Q[i][k] = A[i][k]/R[k][k];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(j = k+1; j <= n-1; j += 1) {
+   R[k][j] = 0.0;
+   for(i = 0; i <= m-1; i += 1)
+      R[k][j] += Q[i][k]*A[i][j];
+loop_1:
+   for(i = 0; i <= m-1; i += 1)
+      A[i][j] = A[i][j]-Q[i][k]*R[k][j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+R[k][j] = 0.0;
+for(i = 0; i <= m-1; i += 1)
+   R[k][j] += Q[i][k]*A[i][j];
+loop_1:
+for(i = 0; i <= m-1; i += 1)
+   A[i][j] = A[i][j]-Q[i][k]*R[k][j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+R[k][j] = 0.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(i = 0; i <= m-1; i += 1)
+   R[k][j] += Q[i][k]*A[i][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+R[k][j] += Q[i][k]*A[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_1:
+for(i = 0; i <= m-1; i += 1)
+   A[i][j] = A[i][j]-Q[i][k]*R[k][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+A[i][j] = A[i][j]-Q[i][k]*R[k][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_gramschmidt.
+Request: build phase/rule UNSPLIT for module main.
+  CONTROLIZER                    building   CODE(gramschmidt!)
+CONTROLIZER[gramschmidt!] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+CONTROLIZER[gramschmidt!] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

@@ -1,0 +1,5 @@
+10 10 R W <A[a+3]> - <A[a]> levels(1) uniform(3)
+10 12 W R <A[a]> - <A[a]> levels(2) 
+10 13 W R <A[a]> - <A[a-2]> levels(1) uniform(2)
+12 12 W W <var_a> - <var_a> levels(1) 
+13 13 W W <var_b> - <var_b> levels(1) 

@@ -1,0 +1,8 @@
+delete adi_baseline
+setenv PIPS_CPP_FLAGS -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/utilities -I stencils/adi -DPOLYBENCH_TIME
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty MEMORY_EFFECTS_ONLY FALSE
+create adi_baseline /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/stencils/adi/adi.c /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/utilities/polybench.c
+apply UNSPLIT
+close
+quit

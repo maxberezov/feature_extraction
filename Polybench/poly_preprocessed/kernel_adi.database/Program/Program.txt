@@ -1,0 +1,14 @@
+! module / file
+polybench_alloc_data!: ./kernel_adi.database/Src/polybench_alloc_data.c
+polybench_timer_start!: ./kernel_adi.database/Src/polybench_timer_start.c
+polybench_timer_stop!: ./kernel_adi.database/Src/polybench_timer_stop.c
+polybench_timer_print!: ./kernel_adi.database/Src/polybench_timer_print.c
+adi!: ./kernel_adi.database/Src/adi.c
+polybench_alloc_data: ./kernel_adi.database/Src/polybench_alloc_data.c
+polybench_timer_start: ./kernel_adi.database/Src/polybench_timer_start.c
+polybench_timer_stop: ./kernel_adi.database/Src/polybench_timer_stop.c
+polybench_timer_print: ./kernel_adi.database/Src/polybench_timer_print.c
+adi!init_array: ./kernel_adi.database/Src/adi.c
+adi!print_array: ./kernel_adi.database/Src/adi.c
+kernel_adi: ./kernel_adi.database/Src/adi.c
+main: ./kernel_adi.database/Src/adi.c

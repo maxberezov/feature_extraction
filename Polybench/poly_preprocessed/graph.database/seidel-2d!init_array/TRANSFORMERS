@@ -1,0 +1,7 @@
+5
+3
+0 T79 (R77 "seidel-2d!init_array:0`i" R77 "seidel-2d!init_array:0`j" )T63 E28 ((1 seidel-2d!init_array:0`i 1 seidel-2d!init_array:0`j 1 seidel-2d!init_array:n )()( (1 seidel-2d!init_array:0`i -1 seidel-2d!init_array:n 1 . ) (-1 seidel-2d!init_array:0`i )))))2
+0 T79 ()T63 E28 (()()())))1
+0 T79 ()T63 E28 ((1 seidel-2d!init_array:n )()())))4
+0 T79 (R77 "seidel-2d!init_array:0`j" )T63 E28 ((1 seidel-2d!init_array:0`i 1 seidel-2d!init_array:0`j 1 seidel-2d!init_array:n )()( (1 seidel-2d!init_array:0`j -1 seidel-2d!init_array:n 1 . ) (-1 seidel-2d!init_array:0`j )))))5
+0 T79 ()T63 E28 ((1 seidel-2d!init_array:0`i 1 seidel-2d!init_array:0`j 1 seidel-2d!init_array:n )()())))

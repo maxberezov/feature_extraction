@@ -1,0 +1,12 @@
+10
+9
+0 T79 (R77 "kernel_seidel_2d:0`j" R77 "kernel_seidel_2d:0`i" R77 "kernel_seidel_2d:0`t" )T63 E28 ((1 kernel_seidel_2d:0`i 1 kernel_seidel_2d:0`j 1 kernel_seidel_2d:n 1 kernel_seidel_2d:0`t 1 kernel_seidel_2d:tsteps )()( (-1 kernel_seidel_2d:0`t ) (1 kernel_seidel_2d:tsteps -1 kernel_seidel_2d:0`t )))))10
+0 T79 (R77 "kernel_seidel_2d:0`j" R77 "kernel_seidel_2d:0`i" R77 "kernel_seidel_2d:0`t" )T63 E28 ((1 kernel_seidel_2d:0`i 1 kernel_seidel_2d:0`j 1 kernel_seidel_2d:n 1 kernel_seidel_2d:0`t 1 kernel_seidel_2d:tsteps )()( (-1 kernel_seidel_2d:0`t ) (1 kernel_seidel_2d:tsteps -1 kernel_seidel_2d:0`t )))))1
+0 T79 ()T63 E28 ((1 kernel_seidel_2d:n 1 kernel_seidel_2d:tsteps )()())))6
+0 T79 (R77 "kernel_seidel_2d:0`j" R77 "kernel_seidel_2d:0`i" R77 "kernel_seidel_2d:0`t" )T63 E28 ((1 kernel_seidel_2d:0`i 1 kernel_seidel_2d:0`j 1 kernel_seidel_2d:n 1 kernel_seidel_2d:0`t 1 kernel_seidel_2d:tsteps )()( (-1 kernel_seidel_2d:0`t ) (1 . -1 kernel_seidel_2d:0`i ) (1 kernel_seidel_2d:0`t -1 kernel_seidel_2d:tsteps 1 . ) (1 kernel_seidel_2d:0`i -1 kernel_seidel_2d:n 2 . )))))8
+0 T79 (R77 "kernel_seidel_2d:0`j" R77 "kernel_seidel_2d:0`i" R77 "kernel_seidel_2d:0`t" )T63 E28 ((1 kernel_seidel_2d:0`i 1 kernel_seidel_2d:0`j 1 kernel_seidel_2d:n 1 kernel_seidel_2d:0`t 1 kernel_seidel_2d:tsteps )()( (-1 kernel_seidel_2d:0`t ) (1 kernel_seidel_2d:tsteps -1 kernel_seidel_2d:0`t )))))7
+0 T79 (R77 "kernel_seidel_2d:0`j" R77 "kernel_seidel_2d:0`i" R77 "kernel_seidel_2d:0`t" )T63 E28 ((1 kernel_seidel_2d:0`i 1 kernel_seidel_2d:0`j 1 kernel_seidel_2d:n 1 kernel_seidel_2d:0`t 1 kernel_seidel_2d:tsteps )()( (1 . -1 kernel_seidel_2d:0`i ) (-1 kernel_seidel_2d:0`t ) (1 . -1 kernel_seidel_2d:0`j ) (1 kernel_seidel_2d:0`i -1 kernel_seidel_2d:n 2 . ) (1 kernel_seidel_2d:0`t -1 kernel_seidel_2d:tsteps 1 . ) (1 kernel_seidel_2d:0`j -1 kernel_seidel_2d:n 2 . )))))2
+0 T79 ()T63 E28 ((1 kernel_seidel_2d:n 1 kernel_seidel_2d:tsteps )()())))3
+0 T79 ()T63 E28 ((1 kernel_seidel_2d:n 1 kernel_seidel_2d:tsteps )()())))4
+0 T79 ()T63 E28 ((1 kernel_seidel_2d:n 1 kernel_seidel_2d:tsteps )()())))5
+0 T79 (R77 "kernel_seidel_2d:0`j" R77 "kernel_seidel_2d:0`i" R77 "kernel_seidel_2d:0`t" )T63 E28 ((1 kernel_seidel_2d:0`i 1 kernel_seidel_2d:0`j 1 kernel_seidel_2d:n 1 kernel_seidel_2d:0`t 1 kernel_seidel_2d:tsteps )()( (-1 kernel_seidel_2d:0`t ) (1 kernel_seidel_2d:0`t -1 kernel_seidel_2d:tsteps 1 . )))))

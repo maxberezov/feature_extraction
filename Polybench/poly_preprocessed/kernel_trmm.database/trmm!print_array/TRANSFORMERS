@@ -1,0 +1,15 @@
+13
+1
+0 T79 ()T63 E28 ((1 trmm!print_array:m 1 trmm!print_array:n )()())))9
+0 T79 ()T63 E28 (()()())))3
+0 T79 ()T63 E28 (()()())))8
+0 T79 ()T63 E28 ((1 trmm!print_array:0`j )()())))12
+0 T79 ()T63 E28 (()()())))4
+0 T79 ()T63 E28 (()()())))2
+0 T79 ()T63 E28 (()()())))10
+0 T79 ()T63 E28 (()()())))7
+0 T79 ()T63 E28 ((1 trmm!print_array:0`j )()())))11
+0 T79 ()T63 E28 (()()())))13
+0 T79 ()T63 E28 (()()())))5
+0 T79 (R77 "trmm!print_array:0`i" R77 "trmm!print_array:0`j" )T63 E28 ((1 trmm!print_array:0`i 1 trmm!print_array:0`j 1 trmm!print_array:m 1 trmm!print_array:n )()( (1 trmm!print_array:0`i -1 trmm!print_array:m 1 . ) (-1 trmm!print_array:0`i )))))6
+0 T79 (R77 "trmm!print_array:0`j" )T63 E28 ((1 trmm!print_array:0`j 1 trmm!print_array:n )()( (1 trmm!print_array:0`j -1 trmm!print_array:n 1 . ) (-1 trmm!print_array:0`j )))))

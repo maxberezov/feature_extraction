@@ -1,0 +1,51 @@
+49
+4
+0 T79 ()T63 E28 (()()())))37
+0 T79 ()T63 E28 ((1 kernel_adi:0`i )()())))19
+0 T79 ()T63 E28 (()()())))25
+0 T79 ()T63 E28 ((1 kernel_adi:0`i )()())))45
+0 T79 (R77 "kernel_adi:0`j" )T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j 1 kernel_adi:n )()( (1 kernel_adi:0`j -1 kernel_adi:n 2 . ) (1 . -1 kernel_adi:0`j )))))23
+0 T79 (R77 "kernel_adi:0`i" R77 "kernel_adi:0`j" )T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j 1 kernel_adi:n )()( (1 kernel_adi:0`i 2 . -1 kernel_adi:n ) (1 . -1 kernel_adi:0`i )))))7
+0 T79 ()T63 E28 ((1 kernel_adi:n )()())))49
+0 T79 ()T63 E28 (()()())))40
+0 T79 (R77 "kernel_adi:0`j" )T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j 1 kernel_adi:n )()( (1 kernel_adi:0`j 2 . -1 kernel_adi:n ) (1 . -1 kernel_adi:0`j )))))47
+0 T79 ()T63 E28 (()()())))36
+0 T79 (R77 "kernel_adi:0`j" )T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j 1 kernel_adi:n )()( (2 . -1 kernel_adi:n 1 kernel_adi:0`j ) (1 kernel_adi:0`j )))))31
+0 T79 ()T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j )()())))30
+0 T79 ()T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j )()())))9
+0 T79 ()T63 E28 ((1 kernel_adi:tsteps )()())))1
+0 T79 ()T63 E28 ((1 kernel_adi:n 1 kernel_adi:tsteps )()())))3
+0 T79 ()T63 E28 (()()())))20
+0 T79 ()T63 E28 (()()())))5
+0 T79 ()T63 E28 (()()())))43
+0 T79 ()T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j )()())))21
+0 T79 (R77 "kernel_adi:0`t" R77 "kernel_adi:0`i" R77 "kernel_adi:0`j" )T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j 1 *SEMANTICS*:o#2 1 kernel_adi:n 1 kernel_adi:0`t 1 kernel_adi:tsteps )()( (1 kernel_adi:0`t -1 kernel_adi:tsteps ) (1 . -1 kernel_adi:0`t )))))26
+0 T79 ()T63 E28 ((1 kernel_adi:0`i )()())))12
+0 T79 ()T63 E28 (()()())))35
+0 T79 (R77 "kernel_adi:0`i" R77 "kernel_adi:0`j" )T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j 1 kernel_adi:n )()( (1 kernel_adi:0`i 2 . -1 kernel_adi:n ) (1 . -1 kernel_adi:0`i )))))8
+0 T79 ()T63 E28 ((1 kernel_adi:n )()())))2
+0 T79 ()T63 E28 (()()())))44
+0 T79 ()T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:n )()())))15
+0 T79 ()T63 E28 (()()())))16
+0 T79 ()T63 E28 (()()())))38
+0 T79 ()T63 E28 ((1 kernel_adi:0`i )()())))32
+0 T79 ()T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:n )()())))10
+0 T79 ()T63 E28 (()()())))48
+0 T79 ()T63 E28 (()()())))29
+0 T79 ()T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j )()())))41
+0 T79 ()T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j )()())))14
+0 T79 ()T63 E28 (()()())))22
+0 T79 (R77 "kernel_adi:0`i" R77 "kernel_adi:0`j" )T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j 1 *SEMANTICS*:o#2 1 kernel_adi:n )()( (-1 . -1 kernel_adi:0`i 1 kernel_adi:n ) (1 . -1 kernel_adi:0`i )))))46
+0 T79 ()T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j )()())))18
+0 T79 ()T63 E28 (()()())))27
+0 T79 ()T63 E28 ((1 kernel_adi:0`i )()())))33
+0 T79 (R77 "kernel_adi:0`j" )T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j 1 kernel_adi:n )()( (1 kernel_adi:0`j -1 kernel_adi:n 2 . ) (1 . -1 kernel_adi:0`j )))))24
+0 T79 (R77 "kernel_adi:0`j" )T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j 1 kernel_adi:n )()( (2 . -1 kernel_adi:n 1 kernel_adi:0`j ) (1 kernel_adi:0`j )))))34
+0 T79 ()T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j )()())))28
+0 T79 (R77 "kernel_adi:0`j" )T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j 1 kernel_adi:n )()( (1 kernel_adi:0`j 2 . -1 kernel_adi:n ) (1 . -1 kernel_adi:0`j )))))11
+0 T79 ()T63 E28 (()()())))39
+0 T79 ()T63 E28 ((1 kernel_adi:0`i )()())))6
+0 T79 ()T63 E28 (()()())))13
+0 T79 ()T63 E28 (()()())))17
+0 T79 ()T63 E28 (()()())))42
+0 T79 ()T63 E28 ((1 kernel_adi:0`i 1 kernel_adi:0`j )()())))

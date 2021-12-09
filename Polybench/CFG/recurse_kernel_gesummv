@@ -1,0 +1,149 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/gesummv -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/gesummv/gesummv.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/gesummv/gesummv.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/gesummv/gesummv.c
+Splitting file    ./recurse.database/Tmp/gesummv.cpp_processed.c
+  Module         main
+  Module         kernel_gesummv
+  Module         gesummv!print_array
+  Module         gesummv!init_array
+  Module         gesummv!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_gesummv.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(gesummv!)
+  C_PARSER                       building   PARSED_CODE(kernel_gesummv)
+                                 building   CALLEES(kernel_gesummv)
+  CONTROLIZER                    building   CODE(kernel_gesummv)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_gesummv)
+[statement_filter] 	 IN
+int i, j;
+
+#pragma scop
+polybench_timer_start();
+
+for(i = 0; i <= n-1; i += 1) {
+   tmp[i] = 0.0;
+   y[i] = 0.0;
+loop_1:
+   for(j = 0; j <= n-1; j += 1) {
+      tmp[i] = A[i][j]*x[j]+tmp[i];
+      y[i] = B[i][j]*x[j]+y[i];
+   }
+   y[i] = alpha*tmp[i]+beta*y[i];
+}
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i, j;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= n-1; i += 1) {
+   tmp[i] = 0.0;
+   y[i] = 0.0;
+loop_1:
+   for(j = 0; j <= n-1; j += 1) {
+      tmp[i] = A[i][j]*x[j]+tmp[i];
+      y[i] = B[i][j]*x[j]+y[i];
+   }
+   y[i] = alpha*tmp[i]+beta*y[i];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+tmp[i] = 0.0;
+y[i] = 0.0;
+loop_1:
+for(j = 0; j <= n-1; j += 1) {
+   tmp[i] = A[i][j]*x[j]+tmp[i];
+   y[i] = B[i][j]*x[j]+y[i];
+}
+y[i] = alpha*tmp[i]+beta*y[i];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+tmp[i] = 0.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+y[i] = 0.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_1:
+for(j = 0; j <= n-1; j += 1) {
+   tmp[i] = A[i][j]*x[j]+tmp[i];
+   y[i] = B[i][j]*x[j]+y[i];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+tmp[i] = A[i][j]*x[j]+tmp[i];
+y[i] = B[i][j]*x[j]+y[i];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+tmp[i] = A[i][j]*x[j]+tmp[i];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+y[i] = B[i][j]*x[j]+y[i];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+y[i] = alpha*tmp[i]+beta*y[i];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_gesummv.
+Request: build phase/rule UNSPLIT for module main.
+  CONTROLIZER                    building   CODE(gesummv!)
+CONTROLIZER[gesummv!] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+CONTROLIZER[gesummv!] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

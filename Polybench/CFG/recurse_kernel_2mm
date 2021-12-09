@@ -1,0 +1,215 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/kernels/2mm -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/kernels/2mm/2mm.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/kernels/2mm/2mm.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/kernels/2mm/2mm.c
+Splitting file    ./recurse.database/Tmp/2mm.cpp_processed.c
+  Module         main
+  Module         kernel_2mm
+  Module         2mm!print_array
+  Module         2mm!init_array
+  Module         2mm!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_2mm.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(2mm!)
+  C_PARSER                       building   PARSED_CODE(kernel_2mm)
+                                 building   CALLEES(kernel_2mm)
+  CONTROLIZER                    building   CODE(kernel_2mm)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_2mm)
+[statement_filter] 	 IN
+int i, j, k;
+
+/* D := alpha*A*B*C + beta*D */
+#pragma scop
+polybench_timer_start();
+
+for(i = 0; i <= ni-1; i += 1)
+   for(j = 0; j <= nj-1; j += 1) {
+      tmp[i][j] = 0.0;
+loop_1:
+      for(k = 0; k <= nk-1; k += 1)
+         tmp[i][j] += alpha*A[i][k]*B[k][j];
+   }
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(i = 0; i <= ni-1; i += 1)
+   for(j = 0; j <= nl-1; j += 1) {
+      D[i][j] *= beta;
+loop_2:
+      for(k = 0; k <= nj-1; k += 1)
+         D[i][j] += tmp[i][k]*C[k][j];
+   }
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i, j, k;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+/* D := alpha*A*B*C + beta*D */
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= ni-1; i += 1)
+   for(j = 0; j <= nj-1; j += 1) {
+      tmp[i][j] = 0.0;
+loop_1:
+      for(k = 0; k <= nk-1; k += 1)
+         tmp[i][j] += alpha*A[i][k]*B[k][j];
+   }
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 0; j <= nj-1; j += 1) {
+   tmp[i][j] = 0.0;
+loop_1:
+   for(k = 0; k <= nk-1; k += 1)
+      tmp[i][j] += alpha*A[i][k]*B[k][j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+tmp[i][j] = 0.0;
+loop_1:
+for(k = 0; k <= nk-1; k += 1)
+   tmp[i][j] += alpha*A[i][k]*B[k][j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+tmp[i][j] = 0.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_1:
+for(k = 0; k <= nk-1; k += 1)
+   tmp[i][j] += alpha*A[i][k]*B[k][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+tmp[i][j] += alpha*A[i][k]*B[k][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= ni-1; i += 1)
+   for(j = 0; j <= nl-1; j += 1) {
+      D[i][j] *= beta;
+loop_2:
+      for(k = 0; k <= nj-1; k += 1)
+         D[i][j] += tmp[i][k]*C[k][j];
+   }
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 0; j <= nl-1; j += 1) {
+   D[i][j] *= beta;
+loop_2:
+   for(k = 0; k <= nj-1; k += 1)
+      D[i][j] += tmp[i][k]*C[k][j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+D[i][j] *= beta;
+loop_2:
+for(k = 0; k <= nj-1; k += 1)
+   D[i][j] += tmp[i][k]*C[k][j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+D[i][j] *= beta;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_2:
+for(k = 0; k <= nj-1; k += 1)
+   D[i][j] += tmp[i][k]*C[k][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+D[i][j] += tmp[i][k]*C[k][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_2mm.
+Request: build phase/rule UNSPLIT for module main.
+  CONTROLIZER                    building   CODE(2mm!)
+CONTROLIZER[2mm!] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+CONTROLIZER[2mm!] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

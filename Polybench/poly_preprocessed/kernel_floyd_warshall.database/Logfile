@@ -1,0 +1,207 @@
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/floyd-warshall/floyd-warshall.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/floyd-warshall/floyd-warshall.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/medley/floyd-warshall/floyd-warshall.c
+Splitting file    ./kernel_floyd_warshall.database/Tmp/floyd-warshall.cpp_processed.c
+  Module         main
+  Module         kernel_floyd_warshall
+  Module         floyd-warshall!print_array
+  Module         floyd-warshall!init_array
+  Module         floyd-warshall!
+Workspace kernel_floyd_warshall created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+setproperty PRINT_DEPENDENCE_GRAPH_USING_SRU_FORMAT TRUE
+Request: build phase/rule PRINT_WHOLE_DEPENDENCE_GRAPH for module kernel_floyd_warshall.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(floyd-warshall!)
+  C_PARSER                       building   PARSED_CODE(kernel_floyd_warshall)
+                                 building   CALLEES(kernel_floyd_warshall)
+  CONTROLIZER                    building   CODE(kernel_floyd_warshall)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_timer_print)
+                                 building   INPUT_FILE_NAME(polybench_timer_print)
+Registering synthesized file polybench_timer_print.cpp_processed.c
+Registering synthesized compilation unit polybench_timer_print!
+  C_PARSER                       building   PARSED_CODE(polybench_timer_print)
+                                 building   CALLEES(polybench_timer_print)
+  CONTROLIZER                    building   CODE(polybench_timer_print)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_print)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_print)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_print)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_timer_stop)
+                                 building   INPUT_FILE_NAME(polybench_timer_stop)
+Registering synthesized file polybench_timer_stop.cpp_processed.c
+Registering synthesized compilation unit polybench_timer_stop!
+  C_PARSER                       building   PARSED_CODE(polybench_timer_stop)
+                                 building   CALLEES(polybench_timer_stop)
+  CONTROLIZER                    building   CODE(polybench_timer_stop)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_stop)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_stop)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_stop)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_timer_start)
+                                 building   INPUT_FILE_NAME(polybench_timer_start)
+Registering synthesized file polybench_timer_start.cpp_processed.c
+Registering synthesized compilation unit polybench_timer_start!
+  C_PARSER                       building   PARSED_CODE(polybench_timer_start)
+                                 building   CALLEES(polybench_timer_start)
+  CONTROLIZER                    building   CODE(polybench_timer_start)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_start)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_start)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_start)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(kernel_floyd_warshall)
+  ATOMIC_CHAINS                  building   CHAINS(kernel_floyd_warshall)
+  CONTROLIZER                    building   CODE(floyd-warshall!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(floyd-warshall!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(floyd-warshall!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(floyd-warshall!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(floyd-warshall!)
+  C_PARSER                       building   PARSED_CODE(floyd-warshall!init_array)
+                                 building   CALLEES(floyd-warshall!init_array)
+  CONTROLIZER                    building   CODE(floyd-warshall!init_array)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(floyd-warshall!init_array)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(floyd-warshall!init_array)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(floyd-warshall!init_array)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(floyd-warshall!init_array)
+  C_PARSER                       building   PARSED_CODE(floyd-warshall!print_array)
+                                 building   CALLEES(floyd-warshall!print_array)
+  CONTROLIZER                    building   CODE(floyd-warshall!print_array)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(floyd-warshall!print_array)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(floyd-warshall!print_array)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(floyd-warshall!print_array)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(floyd-warshall!print_array)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(kernel_floyd_warshall)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(kernel_floyd_warshall)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(kernel_floyd_warshall)
+  C_PARSER                       building   PARSED_CODE(main)
+                                 building   CALLEES(main)
+  CONTROLIZER                    building   CODE(main)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_alloc_data)
+                                 building   INPUT_FILE_NAME(polybench_alloc_data)
+Registering synthesized file polybench_alloc_data.cpp_processed.c
+Registering synthesized compilation unit polybench_alloc_data!
+  C_PARSER                       building   PARSED_CODE(polybench_alloc_data)
+                                 building   CALLEES(polybench_alloc_data)
+  CONTROLIZER                    building   CODE(polybench_alloc_data)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_alloc_data)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_alloc_data)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_alloc_data)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(main)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(main)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_print)
+  CONTROLIZER                    building   CODE(polybench_timer_print!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_print!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_print!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_print!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_print!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_start)
+  CONTROLIZER                    building   CODE(polybench_timer_start!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_start!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_start!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_start!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_start!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_stop)
+  CONTROLIZER                    building   CODE(polybench_timer_stop!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_stop!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_stop!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_stop!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_stop!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_alloc_data)
+  CONTROLIZER                    building   CODE(polybench_alloc_data!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_alloc_data!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_alloc_data!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_alloc_data!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_alloc_data!)
+  PROGRAM_PRECONDITION           building   PROGRAM_PRECONDITION()
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_timer_print)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_timer_stop)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_timer_start)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(kernel_floyd_warshall)
+  CALLGRAPH                      building   CALLERS(floyd-warshall!)
+                                 building   CALLERS(floyd-warshall!init_array)
+                                 building   CALLERS(floyd-warshall!print_array)
+                                 building   CALLERS(kernel_floyd_warshall)
+                                 building   CALLERS(main)
+                                 building   CALLERS(polybench_alloc_data)
+                                 building   CALLERS(polybench_alloc_data!)
+                                 building   CALLERS(polybench_timer_print)
+                                 building   CALLERS(polybench_timer_print!)
+                                 building   CALLERS(polybench_timer_start)
+                                 building   CALLERS(polybench_timer_start!)
+                                 building   CALLERS(polybench_timer_stop)
+                                 building   CALLERS(polybench_timer_stop!)
+                                 building   HEIGHT(floyd-warshall!)
+                                 building   HEIGHT(floyd-warshall!init_array)
+                                 building   HEIGHT(floyd-warshall!print_array)
+                                 building   HEIGHT(kernel_floyd_warshall)
+                                 building   HEIGHT(main)
+                                 building   HEIGHT(polybench_alloc_data)
+                                 building   HEIGHT(polybench_alloc_data!)
+                                 building   HEIGHT(polybench_timer_print)
+                                 building   HEIGHT(polybench_timer_print!)
+                                 building   HEIGHT(polybench_timer_start)
+                                 building   HEIGHT(polybench_timer_start!)
+                                 building   HEIGHT(polybench_timer_stop)
+                                 building   HEIGHT(polybench_timer_stop!)
+                                 building   DEPTH(floyd-warshall!)
+                                 building   DEPTH(floyd-warshall!init_array)
+                                 building   DEPTH(floyd-warshall!print_array)
+                                 building   DEPTH(kernel_floyd_warshall)
+                                 building   DEPTH(main)
+                                 building   DEPTH(polybench_alloc_data)
+                                 building   DEPTH(polybench_alloc_data!)
+                                 building   DEPTH(polybench_timer_print)
+                                 building   DEPTH(polybench_timer_print!)
+                                 building   DEPTH(polybench_timer_start)
+                                 building   DEPTH(polybench_timer_start!)
+                                 building   DEPTH(polybench_timer_stop)
+                                 building   DEPTH(polybench_timer_stop!)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(floyd-warshall!print_array)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(floyd-warshall!init_array)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_alloc_data)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(main)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(kernel_floyd_warshall)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(kernel_floyd_warshall)
+  RICE_SEMANTICS_DEPENDENCE_GRAPH building   DG(kernel_floyd_warshall)
+  PRINT_WHOLE_DEPENDENCE_GRAPH   building   DG_FILE(kernel_floyd_warshall)
+PRINT_WHOLE_DEPENDENCE_GRAPH made for kernel_floyd_warshall.
+Module kernel_floyd_warshall selected
+Request: build resource DG_FILE for module kernel_floyd_warshall.
+DG_FILE made for kernel_floyd_warshall.
+Request: build phase/rule UNSPLIT for module main.
+  PRINT_CODE                     building   PRINTED_FILE(floyd-warshall!)
+  PRINT_CODE                     building   PRINTED_FILE(floyd-warshall!init_array)
+  PRINT_CODE                     building   PRINTED_FILE(floyd-warshall!print_array)
+  PRINT_CODE                     building   PRINTED_FILE(kernel_floyd_warshall)
+  PRINT_CODE                     building   PRINTED_FILE(main)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_alloc_data)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_alloc_data!)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_print)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_print!)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_start)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_start!)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_stop)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_stop!)
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for main.
+Deletion of obsolete resources:
+none destroyed.
+Closing all modules.
+  Closing module floyd-warshall!.
+  Closing module floyd-warshall!init_array.
+  Closing module floyd-warshall!print_array.
+  Closing module kernel_floyd_warshall.
+  Closing module main.
+  Closing module polybench_alloc_data.
+  Closing module polybench_alloc_data!.
+  Closing module polybench_timer_print.
+  Closing module polybench_timer_print!.
+  Closing module polybench_timer_start.
+  Closing module polybench_timer_start!.
+  Closing module polybench_timer_stop.
+  Closing module polybench_timer_stop!.
+Closing program.
+Closing workspace.
+Workspace kernel_floyd_warshall closed.

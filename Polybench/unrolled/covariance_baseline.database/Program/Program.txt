@@ -1,0 +1,16 @@
+! module / file
+polybench!: ./covariance_baseline.database/Src/polybench.c
+covariance!: ./covariance_baseline.database/Src/covariance.c
+polybench!rtclock: ./covariance_baseline.database/Src/polybench.c
+polybench_flush_cache: ./covariance_baseline.database/Src/polybench.c
+polybench_prepare_instruments: ./covariance_baseline.database/Src/polybench.c
+polybench_timer_start: ./covariance_baseline.database/Src/polybench.c
+polybench_timer_stop: ./covariance_baseline.database/Src/polybench.c
+polybench_timer_print: ./covariance_baseline.database/Src/polybench.c
+polybench!xmalloc: ./covariance_baseline.database/Src/polybench.c
+polybench_free_data: ./covariance_baseline.database/Src/polybench.c
+polybench_alloc_data: ./covariance_baseline.database/Src/polybench.c
+covariance!init_array: ./covariance_baseline.database/Src/covariance.c
+covariance!print_array: ./covariance_baseline.database/Src/covariance.c
+covariance!kernel_covariance: ./covariance_baseline.database/Src/covariance.c
+main: ./covariance_baseline.database/Src/covariance.c

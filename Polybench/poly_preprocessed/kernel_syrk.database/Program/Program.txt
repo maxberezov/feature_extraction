@@ -1,0 +1,14 @@
+! module / file
+polybench_alloc_data!: ./kernel_syrk.database/Src/polybench_alloc_data.c
+polybench_timer_start!: ./kernel_syrk.database/Src/polybench_timer_start.c
+polybench_timer_stop!: ./kernel_syrk.database/Src/polybench_timer_stop.c
+polybench_timer_print!: ./kernel_syrk.database/Src/polybench_timer_print.c
+syrk!: ./kernel_syrk.database/Src/syrk.c
+polybench_alloc_data: ./kernel_syrk.database/Src/polybench_alloc_data.c
+polybench_timer_start: ./kernel_syrk.database/Src/polybench_timer_start.c
+polybench_timer_stop: ./kernel_syrk.database/Src/polybench_timer_stop.c
+polybench_timer_print: ./kernel_syrk.database/Src/polybench_timer_print.c
+syrk!init_array: ./kernel_syrk.database/Src/syrk.c
+syrk!print_array: ./kernel_syrk.database/Src/syrk.c
+kernel_syrk: ./kernel_syrk.database/Src/syrk.c
+main: ./kernel_syrk.database/Src/syrk.c

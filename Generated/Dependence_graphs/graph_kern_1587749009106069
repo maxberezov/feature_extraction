@@ -1,0 +1,8 @@
+11 11 W W <a> - <a> levels(1) 
+12 11 R W <a> - <a> levels(1) 
+12 14 W R <B[a][b][a]> - <B[a][b][a]> levels(3) 
+12 16 W W <B[a][b][a]> - <B[a][b][a]> levels(3) 
+14 11 R W <a> - <a> levels(1) 
+14 14 R W <A[a+4][b][a+4]> - <A[a][b][a]> levels(2) uniform(0,4)
+14 16 R W <B[a][b][a]> - <B[a][b][a]> levels(3) 
+16 11 R W <a> - <a> levels(1) 

@@ -1,0 +1,8 @@
+delete durbin_baseline
+setenv PIPS_CPP_FLAGS -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/utilities -I linear-algebra/solvers/durbin -DPOLYBENCH_TIME
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty MEMORY_EFFECTS_ONLY FALSE
+create durbin_baseline /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/linear-algebra/solvers/durbin/durbin.c /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/utilities/polybench.c
+apply UNSPLIT
+close
+quit

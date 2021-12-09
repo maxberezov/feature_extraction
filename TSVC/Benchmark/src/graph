@@ -1,0 +1,11 @@
+delete graph
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+create  graph  /home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c
+setproperty PRINT_DEPENDENCE_GRAPH_USING_SRU_FORMAT TRUE
+apply PRINT_WHOLE_DEPENDENCE_GRAPH[vbor]
+display DG_FILE[vbor]
+apply UNSPLIT
+close
+quit

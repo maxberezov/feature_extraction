@@ -1,0 +1,15 @@
+13
+9
+0 T79 (R77 "kernel_gemm:0`k" R77 "kernel_gemm:0`j" R77 "kernel_gemm:0`i" )T63 E28 ((1 kernel_gemm:0`i 1 kernel_gemm:0`j 1 kernel_gemm:0`k 1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()( (-1 kernel_gemm:0`k ) (-1 kernel_gemm:0`i ) (1 kernel_gemm:0`k -1 kernel_gemm:nk 1 . ) (1 kernel_gemm:0`i -1 kernel_gemm:ni 1 . )))))1
+0 T79 ()T63 E28 ((1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()())))12
+0 T79 (R77 "kernel_gemm:0`k" R77 "kernel_gemm:0`j" R77 "kernel_gemm:0`i" )T63 E28 ((1 kernel_gemm:0`i 1 kernel_gemm:0`j 1 kernel_gemm:0`k 1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()( (-1 kernel_gemm:0`i ) (1 kernel_gemm:ni -1 kernel_gemm:0`i )))))2
+0 T79 ()T63 E28 ((1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()())))5
+0 T79 (R77 "kernel_gemm:0`k" R77 "kernel_gemm:0`j" R77 "kernel_gemm:0`i" )T63 E28 ((1 kernel_gemm:0`i 1 kernel_gemm:0`j 1 kernel_gemm:0`k 1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()( (-1 kernel_gemm:0`i ) (1 kernel_gemm:0`i -1 kernel_gemm:ni 1 . )))))6
+0 T79 (R77 "kernel_gemm:0`k" R77 "kernel_gemm:0`j" R77 "kernel_gemm:0`i" )T63 E28 ((1 kernel_gemm:0`i 1 kernel_gemm:0`j 1 kernel_gemm:0`k 1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()( (-1 kernel_gemm:0`i ) (1 kernel_gemm:0`i -1 kernel_gemm:ni 1 . )))))10
+0 T79 (R77 "kernel_gemm:0`k" R77 "kernel_gemm:0`j" R77 "kernel_gemm:0`i" )T63 E28 ((1 kernel_gemm:0`i 1 kernel_gemm:0`j 1 kernel_gemm:0`k 1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()( (-1 kernel_gemm:0`j ) (-1 kernel_gemm:0`i ) (-1 kernel_gemm:0`k ) (1 kernel_gemm:0`j -1 kernel_gemm:nj 1 . ) (1 kernel_gemm:0`i -1 kernel_gemm:ni 1 . ) (1 kernel_gemm:0`k -1 kernel_gemm:nk 1 . )))))3
+0 T79 ()T63 E28 ((1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()())))4
+0 T79 ()T63 E28 ((1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()())))7
+0 T79 (R77 "kernel_gemm:0`k" R77 "kernel_gemm:0`j" R77 "kernel_gemm:0`i" )T63 E28 ((1 kernel_gemm:0`i 1 kernel_gemm:0`j 1 kernel_gemm:0`k 1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()( (-1 kernel_gemm:0`j ) (-1 kernel_gemm:0`i ) (1 kernel_gemm:0`j -1 kernel_gemm:nj 1 . ) (1 kernel_gemm:0`i -1 kernel_gemm:ni 1 . )))))13
+0 T79 (R77 "kernel_gemm:0`k" R77 "kernel_gemm:0`j" R77 "kernel_gemm:0`i" )T63 E28 ((1 kernel_gemm:0`i 1 kernel_gemm:0`j 1 kernel_gemm:0`k 1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()( (-1 kernel_gemm:0`i ) (1 kernel_gemm:ni -1 kernel_gemm:0`i )))))11
+0 T79 (R77 "kernel_gemm:0`k" R77 "kernel_gemm:0`j" R77 "kernel_gemm:0`i" )T63 E28 ((1 kernel_gemm:0`i 1 kernel_gemm:0`j 1 kernel_gemm:0`k 1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()( (-1 kernel_gemm:0`i ) (1 kernel_gemm:ni -1 kernel_gemm:0`i )))))8
+0 T79 (R77 "kernel_gemm:0`k" R77 "kernel_gemm:0`j" R77 "kernel_gemm:0`i" )T63 E28 ((1 kernel_gemm:0`i 1 kernel_gemm:0`j 1 kernel_gemm:0`k 1 kernel_gemm:ni 1 kernel_gemm:nj 1 kernel_gemm:nk )()( (-1 kernel_gemm:0`i ) (-1 kernel_gemm:0`j ) (1 kernel_gemm:0`i -1 kernel_gemm:ni 1 . ) (1 kernel_gemm:nj -1 kernel_gemm:0`j )))))

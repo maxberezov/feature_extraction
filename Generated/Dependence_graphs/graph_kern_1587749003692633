@@ -1,0 +1,7 @@
+11 11 W W <a> - <a> levels(1) 
+12 11 R W <a> - <a> levels(1) 
+12 12 W W <A[a]> - <A[a]> levels(1) ddv(<,<=)
+12 13 W W <A[a]> - <A[a-2]> levels(1,2) ddv(<=,<=)
+13 11 R W <a> - <a> levels(1) 
+13 12 W W <A[a-2]> - <A[a]> levels(1) ddv(<,*)
+13 13 W W <A[a-2]> - <A[a-2]> levels(1) ddv(<,<=)

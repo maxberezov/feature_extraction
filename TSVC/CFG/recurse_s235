@@ -1,0 +1,1105 @@
+Workspace recurse deleted.
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c"
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s000’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:4989:1: warning: label ‘loop_s000’ defined but not used [-Wunused-label]
+ loop_s000: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s111’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5013:1: warning: label ‘loop_s111’ defined but not used [-Wunused-label]
+ loop_s111: for(i = 1; i <= 31999; i += 2)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1111’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5037:1: warning: label ‘loop_s1111’ defined but not used [-Wunused-label]
+ loop_s1111: for(i = 0; i <= 15999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s112’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5061:1: warning: label ‘loop_s112’ defined but not used [-Wunused-label]
+ loop_s112: for(i = 32000-2; i >= 0; i += -1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1112’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5085:1: warning: label ‘loop_s1112’ defined but not used [-Wunused-label]
+ loop_s1112: for(i = 32000-1; i >= 0; i += -1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s113’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5109:1: warning: label ‘loop_s113’ defined but not used [-Wunused-label]
+ loop_s113: for(i = 1; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1113’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5133:1: warning: label ‘loop_s1113’ defined but not used [-Wunused-label]
+ loop_s1113: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s114’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5160:1: warning: label ‘loop_s114’ defined but not used [-Wunused-label]
+ loop_s114: for(j = 0; j <= i-1; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s115’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5187:1: warning: label ‘loop_s115’ defined but not used [-Wunused-label]
+ loop_s115: for(i = j+1; i <= 255; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1115’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5214:1: warning: label ‘loop_s1115’ defined but not used [-Wunused-label]
+ loop_s1115: for(j = 0; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s116’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5238:1: warning: label ‘loop_s116’ defined but not used [-Wunused-label]
+ loop_s116: for(i = 0; i <= 31994; i += 5) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s118’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5269:1: warning: label ‘loop_s118’ defined but not used [-Wunused-label]
+ loop_s118: for(j = 0; j <= i-1; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s119’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5296:1: warning: label ‘loop_s119’ defined but not used [-Wunused-label]
+ loop_s119: for(j = 1; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1119’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5323:1: warning: label ‘loop_s1119’ defined but not used [-Wunused-label]
+ loop_s1119: for(j = 0; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s121’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5349:1: warning: label ‘loop_s121’ defined but not used [-Wunused-label]
+ loop_s121: for(i = 0; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s122’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5381:1: warning: label ‘loop_s122’ defined but not used [-Wunused-label]
+ loop_s122: for(nl = 0; nl <= 99999; nl += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s123’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5417:1: warning: label ‘loop_s123’ defined but not used [-Wunused-label]
+ loop_s123: for(i = 0; i <= 15999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s124’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5449:1: warning: label ‘loop_s124’ defined but not used [-Wunused-label]
+ loop_s124: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s125’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5484:1: warning: label ‘loop_s125’ defined but not used [-Wunused-label]
+ loop_s125: for(j = 0; j <= 255; j += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s126’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5516:1: warning: label ‘loop_s126’ defined but not used [-Wunused-label]
+ loop_s126: for(j = 1; j <= 255; j += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s127’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5547:1: warning: label ‘loop_s127’ defined but not used [-Wunused-label]
+ loop_s127: for(i = 0; i <= 15999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s128’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5578:1: warning: label ‘loop_s128’ defined but not used [-Wunused-label]
+ loop_s128: for(i = 0; i <= 15999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s131’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5606:1: warning: label ‘loop_s131’ defined but not used [-Wunused-label]
+ loop_s131: for(i = 0; i <= 31998; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s132’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5632:1: warning: label ‘loop_s132’ defined but not used [-Wunused-label]
+ loop_s132: for(i = 1; i <= 255; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s141’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5662:1: warning: label ‘loop_s141’ defined but not used [-Wunused-label]
+ loop_s141: for(j = i; j <= 255; j += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s151’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5693:1: warning: label ‘loop_s151’ defined but not used [-Wunused-label]
+ loop_s151: for(nl = 0; nl <= 499999; nl += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s152’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5720:1: warning: label ‘loop_s152’ defined but not used [-Wunused-label]
+ loop_s152: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s161’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5747:1: warning: label ‘loop_s161’ defined but not used [-Wunused-label]
+ loop_s161: for(i = 0; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1161’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5777:1: warning: label ‘loop_s1161’ defined but not used [-Wunused-label]
+ loop_s1161: for(i = 0; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s162’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5807:1: warning: label ‘loop_s162’ defined but not used [-Wunused-label]
+ loop_s162: for(i = 0; i <= 31998; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s171’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5833:1: warning: label ‘loop_s171’ defined but not used [-Wunused-label]
+ loop_s171: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s172’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5860:1: warning: label ‘loop_s172’ defined but not used [-Wunused-label]
+ loop_s172: for(nl = 0; nl <= 99999; nl += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s173’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5890:1: warning: label ‘loop_s173’ defined but not used [-Wunused-label]
+ loop_s173: for(i = 0; i <= 15999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s174’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5916:1: warning: label ‘loop_s174’ defined but not used [-Wunused-label]
+ loop_s174: for(i = 0; i <= M-1; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s175’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5939:1: warning: label ‘loop_s175’ defined but not used [-Wunused-label]
+ loop_s175: for(nl = 0; nl <= 99999; nl += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s176’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5972:1: warning: label ‘loop_s176’ defined but not used [-Wunused-label]
+ loop_s176: for(i = 0; i <= m-1; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s211’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:5997:1: warning: label ‘loop_s211’ defined but not used [-Wunused-label]
+ loop_s211: for(i = 1; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s212’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6023:1: warning: label ‘loop_s212’ defined but not used [-Wunused-label]
+ loop_s212: for(i = 0; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1213’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6049:1: warning: label ‘loop_s1213’ defined but not used [-Wunused-label]
+ loop_s1213: for(i = 1; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s221’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6075:1: warning: label ‘loop_s221’ defined but not used [-Wunused-label]
+ loop_s221: for(i = 1; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1221’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6100:1: warning: label ‘loop_s1221’ defined but not used [-Wunused-label]
+ loop_s1221: for(i = 4; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s222’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6124:1: warning: label ‘loop_s222’ defined but not used [-Wunused-label]
+ loop_s222: for(i = 1; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s231’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6152:1: warning: label ‘loop_s231’ defined but not used [-Wunused-label]
+ loop_s231: for(j = 1; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s232’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6179:1: warning: label ‘loop_s232’ defined but not used [-Wunused-label]
+ loop_s232: for(i = 1; i <= j; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1232’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6206:1: warning: label ‘loop_s1232’ defined but not used [-Wunused-label]
+ loop_s1232: for(i = j; i <= 255; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s233’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6239:1: warning: label ‘loop_s233’ defined but not used [-Wunused-label]
+ loop_s233: for(j = 1; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s2233’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6273:1: warning: label ‘loop_s2233’ defined but not used [-Wunused-label]
+ loop_s2233: for(j = 1; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s235’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6303:1: warning: label ‘loop_s235’ defined but not used [-Wunused-label]
+ loop_s235: for(j = 1; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s241’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6329:1: warning: label ‘loop_s241’ defined but not used [-Wunused-label]
+ loop_s241: for(i = 0; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s242’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6361:1: warning: label ‘loop_s242’ defined but not used [-Wunused-label]
+ loop_s242: for(i = 1; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s243’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6385:1: warning: label ‘loop_s243’ defined but not used [-Wunused-label]
+ loop_s243: for(i = 0; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s244’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6412:1: warning: label ‘loop_s244’ defined but not used [-Wunused-label]
+ loop_s244: for(i = 0; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1244’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6439:1: warning: label ‘loop_s1244’ defined but not used [-Wunused-label]
+ loop_s1244: for(i = 0; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s2244’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6465:1: warning: label ‘loop_s2244’ defined but not used [-Wunused-label]
+ loop_s2244: for(i = 0; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s251’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6492:1: warning: label ‘loop_s251’ defined but not used [-Wunused-label]
+ loop_s251: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1251’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6519:1: warning: label ‘loop_s1251’ defined but not used [-Wunused-label]
+ loop_s1251: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s2251’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6547:1: warning: label ‘loop_s2251’ defined but not used [-Wunused-label]
+ loop_s2251: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s3251’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6574:1: warning: label ‘loop_s3251’ defined but not used [-Wunused-label]
+ loop_s3251: for(i = 0; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s252’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6603:1: warning: label ‘loop_s252’ defined but not used [-Wunused-label]
+ loop_s252: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s253’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6631:1: warning: label ‘loop_s253’ defined but not used [-Wunused-label]
+ loop_s253: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s254’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6661:1: warning: label ‘loop_s254’ defined but not used [-Wunused-label]
+ loop_s254: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s255’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6690:1: warning: label ‘loop_s255’ defined but not used [-Wunused-label]
+ loop_s255: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s256’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6719:1: warning: label ‘loop_s256’ defined but not used [-Wunused-label]
+ loop_s256: for(j = 1; j <= 255; j += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s257’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6748:1: warning: label ‘loop_s257’ defined but not used [-Wunused-label]
+ loop_s257: for(j = 0; j <= 255; j += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s258’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6777:1: warning: label ‘loop_s258’ defined but not used [-Wunused-label]
+ loop_s258: for(i = 0; i <= 255; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s261’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6806:1: warning: label ‘loop_s261’ defined but not used [-Wunused-label]
+ loop_s261: for(i = 1; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s271’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6834:1: warning: label ‘loop_s271’ defined but not used [-Wunused-label]
+ loop_s271: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s272’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6861:1: warning: label ‘loop_s272’ defined but not used [-Wunused-label]
+ loop_s272: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s273’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6888:1: warning: label ‘loop_s273’ defined but not used [-Wunused-label]
+ loop_s273: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s274’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6916:1: warning: label ‘loop_s274’ defined but not used [-Wunused-label]
+ loop_s274: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s275’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6948:1: warning: label ‘loop_s275’ defined but not used [-Wunused-label]
+ loop_s275: for(j = 1; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s2275’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:6975:1: warning: label ‘loop_s2275’ defined but not used [-Wunused-label]
+ loop_s2275: for(j = 0; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s276’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7003:1: warning: label ‘loop_s276’ defined but not used [-Wunused-label]
+ loop_s276: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s277’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7030:1: warning: label ‘loop_s277’ defined but not used [-Wunused-label]
+ loop_s277: for(i = 0; i <= 31998; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s278’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7059:1: warning: label ‘loop_s278’ defined but not used [-Wunused-label]
+ loop_s278: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s279’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7089:1: warning: label ‘loop_s279’ defined but not used [-Wunused-label]
+ loop_s279: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1279’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7121:1: warning: label ‘loop_s1279’ defined but not used [-Wunused-label]
+ loop_s1279: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s2710’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7149:1: warning: label ‘loop_s2710’ defined but not used [-Wunused-label]
+ loop_s2710: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s2711’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7186:1: warning: label ‘loop_s2711’ defined but not used [-Wunused-label]
+ loop_s2711: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s2712’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7211:1: warning: label ‘loop_s2712’ defined but not used [-Wunused-label]
+ loop_s2712: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s281’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7238:1: warning: label ‘loop_s281’ defined but not used [-Wunused-label]
+ loop_s281: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1281’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7267:1: warning: label ‘loop_s1281’ defined but not used [-Wunused-label]
+ loop_s1281: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s291’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7296:1: warning: label ‘loop_s291’ defined but not used [-Wunused-label]
+ loop_s291: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s292’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7326:1: warning: label ‘loop_s292’ defined but not used [-Wunused-label]
+ loop_s292: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s293’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7353:1: warning: label ‘loop_s293’ defined but not used [-Wunused-label]
+ loop_s293: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s2101’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7378:1: warning: label ‘loop_s2101’ defined but not used [-Wunused-label]
+ loop_s2101: for(i = 0; i <= 255; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s2102’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7405:1: warning: label ‘loop_s2102’ defined but not used [-Wunused-label]
+ loop_s2102: for(j = 0; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s2111’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7433:1: warning: label ‘loop_s2111’ defined but not used [-Wunused-label]
+ loop_s2111: for(i = 1; i <= 255; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s311’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7460:1: warning: label ‘loop_s311’ defined but not used [-Wunused-label]
+ loop_s311: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s31111’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7492:1: warning: label ‘loop_s31111’ defined but not used [-Wunused-label]
+ loop_s31111: for(nl = 0; nl <= 199999999; nl += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s312’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7525:1: warning: label ‘loop_s312’ defined but not used [-Wunused-label]
+ loop_s312: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s313’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7551:1: warning: label ‘loop_s313’ defined but not used [-Wunused-label]
+ loop_s313: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s314’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7577:1: warning: label ‘loop_s314’ defined but not used [-Wunused-label]
+ loop_s314: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s315’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7612:1: warning: label ‘loop_s315’ defined but not used [-Wunused-label]
+ loop_s315: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s316’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7642:1: warning: label ‘loop_s316’ defined but not used [-Wunused-label]
+ loop_s316: for(i = 1; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s317’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7671:1: warning: label ‘loop_s317’ defined but not used [-Wunused-label]
+ loop_s317: for(i = 0; i <= 15999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s318’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7703:1: warning: label ‘loop_s318’ defined but not used [-Wunused-label]
+ loop_s318: for(i = 1; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s319’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7735:1: warning: label ‘loop_s319’ defined but not used [-Wunused-label]
+ loop_s319: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s3110’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7771:1: warning: label ‘loop_s3110’ defined but not used [-Wunused-label]
+ loop_s3110: for(j = 0; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s13110’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7808:1: warning: label ‘loop_s13110’ defined but not used [-Wunused-label]
+ loop_s13110: for(j = 0; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s3111’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7840:1: warning: label ‘loop_s3111’ defined but not used [-Wunused-label]
+ loop_s3111: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s3112’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7867:1: warning: label ‘loop_s3112’ defined but not used [-Wunused-label]
+ loop_s3112: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s3113’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7895:1: warning: label ‘loop_s3113’ defined but not used [-Wunused-label]
+ loop_s3113: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s321’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7920:1: warning: label ‘loop_s321’ defined but not used [-Wunused-label]
+ loop_s321: for(i = 1; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s322’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7944:1: warning: label ‘loop_s322’ defined but not used [-Wunused-label]
+ loop_s322: for(i = 2; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s323’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7968:1: warning: label ‘loop_s323’ defined but not used [-Wunused-label]
+ loop_s323: for(i = 1; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s331’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:7997:1: warning: label ‘loop_s331’ defined but not used [-Wunused-label]
+ loop_s331: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s332’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8025:1: warning: label ‘loop_s332’ defined but not used [-Wunused-label]
+ loop_s332: for(nl = 0; nl <= 99999; nl += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s341’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8064:1: warning: label ‘loop_s341’ defined but not used [-Wunused-label]
+ loop_s341: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s342’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8094:1: warning: label ‘loop_s342’ defined but not used [-Wunused-label]
+ loop_s342: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s343’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8126:1: warning: label ‘loop_s343’ defined but not used [-Wunused-label]
+ loop_s343: for(j = 0; j <= 255; j += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s351’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8155:1: warning: label ‘loop_s351’ defined but not used [-Wunused-label]
+ loop_s351: for(i = 0; i <= 31999; i += 5) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1351’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8186:1: warning: label ‘loop_s1351’ defined but not used [-Wunused-label]
+ loop_s1351: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s352’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8216:1: warning: label ‘loop_s352’ defined but not used [-Wunused-label]
+ loop_s352: for(i = 0; i <= 31999; i += 5)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s353’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8244:1: warning: label ‘loop_s353’ defined but not used [-Wunused-label]
+ loop_s353: for(i = 0; i <= 31999; i += 5) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s421’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8276:1: warning: label ‘loop_s421’ defined but not used [-Wunused-label]
+ loop_s421: for(i = 0; i <= 31998; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s1421’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8302:1: warning: label ‘loop_s1421’ defined but not used [-Wunused-label]
+ loop_s1421: for(i = 0; i <= 15999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s422’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8329:1: warning: label ‘loop_s422’ defined but not used [-Wunused-label]
+ loop_s422: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s423’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8357:1: warning: label ‘loop_s423’ defined but not used [-Wunused-label]
+ loop_s423: for(i = 0; i <= 31998; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s424’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8386:1: warning: label ‘loop_s424’ defined but not used [-Wunused-label]
+ loop_s424: for(i = 0; i <= 31998; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s431’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8414:1: warning: label ‘loop_s431’ defined but not used [-Wunused-label]
+ loop_s431: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s441’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8438:1: warning: label ‘loop_s441’ defined but not used [-Wunused-label]
+ loop_s441: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s442’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8482:1: warning: label ‘L20’ defined but not used [-Wunused-label]
+ L20:               a[i] += c[i]*c[i];
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8479:1: warning: label ‘L30’ defined but not used [-Wunused-label]
+ L30:               a[i] += d[i]*d[i];
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8476:1: warning: label ‘L40’ defined but not used [-Wunused-label]
+ L40:               a[i] += e[i]*e[i];
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8472:1: warning: label ‘_break_3’ defined but not used [-Wunused-label]
+ _break_3:               ;
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8467:1: warning: label ‘loop_s442’ defined but not used [-Wunused-label]
+ loop_s442: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s443’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8512:1: warning: label ‘L30’ defined but not used [-Wunused-label]
+ L30:               a[i] += b[i]*b[i];
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8510:1: warning: label ‘loop_s443’ defined but not used [-Wunused-label]
+ loop_s443: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s451’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8539:1: warning: label ‘loop_s451’ defined but not used [-Wunused-label]
+ loop_s451: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s452’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8563:1: warning: label ‘loop_s452’ defined but not used [-Wunused-label]
+ loop_s452: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s453’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8589:1: warning: label ‘loop_s453’ defined but not used [-Wunused-label]
+ loop_s453: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s471’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8621:1: warning: label ‘loop_s471’ defined but not used [-Wunused-label]
+ loop_s471: for(i = 0; i <= m-1; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s481’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8648:1: warning: label ‘loop_s481’ defined but not used [-Wunused-label]
+ loop_s481: for(i = 0; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s482’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8672:1: warning: label ‘loop_s482’ defined but not used [-Wunused-label]
+ loop_s482: for(nl = 0; nl <= 99999; nl += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s491’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8708:1: warning: label ‘loop_s491’ defined but not used [-Wunused-label]
+ loop_s491: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s4112’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8740:1: warning: label ‘loop_s4112’ defined but not used [-Wunused-label]
+ loop_s4112: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s4113’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8767:1: warning: label ‘loop_s4113’ defined but not used [-Wunused-label]
+ loop_s4113: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s4114’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8800:1: warning: label ‘loop_s4114’ defined but not used [-Wunused-label]
+ loop_s4114: for(i = n1-1; i <= 31999; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s4115’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8832:1: warning: label ‘loop_s4115’ defined but not used [-Wunused-label]
+ loop_s4115: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s4116’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8869:1: warning: label ‘loop_s4116’ defined but not used [-Wunused-label]
+ loop_s4116: for(i = 0; i <= 254; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s4117’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8895:1: warning: label ‘loop_s4117’ defined but not used [-Wunused-label]
+ loop_s4117: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘s4121’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8923:1: warning: label ‘loop_s4121’ defined but not used [-Wunused-label]
+ loop_s4121: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘va’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8947:1: warning: label ‘loop_va’ defined but not used [-Wunused-label]
+ loop_va: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘vag’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:8974:1: warning: label ‘loop_vag’ defined but not used [-Wunused-label]
+ loop_vag: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘vas’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:9001:1: warning: label ‘loop_vas’ defined but not used [-Wunused-label]
+ loop_vas: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘vif’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:9025:1: warning: label ‘loop_vif’ defined but not used [-Wunused-label]
+ loop_vif: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘vpv’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:9050:1: warning: label ‘loop_vpv’ defined but not used [-Wunused-label]
+ loop_vpv: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘vtv’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:9074:1: warning: label ‘loop_vtv’ defined but not used [-Wunused-label]
+ loop_vtv: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘vpvtv’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:9098:1: warning: label ‘loop_vpvtv’ defined but not used [-Wunused-label]
+ loop_vpvtv: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘vpvts’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:9124:1: warning: label ‘loop_vpvts’ defined but not used [-Wunused-label]
+ loop_vpvts: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘vpvpv’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:9148:1: warning: label ‘loop_vpvpv’ defined but not used [-Wunused-label]
+ loop_vpvpv: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘vtvtv’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:9172:1: warning: label ‘loop_vtvtv’ defined but not used [-Wunused-label]
+ loop_vtvtv: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘vsumr’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:9198:1: warning: label ‘loop_vsumr’ defined but not used [-Wunused-label]
+ loop_vsumr: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘vdotr’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:9224:1: warning: label ‘loop_vdotr’ defined but not used [-Wunused-label]
+ loop_vdotr: for(i = 0; i <= 31999; i += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: In function ‘vbor’:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:9250:1: warning: label ‘loop_vbor’ defined but not used [-Wunused-label]
+ loop_vbor: for(i = 0; i <= 255; i += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c: At top level:
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:2530:21: warning: ‘__huge_val’ defined but not used [-Wunused-variable]
+ static __huge_val_t __huge_val = {{0, 0, 0, 0, 0, 0, 0xf0, 0x7f}};
+                     ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:2560:22: warning: ‘__huge_valf’ defined but not used [-Wunused-variable]
+ static __huge_valf_t __huge_valf = {{0, 0, 0x80, 0x7f}};
+                      ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:2582:3: warning: ‘__huge_vall’ defined but not used [-Wunused-variable]
+ } __huge_vall = {{0, 0, 0, 0, 0, 0, 0, 0x80, 0xff, 0x7f, 0, 0}};
+   ^
+/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c:2653:3: warning: ‘__qnan_union’ defined but not used [-Wunused-variable]
+ } __qnan_union = {{0, 0, 0xc0, 0x7f}};
+   ^
+Preprocessing file /home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c
+Splitting file    ./recurse.database/Tmp/tsvc_no_main.cpp_processed.c
+  Module         vbor
+  Module         vdotr
+  Module         vsumr
+  Module         vtvtv
+  Module         vpvpv
+  Module         vpvts
+  Module         vpvtv
+  Module         vtv
+  Module         vpv
+  Module         vif
+  Module         vas
+  Module         vag
+  Module         va
+  Module         s4121
+  Module         f
+  Module         s4117
+  Module         s4116
+  Module         s4115
+  Module         s4114
+  Module         s4113
+  Module         s4112
+  Module         s491
+  Module         s482
+  Module         s481
+  Module         s471
+  Module         s471s
+  Module         s453
+  Module         s452
+  Module         s451
+  Module         s443
+  Module         s442
+  Module         s441
+  Module         s431
+  Module         s424
+  Module         s423
+  Module         s422
+  Module         s1421
+  Module         s421
+  Module         s353
+  Module         s352
+  Module         s1351
+  Module         s351
+  Module         s343
+  Module         s342
+  Module         s341
+  Module         s332
+  Module         s331
+  Module         s323
+  Module         s322
+  Module         s321
+  Module         s3113
+  Module         s3112
+  Module         s3111
+  Module         s13110
+  Module         s3110
+  Module         s319
+  Module         s318
+  Module         s317
+  Module         s316
+  Module         s315
+  Module         s314
+  Module         s313
+  Module         s312
+  Module         s31111
+  Module         test
+  Module         s311
+  Module         s2111
+  Module         s2102
+  Module         s2101
+  Module         s293
+  Module         s292
+  Module         s291
+  Module         s1281
+  Module         s281
+  Module         s2712
+  Module         s2711
+  Module         s2710
+  Module         s1279
+  Module         s279
+  Module         s278
+  Module         s277
+  Module         s276
+  Module         s2275
+  Module         s275
+  Module         s274
+  Module         s273
+  Module         s272
+  Module         s271
+  Module         s261
+  Module         s258
+  Module         s257
+  Module         s256
+  Module         s255
+  Module         s254
+  Module         s253
+  Module         s252
+  Module         s3251
+  Module         s2251
+  Module         s1251
+  Module         s251
+  Module         s2244
+  Module         s1244
+  Module         s244
+  Module         s243
+  Module         s242
+  Module         s241
+  Module         s235
+  Module         s2233
+  Module         s233
+  Module         s1232
+  Module         s232
+  Module         s231
+  Module         s222
+  Module         s1221
+  Module         s221
+  Module         s1213
+  Module         s212
+  Module         s211
+  Module         s176
+  Module         s175
+  Module         s174
+  Module         s173
+  Module         s172
+  Module         s171
+  Module         s162
+  Module         s1161
+  Module         s161
+  Module         s152
+  Module         s152s
+  Module         s151
+  Module         s151s
+  Module         s141
+  Module         s132
+  Module         s131
+  Module         s128
+  Module         s127
+  Module         s126
+  Module         s125
+  Module         s124
+  Module         s123
+  Module         s122
+  Module         s121
+  Module         s1119
+  Module         s119
+  Module         s118
+  Module         s116
+  Module         s1115
+  Module         s115
+  Module         s114
+  Module         s1113
+  Module         s113
+  Module         s1112
+  Module         s112
+  Module         s1111
+  Module         s111
+  Module         s000
+  Module         tsvc_no_main!
+Workspace recurse created and opened.
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module s235.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(tsvc_no_main!)
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4350) 
+Multiple declarations of variable "flat_2d_array".
+Source code after preprocessing:
+real_t flat_2d_array[256*256];
+Input source code, before preprocessing:
+real_t flat_2d_array[256*256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4352) 
+Multiple declarations of variable "x".
+Source code after preprocessing:
+real_t x[32000];
+Input source code, before preprocessing:
+real_t x[32000];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "a".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "b".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "c".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "d".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "e".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "aa".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "bb".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "cc".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4354) 
+Multiple declarations of variable "tt".
+Source code after preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+Input source code, before preprocessing:
+real_t a[32000], b[32000], c[32000], d[32000], e[32000], aa[256][256], bb[256][256], cc[256][256], tt[256][256];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4356) 
+Multiple declarations of variable "indx".
+Source code after preprocessing:
+int indx[32000];
+Input source code, before preprocessing:
+int indx[32000];
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4358) 
+Multiple declarations of variable "xx".
+Source code after preprocessing:
+real_t * restrict xx;
+Input source code, before preprocessing:
+real_t * restrict xx;
+
+COMPILATION_UNIT_PARSER[tsvc_no_main!] (UpdateEntity) ("/home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_no_main.c":4359) 
+Multiple declarations of variable "yy".
+Source code after preprocessing:
+real_t *yy;
+Input source code, before preprocessing:
+real_t *yy;
+
+  C_PARSER                       building   PARSED_CODE(s235)
+                                 building   CALLEES(s235)
+  CONTROLIZER                    building   CODE(s235)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(s235)
+[statement_filter] 	 IN
+
+//    loop interchanging
+//    imperfectly nested loops
+
+initialise_arrays(__func__);
+gettimeofday(&func_args->t1, (void *) 0);
+{
+   int nl;
+
+   for(nl = 0; nl <= 77999; nl += 1) {
+      {
+         int i;
+         for(i = 0; i <= 255; i += 1) {
+            a[i] += b[i]*c[i];
+            {
+               int j;
+loop_s235:
+               for(j = 1; j <= 255; j += 1)
+                  aa[j][i] = aa[j-1][i]+bb[j][i]*a[i];
+            }
+         }
+      }
+      dummy(a, b, c, d, e, aa, bb, cc, 0.);
+   }
+}
+
+gettimeofday(&func_args->t2, (void *) 0);
+return calc_checksum(__func__);
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+
+//    loop interchanging
+//    imperfectly nested loops
+
+initialise_arrays(__func__);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+gettimeofday(&func_args->t1, (void *) 0);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+int nl;
+
+for(nl = 0; nl <= 77999; nl += 1) {
+   {
+      int i;
+      for(i = 0; i <= 255; i += 1) {
+         a[i] += b[i]*c[i];
+         {
+            int j;
+loop_s235:
+            for(j = 1; j <= 255; j += 1)
+               aa[j][i] = aa[j-1][i]+bb[j][i]*a[i];
+         }
+      }
+   }
+   dummy(a, b, c, d, e, aa, bb, cc, 0.);
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int nl;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(nl = 0; nl <= 77999; nl += 1) {
+   {
+      int i;
+      for(i = 0; i <= 255; i += 1) {
+         a[i] += b[i]*c[i];
+         {
+            int j;
+loop_s235:
+            for(j = 1; j <= 255; j += 1)
+               aa[j][i] = aa[j-1][i]+bb[j][i]*a[i];
+         }
+      }
+   }
+   dummy(a, b, c, d, e, aa, bb, cc, 0.);
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+{
+   int i;
+   for(i = 0; i <= 255; i += 1) {
+      a[i] += b[i]*c[i];
+      {
+         int j;
+loop_s235:
+         for(j = 1; j <= 255; j += 1)
+            aa[j][i] = aa[j-1][i]+bb[j][i]*a[i];
+      }
+   }
+}
+dummy(a, b, c, d, e, aa, bb, cc, 0.);
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i;
+for(i = 0; i <= 255; i += 1) {
+   a[i] += b[i]*c[i];
+   {
+      int j;
+loop_s235:
+      for(j = 1; j <= 255; j += 1)
+         aa[j][i] = aa[j-1][i]+bb[j][i]*a[i];
+   }
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(i = 0; i <= 255; i += 1) {
+   a[i] += b[i]*c[i];
+   {
+      int j;
+loop_s235:
+      for(j = 1; j <= 255; j += 1)
+         aa[j][i] = aa[j-1][i]+bb[j][i]*a[i];
+   }
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+a[i] += b[i]*c[i];
+{
+   int j;
+loop_s235:
+   for(j = 1; j <= 255; j += 1)
+      aa[j][i] = aa[j-1][i]+bb[j][i]*a[i];
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+a[i] += b[i]*c[i];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+int j;
+loop_s235:
+for(j = 1; j <= 255; j += 1)
+   aa[j][i] = aa[j-1][i]+bb[j][i]*a[i];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int j;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_s235:
+for(j = 1; j <= 255; j += 1)
+   aa[j][i] = aa[j-1][i]+bb[j][i]*a[i];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+aa[j][i] = aa[j-1][i]+bb[j][i]*a[i];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+dummy(a, b, c, d, e, aa, bb, cc, 0.);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+gettimeofday(&func_args->t2, (void *) 0);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+return calc_checksum(__func__);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for s235.
+(tp_parse) [user error] No current module has been defined, explicitly or implictly.
+Please specify a module name as argument or check that the current workspace "recurse" contains one main module or no more than one module.
+(pips_log_end) [user error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1151) for ABORT_ON_USER_ERROR
+Aborted (core dumped)

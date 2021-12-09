@@ -1,0 +1,124 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/solvers/trisolv -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/solvers/trisolv/trisolv.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/solvers/trisolv/trisolv.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/solvers/trisolv/trisolv.c
+Splitting file    ./recurse.database/Tmp/trisolv.cpp_processed.c
+  Module         main
+  Module         kernel_trisolv
+  Module         trisolv!print_array
+  Module         trisolv!init_array
+  Module         trisolv!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_trisolv.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(trisolv!)
+  C_PARSER                       building   PARSED_CODE(kernel_trisolv)
+                                 building   CALLEES(kernel_trisolv)
+  CONTROLIZER                    building   CODE(kernel_trisolv)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_trisolv)
+[statement_filter] 	 IN
+int i, j;
+
+#pragma scop
+polybench_timer_start();
+
+for(i = 0; i <= n-1; i += 1) {
+   x[i] = b[i];
+loop_1:
+   for(j = 0; j <= i-1; j += 1)
+      x[i] -= L[i][j]*x[j];
+   x[i] = x[i]/L[i][i];
+}
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i, j;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= n-1; i += 1) {
+   x[i] = b[i];
+loop_1:
+   for(j = 0; j <= i-1; j += 1)
+      x[i] -= L[i][j]*x[j];
+   x[i] = x[i]/L[i][i];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+x[i] = b[i];
+loop_1:
+for(j = 0; j <= i-1; j += 1)
+   x[i] -= L[i][j]*x[j];
+x[i] = x[i]/L[i][i];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+x[i] = b[i];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_1:
+for(j = 0; j <= i-1; j += 1)
+   x[i] -= L[i][j]*x[j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+x[i] -= L[i][j]*x[j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+x[i] = x[i]/L[i][i];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_trisolv.
+Request: build phase/rule UNSPLIT for module main.
+  PRINT_CODE                     building   PRINTED_FILE(kernel_trisolv)
+PRINT_CODE[kernel_trisolv] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+PRINT_CODE[kernel_trisolv] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

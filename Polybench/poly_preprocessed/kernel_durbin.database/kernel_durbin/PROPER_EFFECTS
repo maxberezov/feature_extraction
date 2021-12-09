@@ -1,0 +1,28 @@
+152
+25
+17
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:0`alpha" ()))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`beta" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`sum" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`k" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:r" (T45 T76 0 T68 R77 "kernel_durbin:0`k" ()))N))))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:n" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))))4
+0 T143 ())12
+0 T143 ())7
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:y" (T45 T76 2 T33 R77 "TOP-LEVEL:0" ()))N))))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:r" (T45 T76 2 T33 R77 "TOP-LEVEL:0" ()))N))))T134 0 T133 0 U))T135 2 U)T140 2 U))))19
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:0`z" (T45 T76 0 T68 R77 "kernel_durbin:0`i" ()))T56 0 E27 (1 kernel_durbin:0`i ))))))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:y" (T45 T76 2 T33 R77 "TOP-LEVEL:-" (T45 T76 2 T33 R77 "TOP-LEVEL:-" (T45 T76 0 T68 R77 "kernel_durbin:0`k" ()))N)T45 T76 0 T68 R77 "kernel_durbin:0`i" ()))N))))N)T45 T76 2 T33 R77 "TOP-LEVEL:1" ()))N))))T56 0 E27 (-1 . 1 kernel_durbin:0`k -1 kernel_durbin:0`i ))))))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`alpha" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`i" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:y" (T45 T76 0 T68 R77 "kernel_durbin:0`i" ()))T56 0 E27 (1 kernel_durbin:0`i ))))))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`k" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:n" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))))5
+0 T143 ())13
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:0`beta" ()))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`beta" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`alpha" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:n" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))))2
+0 T143 ())6
+0 T143 ())14
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:0`sum" ()))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:n" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))))11
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:0`k" ()))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:n" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))))24
+0 T143 ())9
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:0`alpha" ()))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:r" (T45 T76 2 T33 R77 "TOP-LEVEL:0" ()))N))))T134 0 T133 0 U))T135 2 U)T140 2 U))))18
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:0`i" ()))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`k" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:n" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))))25
+0 T143 ())8
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:0`beta" ()))T134 1 T133 0 U))T135 2 U)T140 2 U))))10
+0 T143 ())1
+0 T143 ())21
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:y" (T45 T76 0 T68 R77 "kernel_durbin:0`i" ()))T56 0 E27 (1 kernel_durbin:0`i ))))))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`i" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`z" (T45 T76 0 T68 R77 "kernel_durbin:0`i" ()))T56 0 E27 (1 kernel_durbin:0`i ))))))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`k" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:n" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))))15
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:0`i" ()))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`k" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:n" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))))20
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:0`i" ()))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`k" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:n" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))))16
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:0`sum" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`sum" ()))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:y" (T45 T76 0 T68 R77 "kernel_durbin:0`i" ()))T56 0 E27 (1 kernel_durbin:0`i ))))))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`i" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:r" (T45 T76 2 T33 R77 "TOP-LEVEL:-" (T45 T76 2 T33 R77 "TOP-LEVEL:-" (T45 T76 0 T68 R77 "kernel_durbin:0`k" ()))N)T45 T76 0 T68 R77 "kernel_durbin:0`i" ()))N))))N)T45 T76 2 T33 R77 "TOP-LEVEL:1" ()))N))))N))))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`k" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:n" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))))3
+0 T143 ())23
+0 T143 ())22
+0 T143 (T141 T137 0 T68 R77 "kernel_durbin:0`k" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:y" (T45 T76 0 T68 R77 "kernel_durbin:0`k" ()))T56 0 E27 (1 kernel_durbin:0`k ))))))T134 1 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:0`alpha" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))T141 T137 0 T68 R77 "kernel_durbin:n" ()))T134 0 T133 0 U))T135 2 U)T140 2 U))))

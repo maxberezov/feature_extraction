@@ -1,0 +1,430 @@
+delete tsvc
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty MEMORY_EFFECTS_ONLY FALSE
+create  tsvc  /home/maksim/PycharmProjects/unrolling/TSVC/Benchmark/src/tsvc_new.c
+apply UNROLL[s000]
+loop_s000
+14
+apply UNROLL[s111]
+loop_s111
+14
+apply UNROLL[s1111]
+loop_s1111
+14
+apply UNROLL[s112]
+loop_s112
+14
+apply UNROLL[s1112]
+loop_s1112
+14
+apply UNROLL[s113]
+loop_s113
+14
+apply UNROLL[s1113]
+loop_s1113
+14
+apply UNROLL[s114]
+loop_s114
+14
+apply UNROLL[s115]
+loop_s115
+14
+apply UNROLL[s1115]
+loop_s1115
+14
+apply UNROLL[s116]
+loop_s116
+14
+apply UNROLL[s118]
+loop_s118
+14
+apply UNROLL[s119]
+loop_s119
+14
+apply UNROLL[s1119]
+loop_s1119
+14
+apply UNROLL[s121]
+loop_s121
+14
+apply UNROLL[s122]
+loop_s122
+14
+apply UNROLL[s123]
+loop_s123
+14
+apply UNROLL[s124]
+loop_s124
+14
+apply UNROLL[s125]
+loop_s125
+14
+apply UNROLL[s126]
+loop_s126
+14
+apply UNROLL[s127]
+loop_s127
+14
+apply UNROLL[s128]
+loop_s128
+14
+apply UNROLL[s131]
+loop_s131
+14
+apply UNROLL[s132]
+loop_s132
+14
+apply UNROLL[s141]
+loop_s141
+14
+apply UNROLL[s151]
+loop_s151
+14
+apply UNROLL[s152]
+loop_s152
+14
+apply UNROLL[s162]
+loop_s162
+14
+apply UNROLL[s171]
+loop_s171
+14
+apply UNROLL[s172]
+loop_s172
+14
+apply UNROLL[s173]
+loop_s173
+14
+apply UNROLL[s174]
+loop_s174
+14
+apply UNROLL[s175]
+loop_s175
+14
+apply UNROLL[s176]
+loop_s176
+14
+apply UNROLL[s211]
+loop_s211
+14
+apply UNROLL[s212]
+loop_s212
+14
+apply UNROLL[s1213]
+loop_s1213
+14
+apply UNROLL[s221]
+loop_s221
+14
+apply UNROLL[s1221]
+loop_s1221
+14
+apply UNROLL[s222]
+loop_s222
+14
+apply UNROLL[s231]
+loop_s231
+14
+apply UNROLL[s232]
+loop_s232
+14
+apply UNROLL[s1232]
+loop_s1232
+14
+apply UNROLL[s233]
+loop_s233
+14
+apply UNROLL[s2233]
+loop_s2233
+14
+apply UNROLL[s235]
+loop_s235
+14
+apply UNROLL[s241]
+loop_s241
+14
+apply UNROLL[s242]
+loop_s242
+14
+apply UNROLL[s243]
+loop_s243
+14
+apply UNROLL[s244]
+loop_s244
+14
+apply UNROLL[s1244]
+loop_s1244
+14
+apply UNROLL[s2244]
+loop_s2244
+14
+apply UNROLL[s251]
+loop_s251
+14
+apply UNROLL[s1251]
+loop_s1251
+14
+apply UNROLL[s2251]
+loop_s2251
+14
+apply UNROLL[s3251]
+loop_s3251
+14
+apply UNROLL[s252]
+loop_s252
+14
+apply UNROLL[s253]
+loop_s253
+14
+apply UNROLL[s254]
+loop_s254
+14
+apply UNROLL[s255]
+loop_s255
+14
+apply UNROLL[s256]
+loop_s256
+14
+apply UNROLL[s257]
+loop_s257
+14
+apply UNROLL[s258]
+loop_s258
+14
+apply UNROLL[s261]
+loop_s261
+14
+apply UNROLL[s271]
+loop_s271
+14
+apply UNROLL[s272]
+loop_s272
+14
+apply UNROLL[s273]
+loop_s273
+14
+apply UNROLL[s274]
+loop_s274
+14
+apply UNROLL[s275]
+loop_s275
+14
+apply UNROLL[s2275]
+loop_s2275
+14
+apply UNROLL[s276]
+loop_s276
+14
+apply UNROLL[s1279]
+loop_s1279
+14
+apply UNROLL[s2710]
+loop_s2710
+14
+apply UNROLL[s2711]
+loop_s2711
+14
+apply UNROLL[s2712]
+loop_s2712
+14
+apply UNROLL[s281]
+loop_s281
+14
+apply UNROLL[s1281]
+loop_s1281
+14
+apply UNROLL[s291]
+loop_s291
+14
+apply UNROLL[s292]
+loop_s292
+14
+apply UNROLL[s293]
+loop_s293
+14
+apply UNROLL[s2101]
+loop_s2101
+14
+apply UNROLL[s2102]
+loop_s2102
+14
+apply UNROLL[s2111]
+loop_s2111
+14
+apply UNROLL[s311]
+loop_s311
+14
+apply UNROLL[s31111]
+loop_s31111
+14
+apply UNROLL[s312]
+loop_s312
+14
+apply UNROLL[s313]
+loop_s313
+14
+apply UNROLL[s314]
+loop_s314
+14
+apply UNROLL[s315]
+loop_s315
+14
+apply UNROLL[s316]
+loop_s316
+14
+apply UNROLL[s317]
+loop_s317
+14
+apply UNROLL[s319]
+loop_s319
+14
+apply UNROLL[s3110]
+loop_s3110
+14
+apply UNROLL[s13110]
+loop_s13110
+14
+apply UNROLL[s3111]
+loop_s3111
+14
+apply UNROLL[s3112]
+loop_s3112
+14
+apply UNROLL[s3113]
+loop_s3113
+14
+apply UNROLL[s321]
+loop_s321
+14
+apply UNROLL[s322]
+loop_s322
+14
+apply UNROLL[s323]
+loop_s323
+14
+apply UNROLL[s331]
+loop_s331
+14
+apply UNROLL[s341]
+loop_s341
+14
+apply UNROLL[s342]
+loop_s342
+14
+apply UNROLL[s343]
+loop_s343
+14
+apply UNROLL[s351]
+loop_s351
+14
+apply UNROLL[s1351]
+loop_s1351
+14
+apply UNROLL[s352]
+loop_s352
+14
+apply UNROLL[s353]
+loop_s353
+14
+apply UNROLL[s421]
+loop_s421
+14
+apply UNROLL[s1421]
+loop_s1421
+14
+apply UNROLL[s422]
+loop_s422
+14
+apply UNROLL[s423]
+loop_s423
+14
+apply UNROLL[s424]
+loop_s424
+14
+apply UNROLL[s431]
+loop_s431
+14
+apply UNROLL[s441]
+loop_s441
+14
+apply UNROLL[s451]
+loop_s451
+14
+apply UNROLL[s452]
+loop_s452
+14
+apply UNROLL[s453]
+loop_s453
+14
+apply UNROLL[s471]
+loop_s471
+14
+apply UNROLL[s481]
+loop_s481
+14
+apply UNROLL[s491]
+loop_s491
+14
+apply UNROLL[s4112]
+loop_s4112
+14
+apply UNROLL[s4113]
+loop_s4113
+14
+apply UNROLL[s4114]
+loop_s4114
+14
+apply UNROLL[s4115]
+loop_s4115
+14
+apply UNROLL[s4116]
+loop_s4116
+14
+apply UNROLL[s4117]
+loop_s4117
+14
+apply UNROLL[s4121]
+loop_s4121
+14
+apply UNROLL[va]
+loop_va
+14
+apply UNROLL[vag]
+loop_vag
+14
+apply UNROLL[vas]
+loop_vas
+14
+apply UNROLL[vif]
+loop_vif
+14
+apply UNROLL[vpv]
+loop_vpv
+14
+apply UNROLL[vtv]
+loop_vtv
+14
+apply UNROLL[vpvtv]
+loop_vpvtv
+14
+apply UNROLL[vpvts]
+loop_vpvts
+14
+apply UNROLL[vpvpv]
+loop_vpvpv
+14
+apply UNROLL[vtvtv]
+loop_vtvtv
+14
+apply UNROLL[vsumr]
+loop_vsumr
+14
+apply UNROLL[vdotr]
+loop_vdotr
+14
+apply UNROLL[vbor]
+loop_vbor
+14
+apply UNSPLIT
+close
+quit

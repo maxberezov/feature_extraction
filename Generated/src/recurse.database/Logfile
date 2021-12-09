@@ -1,0 +1,90 @@
+Registering file /home/maksim/PycharmProjects/unrolling/Generated/merged.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Generated/merged.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Generated/merged.c
+Splitting file    ./recurse.database/Tmp/merged.cpp_processed.c
+  Module         main
+  Module         kern_1587748998175907
+  Module         kern_1587749008762926
+  Module         kern_1587749000536372
+  Module         kern_1587749006214207
+  Module         kern_1587749011642694
+  Module         kern_1587749007896029
+  Module         kern_1587749000172829
+  Module         kern_1587749013927294
+  Module         kern_1587748998860388
+  Module         kern_1587748998006003
+  Module         kern_1587748998345859
+  Module         kern_1587749010590095
+  Module         kern_1587749014640864
+  Module         kern_1587749015322232
+  Module         kern_1587749006892638
+  Module         kern_1587749009481953
+  Module         kern_1587749015151781
+  Module         kern_1587749000710404
+  Module         kern_1587749001752524
+  Module         kern_158774900432248
+  Module         kern_1587749004114872
+  Module         kern_1587749000884613
+  Module         kern_1587749001052281
+  Module         kern_1587749009308153
+  Module         kern_1587749007729511
+  Module         kern_1587749007563882
+  Module         kern_1587749015492525
+  Module         kern_1587748999028884
+  Module         kern_1587749003202385
+  Module         kern_1587749013392258
+  Module         kern_1587749003692633
+  Module         kern_1587749005241701
+  Module         kern_1587749012340606
+  Module         kern_1587749003472841
+  Module         kern_1587749014982876
+  Module         kern_1587749001918364
+  Module         kern_1587749007059508
+  Module         kern_1587749015835003
+  Module         kern_1587749008235272
+  Module         kern_158774899977151
+  Module         kern_1587749006386581
+  Module         kern_1587749001236222
+  Module         kern_1587749010766286
+  Module         kern_15877490144631
+  Module         kern_1587749013585037
+  Module         kern_1587749004858126
+  Module         kern_1587749009828687
+  Module         kern_1587749010939646
+  Module         kern_1587749009653588
+  Module         kern_1587749004483961
+  Module         kern_1587749002794248
+  Module         kern_1587749014283363
+  Module         kern_1587748998692201
+  Module         kern_1587749010388676
+  Module         kern_1587749007396552
+  Module         kern_1587749011292936
+  Module         kern_1587749008067154
+  Module         kern_1587749006722991
+  Module         kern_1587749011116815
+  Module         kern_1587749013210712
+  Module         kern_1587749005468089
+  Module         kern_1587749005689018
+  Module         kern_1587748998516653
+  Module         kern_1587749009106069
+  Module         kern_1587748999542687
+  Module         kern_1587749002369943
+  Module         kern_1587749003904691
+  Module         kern_1587749006554335
+  Module         kern_1587749011813622
+  Module         kern_1587749010176488
+  Module         merged!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kern_1587748998175907.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(merged!)
+  C_PARSER                       building   PARSED_CODE(kern_1587748998175907)
+                                 building   CALLEES(kern_1587748998175907)
+  CONTROLIZER                    building   CODE(kern_1587748998175907)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kern_1587748998175907)
+GEN_MULTI_RECURSE_EXPLORER made for kern_1587748998175907.
+Request: build phase/rule UNSPLIT for module main.
+  C_PARSER                       building   PARSED_CODE(kern_1587748998006003)
+                                 building   CALLEES(kern_1587748998006003)

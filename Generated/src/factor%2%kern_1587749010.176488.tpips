@@ -1,0 +1,10 @@
+delete generated
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty MEMORY_EFFECTS_ONLY FALSE
+create  generated  /home/maksim/PycharmProjects/data_collection_unrolling/Benchmarks/Generated_kernels/src/kern_1587749010.176488.c /home/maksim/PycharmProjects/data_collection_unrolling/Benchmarks/Generated_kernels/init_array_lib/init_dyn_array.c
+apply UNROLL[main]
+inner
+2
+apply UNSPLIT
+close
+quit

@@ -1,0 +1,180 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/kernels/doitgen -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/kernels/doitgen/doitgen.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/kernels/doitgen/doitgen.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/kernels/doitgen/doitgen.c
+Splitting file    ./recurse.database/Tmp/doitgen.cpp_processed.c
+  Module         main
+  Module         kernel_doitgen
+  Module         doitgen!print_array
+  Module         doitgen!init_array
+  Module         doitgen!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_doitgen.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(doitgen!)
+  C_PARSER                       building   PARSED_CODE(kernel_doitgen)
+                                 building   CALLEES(kernel_doitgen)
+  CONTROLIZER                    building   CODE(kernel_doitgen)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_doitgen)
+[statement_filter] 	 IN
+int r, q, p, s;
+
+#pragma scop
+polybench_timer_start();
+
+for(r = 0; r <= nr-1; r += 1)
+   for(q = 0; q <= nq-1; q += 1) {
+      for(p = 0; p <= np-1; p += 1) {
+         sum[p] = 0.0;
+         for(s = 0; s <= np-1; s += 1)
+            sum[p] += A[r][q][s]*C4[s][p];
+      }
+loop_1:
+      for(p = 0; p <= np-1; p += 1)
+         A[r][q][p] = sum[p];
+   }
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int r, q, p, s;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(r = 0; r <= nr-1; r += 1)
+   for(q = 0; q <= nq-1; q += 1) {
+      for(p = 0; p <= np-1; p += 1) {
+         sum[p] = 0.0;
+         for(s = 0; s <= np-1; s += 1)
+            sum[p] += A[r][q][s]*C4[s][p];
+      }
+loop_1:
+      for(p = 0; p <= np-1; p += 1)
+         A[r][q][p] = sum[p];
+   }
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(q = 0; q <= nq-1; q += 1) {
+   for(p = 0; p <= np-1; p += 1) {
+      sum[p] = 0.0;
+      for(s = 0; s <= np-1; s += 1)
+         sum[p] += A[r][q][s]*C4[s][p];
+   }
+loop_1:
+   for(p = 0; p <= np-1; p += 1)
+      A[r][q][p] = sum[p];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(p = 0; p <= np-1; p += 1) {
+   sum[p] = 0.0;
+   for(s = 0; s <= np-1; s += 1)
+      sum[p] += A[r][q][s]*C4[s][p];
+}
+loop_1:
+for(p = 0; p <= np-1; p += 1)
+   A[r][q][p] = sum[p];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+for(p = 0; p <= np-1; p += 1) {
+   sum[p] = 0.0;
+   for(s = 0; s <= np-1; s += 1)
+      sum[p] += A[r][q][s]*C4[s][p];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+sum[p] = 0.0;
+for(s = 0; s <= np-1; s += 1)
+   sum[p] += A[r][q][s]*C4[s][p];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+sum[p] = 0.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(s = 0; s <= np-1; s += 1)
+   sum[p] += A[r][q][s]*C4[s][p];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+sum[p] += A[r][q][s]*C4[s][p];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_1:
+for(p = 0; p <= np-1; p += 1)
+   A[r][q][p] = sum[p];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+A[r][q][p] = sum[p];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_doitgen.
+Request: build phase/rule UNSPLIT for module main.
+  CONTROLIZER                    building   CODE(doitgen!)
+CONTROLIZER[doitgen!] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+CONTROLIZER[doitgen!] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

@@ -1,0 +1,8 @@
+delete seidel_2d_baseline
+setenv PIPS_CPP_FLAGS -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/utilities -I stencils/seidel-2d -DPOLYBENCH_TIME
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty MEMORY_EFFECTS_ONLY FALSE
+create seidel_2d_baseline /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/stencils/seidel-2d/seidel-2d.c /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/utilities/polybench.c
+apply UNSPLIT
+close
+quit

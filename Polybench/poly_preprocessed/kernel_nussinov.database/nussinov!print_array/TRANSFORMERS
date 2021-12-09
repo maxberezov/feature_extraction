@@ -1,0 +1,17 @@
+15
+11
+0 T79 ()T63 E28 (()()())))2
+0 T79 ()T63 E28 (()()())))3
+0 T79 (R77 "nussinov!print_array:0`t" )T63 E28 ((1 nussinov!print_array:0`t 1 *SEMANTICS*:o#2 )( (1 nussinov!print_array:0`t ))())))4
+0 T79 ()T63 E28 (()()())))10
+0 T79 ()T63 E28 (()()())))12
+0 T79 ()T63 E28 (()()())))5
+0 T79 ()T63 E28 (()()())))1
+0 T79 ()T63 E28 ((1 nussinov!print_array:n )()())))8
+0 T79 (R77 "nussinov!print_array:0`t" )T63 E28 ((1 nussinov!print_array:0`t 1 *SEMANTICS*:o#2 )( (-1 *SEMANTICS*:o#2 -1 . 1 nussinov!print_array:0`t ))())))15
+0 T79 ()T63 E28 (()()())))7
+0 T79 (R77 "nussinov!print_array:0`j" R77 "nussinov!print_array:0`t" )T63 E28 ((1 nussinov!print_array:0`i 1 nussinov!print_array:0`j 1 nussinov!print_array:n 1 nussinov!print_array:0`t 1 *SEMANTICS*:o#2 )( (-1 nussinov!print_array:0`t 1 *SEMANTICS*:o#2 1 nussinov!print_array:0`j -1 nussinov!print_array:0`i ))( (-1 nussinov!print_array:0`t 1 *SEMANTICS*:o#2 ) (1 nussinov!print_array:0`j -1 nussinov!print_array:n 1 . )))))13
+0 T79 (R77 "nussinov!print_array:0`t" )T63 E28 ((1 nussinov!print_array:0`t 1 *SEMANTICS*:o#2 )( (-1 *SEMANTICS*:o#2 -1 . 1 nussinov!print_array:0`t ))())))14
+0 T79 ()T63 E28 (()()())))9
+0 T79 ()T63 E28 ((1 nussinov!print_array:0`t )()())))6
+0 T79 (R77 "nussinov!print_array:0`i" R77 "nussinov!print_array:0`j" R77 "nussinov!print_array:0`t" )T63 E28 ((1 nussinov!print_array:0`i 1 nussinov!print_array:0`j 1 nussinov!print_array:n 1 nussinov!print_array:0`t 1 *SEMANTICS*:o#2 )()( (-1 nussinov!print_array:0`t 1 *SEMANTICS*:o#2 ) (1 nussinov!print_array:0`i -1 nussinov!print_array:n 1 . ) (-1 nussinov!print_array:0`i )))))

@@ -1,0 +1,87 @@
+(build_real_resources) No source code for module polybench_timer_print.
+(build_real_resources) No source code for module polybench_timer_print.
+C_INITIALIZER[polybench_timer_print] (missing_file_initializer) no source file for polybench_timer_print: synthetic code is generated
+(make_required) More resources are now requested: 4 instead of 3...
+(build_real_resources) No source code for module polybench_timer_stop.
+(build_real_resources) No source code for module polybench_timer_stop.
+C_INITIALIZER[polybench_timer_stop] (missing_file_initializer) no source file for polybench_timer_stop: synthetic code is generated
+(make_required) More resources are now requested: 4 instead of 3...
+(build_real_resources) No source code for module polybench_timer_start.
+(build_real_resources) No source code for module polybench_timer_start.
+C_INITIALIZER[polybench_timer_start] (missing_file_initializer) no source file for polybench_timer_start: synthetic code is generated
+(make_required) More resources are now requested: 4 instead of 3...
+(build_real_resources) No source code for module polybench_alloc_data.
+(build_real_resources) No source code for module polybench_alloc_data.
+C_INITIALIZER[polybench_alloc_data] (missing_file_initializer) no source file for polybench_alloc_data: synthetic code is generated
+(make_required) More resources are now requested: 4 instead of 3...
+(make_required) More resources are now requested: 14 instead of 12...
+TRANSFORMERS_INTER_FULL[main] (any_user_call_site_to_transformer) line 134 
+at statement:
+
+	tmp = (double (*)[800+0][900+0]) polybench_alloc_data((800+0)*(900+0), sizeof(double));
+
+
+Integer type conversion: actual 4 and formal 18
+TRANSFORMERS_INTER_FULL[main] (any_user_call_site_to_transformer) line 134 
+at statement:
+
+	tmp = (double (*)[800+0][900+0]) polybench_alloc_data((800+0)*(900+0), sizeof(double));
+
+
+Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[main] (any_user_call_site_to_transformer) line 135 
+at statement:
+
+	A = (double (*)[800+0][1100+0]) polybench_alloc_data((800+0)*(1100+0), sizeof(double));
+
+
+Integer type conversion: actual 4 and formal 18
+TRANSFORMERS_INTER_FULL[main] (any_user_call_site_to_transformer) line 135 
+at statement:
+
+	A = (double (*)[800+0][1100+0]) polybench_alloc_data((800+0)*(1100+0), sizeof(double));
+
+
+Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[main] (any_user_call_site_to_transformer) line 136 
+at statement:
+
+	B = (double (*)[1100+0][900+0]) polybench_alloc_data((1100+0)*(900+0), sizeof(double));
+
+
+Integer type conversion: actual 4 and formal 18
+TRANSFORMERS_INTER_FULL[main] (any_user_call_site_to_transformer) line 136 
+at statement:
+
+	B = (double (*)[1100+0][900+0]) polybench_alloc_data((1100+0)*(900+0), sizeof(double));
+
+
+Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[main] (any_user_call_site_to_transformer) line 137 
+at statement:
+
+	C = (double (*)[900+0][1200+0]) polybench_alloc_data((900+0)*(1200+0), sizeof(double));
+
+
+Integer type conversion: actual 4 and formal 18
+TRANSFORMERS_INTER_FULL[main] (any_user_call_site_to_transformer) line 137 
+at statement:
+
+	C = (double (*)[900+0][1200+0]) polybench_alloc_data((900+0)*(1200+0), sizeof(double));
+
+
+Integer type conversion: actual 8 and formal 4
+TRANSFORMERS_INTER_FULL[main] (any_user_call_site_to_transformer) line 138 
+at statement:
+
+	D = (double (*)[800+0][1200+0]) polybench_alloc_data((800+0)*(1200+0), sizeof(double));
+
+
+Integer type conversion: actual 4 and formal 18
+TRANSFORMERS_INTER_FULL[main] (any_user_call_site_to_transformer) line 138 
+at statement:
+
+	D = (double (*)[800+0][1200+0]) polybench_alloc_data((800+0)*(1200+0), sizeof(double));
+
+
+Integer type conversion: actual 8 and formal 4

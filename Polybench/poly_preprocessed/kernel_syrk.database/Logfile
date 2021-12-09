@@ -1,0 +1,207 @@
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/syrk/syrk.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/syrk/syrk.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/syrk/syrk.c
+Splitting file    ./kernel_syrk.database/Tmp/syrk.cpp_processed.c
+  Module         main
+  Module         kernel_syrk
+  Module         syrk!print_array
+  Module         syrk!init_array
+  Module         syrk!
+Workspace kernel_syrk created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+setproperty PRINT_DEPENDENCE_GRAPH_USING_SRU_FORMAT TRUE
+Request: build phase/rule PRINT_WHOLE_DEPENDENCE_GRAPH for module kernel_syrk.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(syrk!)
+  C_PARSER                       building   PARSED_CODE(kernel_syrk)
+                                 building   CALLEES(kernel_syrk)
+  CONTROLIZER                    building   CODE(kernel_syrk)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_timer_print)
+                                 building   INPUT_FILE_NAME(polybench_timer_print)
+Registering synthesized file polybench_timer_print.cpp_processed.c
+Registering synthesized compilation unit polybench_timer_print!
+  C_PARSER                       building   PARSED_CODE(polybench_timer_print)
+                                 building   CALLEES(polybench_timer_print)
+  CONTROLIZER                    building   CODE(polybench_timer_print)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_print)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_print)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_print)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_timer_stop)
+                                 building   INPUT_FILE_NAME(polybench_timer_stop)
+Registering synthesized file polybench_timer_stop.cpp_processed.c
+Registering synthesized compilation unit polybench_timer_stop!
+  C_PARSER                       building   PARSED_CODE(polybench_timer_stop)
+                                 building   CALLEES(polybench_timer_stop)
+  CONTROLIZER                    building   CODE(polybench_timer_stop)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_stop)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_stop)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_stop)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_timer_start)
+                                 building   INPUT_FILE_NAME(polybench_timer_start)
+Registering synthesized file polybench_timer_start.cpp_processed.c
+Registering synthesized compilation unit polybench_timer_start!
+  C_PARSER                       building   PARSED_CODE(polybench_timer_start)
+                                 building   CALLEES(polybench_timer_start)
+  CONTROLIZER                    building   CODE(polybench_timer_start)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_start)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_start)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_start)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(kernel_syrk)
+  ATOMIC_CHAINS                  building   CHAINS(kernel_syrk)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(kernel_syrk)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(kernel_syrk)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(kernel_syrk)
+  C_PARSER                       building   PARSED_CODE(main)
+                                 building   CALLEES(main)
+  CONTROLIZER                    building   CODE(main)
+  C_PARSER                       building   PARSED_CODE(syrk!print_array)
+                                 building   CALLEES(syrk!print_array)
+  CONTROLIZER                    building   CODE(syrk!print_array)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(syrk!print_array)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(syrk!print_array)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(syrk!print_array)
+  C_PARSER                       building   PARSED_CODE(syrk!init_array)
+                                 building   CALLEES(syrk!init_array)
+  CONTROLIZER                    building   CODE(syrk!init_array)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(syrk!init_array)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(syrk!init_array)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(syrk!init_array)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_alloc_data)
+                                 building   INPUT_FILE_NAME(polybench_alloc_data)
+Registering synthesized file polybench_alloc_data.cpp_processed.c
+Registering synthesized compilation unit polybench_alloc_data!
+  C_PARSER                       building   PARSED_CODE(polybench_alloc_data)
+                                 building   CALLEES(polybench_alloc_data)
+  CONTROLIZER                    building   CODE(polybench_alloc_data)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_alloc_data)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_alloc_data)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_alloc_data)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(main)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(main)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_print)
+  CONTROLIZER                    building   CODE(polybench_timer_print!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_print!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_print!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_print!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_print!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_start)
+  CONTROLIZER                    building   CODE(polybench_timer_start!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_start!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_start!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_start!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_start!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_stop)
+  CONTROLIZER                    building   CODE(polybench_timer_stop!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_stop!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_stop!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_stop!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_stop!)
+  CONTROLIZER                    building   CODE(syrk!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(syrk!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(syrk!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(syrk!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(syrk!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(syrk!init_array)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(syrk!print_array)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_alloc_data)
+  CONTROLIZER                    building   CODE(polybench_alloc_data!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_alloc_data!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_alloc_data!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_alloc_data!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_alloc_data!)
+  PROGRAM_PRECONDITION           building   PROGRAM_PRECONDITION()
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_timer_print)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_timer_stop)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_timer_start)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(kernel_syrk)
+  CALLGRAPH                      building   CALLERS(kernel_syrk)
+                                 building   CALLERS(main)
+                                 building   CALLERS(polybench_alloc_data)
+                                 building   CALLERS(polybench_alloc_data!)
+                                 building   CALLERS(polybench_timer_print)
+                                 building   CALLERS(polybench_timer_print!)
+                                 building   CALLERS(polybench_timer_start)
+                                 building   CALLERS(polybench_timer_start!)
+                                 building   CALLERS(polybench_timer_stop)
+                                 building   CALLERS(polybench_timer_stop!)
+                                 building   CALLERS(syrk!)
+                                 building   CALLERS(syrk!init_array)
+                                 building   CALLERS(syrk!print_array)
+                                 building   HEIGHT(kernel_syrk)
+                                 building   HEIGHT(main)
+                                 building   HEIGHT(polybench_alloc_data)
+                                 building   HEIGHT(polybench_alloc_data!)
+                                 building   HEIGHT(polybench_timer_print)
+                                 building   HEIGHT(polybench_timer_print!)
+                                 building   HEIGHT(polybench_timer_start)
+                                 building   HEIGHT(polybench_timer_start!)
+                                 building   HEIGHT(polybench_timer_stop)
+                                 building   HEIGHT(polybench_timer_stop!)
+                                 building   HEIGHT(syrk!)
+                                 building   HEIGHT(syrk!init_array)
+                                 building   HEIGHT(syrk!print_array)
+                                 building   DEPTH(kernel_syrk)
+                                 building   DEPTH(main)
+                                 building   DEPTH(polybench_alloc_data)
+                                 building   DEPTH(polybench_alloc_data!)
+                                 building   DEPTH(polybench_timer_print)
+                                 building   DEPTH(polybench_timer_print!)
+                                 building   DEPTH(polybench_timer_start)
+                                 building   DEPTH(polybench_timer_start!)
+                                 building   DEPTH(polybench_timer_stop)
+                                 building   DEPTH(polybench_timer_stop!)
+                                 building   DEPTH(syrk!)
+                                 building   DEPTH(syrk!init_array)
+                                 building   DEPTH(syrk!print_array)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(syrk!print_array)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(syrk!init_array)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_alloc_data)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(main)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(kernel_syrk)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(kernel_syrk)
+  RICE_SEMANTICS_DEPENDENCE_GRAPH building   DG(kernel_syrk)
+  PRINT_WHOLE_DEPENDENCE_GRAPH   building   DG_FILE(kernel_syrk)
+PRINT_WHOLE_DEPENDENCE_GRAPH made for kernel_syrk.
+Module kernel_syrk selected
+Request: build resource DG_FILE for module kernel_syrk.
+DG_FILE made for kernel_syrk.
+Request: build phase/rule UNSPLIT for module main.
+  PRINT_CODE                     building   PRINTED_FILE(kernel_syrk)
+  PRINT_CODE                     building   PRINTED_FILE(main)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_alloc_data)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_alloc_data!)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_print)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_print!)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_start)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_start!)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_stop)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_stop!)
+  PRINT_CODE                     building   PRINTED_FILE(syrk!)
+  PRINT_CODE                     building   PRINTED_FILE(syrk!init_array)
+  PRINT_CODE                     building   PRINTED_FILE(syrk!print_array)
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for main.
+Deletion of obsolete resources:
+none destroyed.
+Closing all modules.
+  Closing module kernel_syrk.
+  Closing module main.
+  Closing module polybench_alloc_data.
+  Closing module polybench_alloc_data!.
+  Closing module polybench_timer_print.
+  Closing module polybench_timer_print!.
+  Closing module polybench_timer_start.
+  Closing module polybench_timer_start!.
+  Closing module polybench_timer_stop.
+  Closing module polybench_timer_stop!.
+  Closing module syrk!.
+  Closing module syrk!init_array.
+  Closing module syrk!print_array.
+Closing program.
+Closing workspace.
+Workspace kernel_syrk closed.

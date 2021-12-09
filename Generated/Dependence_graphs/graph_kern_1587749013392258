@@ -1,0 +1,8 @@
+10 12 W R <A[a][a][a]> - <A[a][a][a]> levels(2) 
+10 12 R W <B[a][a]> - <B[a][a]> levels(2) 
+10 13 W W <A[a][a][a]> - <A[a][a][a]> levels(2) 
+10 15 W W <A[a][a][a]> - <A[a][a][a]> levels(2) 
+12 13 W R <B[a][a]> - <B[a][a]> levels(2) 
+12 13 R W <A[a][a][a]> - <A[a][a][a]> levels(2) 
+12 15 R W <A[a][a][a]> - <A[a][a][a]> levels(2) 
+13 15 W W <A[a][a][a]> - <A[a][a][a]> levels(2) 

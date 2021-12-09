@@ -1,0 +1,9 @@
+delete recurse
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+create  recurse /home/maksim/PycharmProjects/unrolling/Generated/merged.c
+apply GEN_MULTI_RECURSE_EXPLORER[kern_1587748998175907]
+apply UNSPLIT
+close
+quit

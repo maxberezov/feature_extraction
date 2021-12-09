@@ -1,0 +1,16 @@
+! module / file
+polybench!: ./trisolv_baseline.database/Src/polybench.c
+trisolv!: ./trisolv_baseline.database/Src/trisolv.c
+polybench!rtclock: ./trisolv_baseline.database/Src/polybench.c
+polybench_flush_cache: ./trisolv_baseline.database/Src/polybench.c
+polybench_prepare_instruments: ./trisolv_baseline.database/Src/polybench.c
+polybench_timer_start: ./trisolv_baseline.database/Src/polybench.c
+polybench_timer_stop: ./trisolv_baseline.database/Src/polybench.c
+polybench_timer_print: ./trisolv_baseline.database/Src/polybench.c
+polybench!xmalloc: ./trisolv_baseline.database/Src/polybench.c
+polybench_free_data: ./trisolv_baseline.database/Src/polybench.c
+polybench_alloc_data: ./trisolv_baseline.database/Src/polybench.c
+trisolv!init_array: ./trisolv_baseline.database/Src/trisolv.c
+trisolv!print_array: ./trisolv_baseline.database/Src/trisolv.c
+trisolv!kernel_trisolv: ./trisolv_baseline.database/Src/trisolv.c
+main: ./trisolv_baseline.database/Src/trisolv.c

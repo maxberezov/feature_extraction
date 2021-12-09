@@ -1,0 +1,5 @@
+main ./graph.database/main.c
+adi!kernel_adi ./graph.database/adi!kernel_adi.c
+adi!print_array ./graph.database/adi!print_array.c
+adi!init_array ./graph.database/adi!init_array.c
+adi! ./graph.database/adi!.c

@@ -1,0 +1,200 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/fdtd-2d -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/fdtd-2d/fdtd-2d.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/fdtd-2d/fdtd-2d.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/fdtd-2d/fdtd-2d.c
+Splitting file    ./recurse.database/Tmp/fdtd-2d.cpp_processed.c
+  Module         main
+  Module         kernel_fdtd_2d
+  Module         fdtd-2d!print_array
+  Module         fdtd-2d!init_array
+  Module         fdtd-2d!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_fdtd_2d.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(fdtd-2d!)
+  C_PARSER                       building   PARSED_CODE(kernel_fdtd_2d)
+                                 building   CALLEES(kernel_fdtd_2d)
+  CONTROLIZER                    building   CODE(kernel_fdtd_2d)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_fdtd_2d)
+[statement_filter] 	 IN
+int t, i, j;
+
+#pragma scop
+for(t = 0; t <= tmax-1; t += 1) {
+   for(j = 0; j <= ny-1; j += 1)
+      ey[0][j] = _fict_[t];
+   for(i = 1; i <= nx-1; i += 1)
+      for(j = 0; j <= ny-1; j += 1)
+         ey[i][j] = ey[i][j]-0.5*(hz[i][j]-hz[i-1][j]);
+   for(i = 0; i <= nx-1; i += 1)
+      for(j = 1; j <= ny-1; j += 1)
+         ex[i][j] = ex[i][j]-0.5*(hz[i][j]-hz[i][j-1]);
+   for(i = 0; i <= nx-1-1; i += 1)
+loop_1:
+      for(j = 0; j <= ny-1-1; j += 1)
+         hz[i][j] = hz[i][j]-0.7*(ex[i][j+1]-ex[i][j]+ey[i+1][j]-ey[i][j]);
+}
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int t, i, j;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+#pragma scop
+for(t = 0; t <= tmax-1; t += 1) {
+   for(j = 0; j <= ny-1; j += 1)
+      ey[0][j] = _fict_[t];
+   for(i = 1; i <= nx-1; i += 1)
+      for(j = 0; j <= ny-1; j += 1)
+         ey[i][j] = ey[i][j]-0.5*(hz[i][j]-hz[i-1][j]);
+   for(i = 0; i <= nx-1; i += 1)
+      for(j = 1; j <= ny-1; j += 1)
+         ex[i][j] = ex[i][j]-0.5*(hz[i][j]-hz[i][j-1]);
+   for(i = 0; i <= nx-1-1; i += 1)
+loop_1:
+      for(j = 0; j <= ny-1-1; j += 1)
+         hz[i][j] = hz[i][j]-0.7*(ex[i][j+1]-ex[i][j]+ey[i+1][j]-ey[i][j]);
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 0; j <= ny-1; j += 1)
+   ey[0][j] = _fict_[t];
+for(i = 1; i <= nx-1; i += 1)
+   for(j = 0; j <= ny-1; j += 1)
+      ey[i][j] = ey[i][j]-0.5*(hz[i][j]-hz[i-1][j]);
+for(i = 0; i <= nx-1; i += 1)
+   for(j = 1; j <= ny-1; j += 1)
+      ex[i][j] = ex[i][j]-0.5*(hz[i][j]-hz[i][j-1]);
+for(i = 0; i <= nx-1-1; i += 1)
+loop_1:
+   for(j = 0; j <= ny-1-1; j += 1)
+      hz[i][j] = hz[i][j]-0.7*(ex[i][j+1]-ex[i][j]+ey[i+1][j]-ey[i][j]);
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 0; j <= ny-1; j += 1)
+   ey[0][j] = _fict_[t];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+ey[0][j] = _fict_[t];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(i = 1; i <= nx-1; i += 1)
+   for(j = 0; j <= ny-1; j += 1)
+      ey[i][j] = ey[i][j]-0.5*(hz[i][j]-hz[i-1][j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 0; j <= ny-1; j += 1)
+   ey[i][j] = ey[i][j]-0.5*(hz[i][j]-hz[i-1][j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+ey[i][j] = ey[i][j]-0.5*(hz[i][j]-hz[i-1][j]);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(i = 0; i <= nx-1; i += 1)
+   for(j = 1; j <= ny-1; j += 1)
+      ex[i][j] = ex[i][j]-0.5*(hz[i][j]-hz[i][j-1]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 1; j <= ny-1; j += 1)
+   ex[i][j] = ex[i][j]-0.5*(hz[i][j]-hz[i][j-1]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+ex[i][j] = ex[i][j]-0.5*(hz[i][j]-hz[i][j-1]);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(i = 0; i <= nx-1-1; i += 1)
+loop_1:
+   for(j = 0; j <= ny-1-1; j += 1)
+      hz[i][j] = hz[i][j]-0.7*(ex[i][j+1]-ex[i][j]+ey[i+1][j]-ey[i][j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+loop_1:
+for(j = 0; j <= ny-1-1; j += 1)
+   hz[i][j] = hz[i][j]-0.7*(ex[i][j+1]-ex[i][j]+ey[i+1][j]-ey[i][j]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+hz[i][j] = hz[i][j]-0.7*(ex[i][j+1]-ex[i][j]+ey[i+1][j]-ey[i][j]);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_fdtd_2d.
+Request: build phase/rule UNSPLIT for module main.
+  CONTROLIZER                    building   CODE(fdtd-2d!)
+CONTROLIZER[fdtd-2d!] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+CONTROLIZER[fdtd-2d!] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

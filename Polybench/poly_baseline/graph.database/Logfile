@@ -1,0 +1,12 @@
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/linear-algebra/kernels/3mm/3mm.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/linear-algebra/kernels/3mm/3mm.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/linear-algebra/kernels/3mm/3mm.c
+Splitting file    ./graph.database/Tmp/3mm.cpp_processed.c
+  Module         main
+  Module         3mm!kernel_3mm
+  Module         3mm!print_array
+  Module         3mm!init_array
+  Module         3mm!
+Workspace graph created and opened.
+Main module PROGRAM "main" selected.
+Module main selected

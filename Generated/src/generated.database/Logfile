@@ -1,0 +1,112 @@
+Registering file /home/maksim/PycharmProjects/data_collection_unrolling/Benchmarks/Generated_kernels/src/kern_1587749006.214207.c
+Checking C syntax of file "/home/maksim/PycharmProjects/data_collection_unrolling/Benchmarks/Generated_kernels/src/kern_1587749006.214207.c"
+Preprocessing file /home/maksim/PycharmProjects/data_collection_unrolling/Benchmarks/Generated_kernels/src/kern_1587749006.214207.c
+Splitting file    ./generated.database/Tmp/kern_1587749006.214207.cpp_processed.c
+  Module         main
+  Module         kern_1587749006.214207!
+Registering file /home/maksim/PycharmProjects/data_collection_unrolling/Benchmarks/Generated_kernels/init_array_lib/init_dyn_array.c
+Checking C syntax of file "/home/maksim/PycharmProjects/data_collection_unrolling/Benchmarks/Generated_kernels/init_array_lib/init_dyn_array.c"
+Preprocessing file /home/maksim/PycharmProjects/data_collection_unrolling/Benchmarks/Generated_kernels/init_array_lib/init_dyn_array.c
+Splitting file    ./generated.database/Tmp/init_dyn_array.cpp_processed.c
+  Module         deallocate_3d_array
+  Module         deallocate_2d_array
+  Module         deallocate_1d_array
+  Module         create_three_dim_int
+  Module         create_two_dim_int
+  Module         create_one_dim_int
+  Module         create_three_dim_double
+  Module         create_two_dim_double
+  Module         create_one_dim_double
+  Module         create_three_dim_float
+  Module         create_two_dim_float
+  Module         create_one_dim_float
+  Module         init_dyn_array!
+Workspace generated created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule UNROLL for module main.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(kern_1587749006.214207!)
+  C_PARSER                       building   PARSED_CODE(main)
+                                 building   CALLEES(main)
+  CONTROLIZER                    building   CODE(main)
+  UNROLL                         updating   CODE(main)
+UNROLL made for main.
+Request: build phase/rule UNSPLIT for module main.
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(init_dyn_array!)
+  C_PARSER                       building   PARSED_CODE(create_one_dim_double)
+                                 building   CALLEES(create_one_dim_double)
+  CONTROLIZER                    building   CODE(create_one_dim_double)
+  PRINT_CODE                     building   PRINTED_FILE(create_one_dim_double)
+  C_PARSER                       building   PARSED_CODE(create_one_dim_float)
+                                 building   CALLEES(create_one_dim_float)
+  CONTROLIZER                    building   CODE(create_one_dim_float)
+  PRINT_CODE                     building   PRINTED_FILE(create_one_dim_float)
+  C_PARSER                       building   PARSED_CODE(create_one_dim_int)
+                                 building   CALLEES(create_one_dim_int)
+  CONTROLIZER                    building   CODE(create_one_dim_int)
+  PRINT_CODE                     building   PRINTED_FILE(create_one_dim_int)
+  C_PARSER                       building   PARSED_CODE(create_three_dim_double)
+                                 building   CALLEES(create_three_dim_double)
+  CONTROLIZER                    building   CODE(create_three_dim_double)
+  PRINT_CODE                     building   PRINTED_FILE(create_three_dim_double)
+  C_PARSER                       building   PARSED_CODE(create_three_dim_float)
+                                 building   CALLEES(create_three_dim_float)
+  CONTROLIZER                    building   CODE(create_three_dim_float)
+  PRINT_CODE                     building   PRINTED_FILE(create_three_dim_float)
+  C_PARSER                       building   PARSED_CODE(create_three_dim_int)
+                                 building   CALLEES(create_three_dim_int)
+  CONTROLIZER                    building   CODE(create_three_dim_int)
+  PRINT_CODE                     building   PRINTED_FILE(create_three_dim_int)
+  C_PARSER                       building   PARSED_CODE(create_two_dim_double)
+                                 building   CALLEES(create_two_dim_double)
+  CONTROLIZER                    building   CODE(create_two_dim_double)
+  PRINT_CODE                     building   PRINTED_FILE(create_two_dim_double)
+  C_PARSER                       building   PARSED_CODE(create_two_dim_float)
+                                 building   CALLEES(create_two_dim_float)
+  CONTROLIZER                    building   CODE(create_two_dim_float)
+  PRINT_CODE                     building   PRINTED_FILE(create_two_dim_float)
+  C_PARSER                       building   PARSED_CODE(create_two_dim_int)
+                                 building   CALLEES(create_two_dim_int)
+  CONTROLIZER                    building   CODE(create_two_dim_int)
+  PRINT_CODE                     building   PRINTED_FILE(create_two_dim_int)
+  C_PARSER                       building   PARSED_CODE(deallocate_1d_array)
+                                 building   CALLEES(deallocate_1d_array)
+  CONTROLIZER                    building   CODE(deallocate_1d_array)
+  PRINT_CODE                     building   PRINTED_FILE(deallocate_1d_array)
+  C_PARSER                       building   PARSED_CODE(deallocate_2d_array)
+                                 building   CALLEES(deallocate_2d_array)
+  CONTROLIZER                    building   CODE(deallocate_2d_array)
+  PRINT_CODE                     building   PRINTED_FILE(deallocate_2d_array)
+  C_PARSER                       building   PARSED_CODE(deallocate_3d_array)
+                                 building   CALLEES(deallocate_3d_array)
+  CONTROLIZER                    building   CODE(deallocate_3d_array)
+  PRINT_CODE                     building   PRINTED_FILE(deallocate_3d_array)
+  CONTROLIZER                    building   CODE(init_dyn_array!)
+  PRINT_CODE                     building   PRINTED_FILE(init_dyn_array!)
+  CONTROLIZER                    building   CODE(kern_1587749006.214207!)
+  PRINT_CODE                     building   PRINTED_FILE(kern_1587749006.214207!)
+  PRINT_CODE                     building   PRINTED_FILE(main)
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for main.
+Deletion of obsolete resources:
+none destroyed.
+Closing all modules.
+  Closing module create_one_dim_double.
+  Closing module create_one_dim_float.
+  Closing module create_one_dim_int.
+  Closing module create_three_dim_double.
+  Closing module create_three_dim_float.
+  Closing module create_three_dim_int.
+  Closing module create_two_dim_double.
+  Closing module create_two_dim_float.
+  Closing module create_two_dim_int.
+  Closing module deallocate_1d_array.
+  Closing module deallocate_2d_array.
+  Closing module deallocate_3d_array.
+  Closing module init_dyn_array!.
+  Closing module kern_1587749006.214207!.
+  Closing module main.
+Closing program.
+Closing workspace.
+Workspace generated closed.

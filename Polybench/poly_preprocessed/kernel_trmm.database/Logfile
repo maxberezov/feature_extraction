@@ -1,0 +1,207 @@
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/trmm/trmm.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/trmm/trmm.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/trmm/trmm.c
+Splitting file    ./kernel_trmm.database/Tmp/trmm.cpp_processed.c
+  Module         main
+  Module         kernel_trmm
+  Module         trmm!print_array
+  Module         trmm!init_array
+  Module         trmm!
+Workspace kernel_trmm created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+setproperty PRINT_DEPENDENCE_GRAPH_USING_SRU_FORMAT TRUE
+Request: build phase/rule PRINT_WHOLE_DEPENDENCE_GRAPH for module kernel_trmm.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(trmm!)
+  C_PARSER                       building   PARSED_CODE(kernel_trmm)
+                                 building   CALLEES(kernel_trmm)
+  CONTROLIZER                    building   CODE(kernel_trmm)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_timer_print)
+                                 building   INPUT_FILE_NAME(polybench_timer_print)
+Registering synthesized file polybench_timer_print.cpp_processed.c
+Registering synthesized compilation unit polybench_timer_print!
+  C_PARSER                       building   PARSED_CODE(polybench_timer_print)
+                                 building   CALLEES(polybench_timer_print)
+  CONTROLIZER                    building   CODE(polybench_timer_print)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_print)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_print)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_print)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_timer_stop)
+                                 building   INPUT_FILE_NAME(polybench_timer_stop)
+Registering synthesized file polybench_timer_stop.cpp_processed.c
+Registering synthesized compilation unit polybench_timer_stop!
+  C_PARSER                       building   PARSED_CODE(polybench_timer_stop)
+                                 building   CALLEES(polybench_timer_stop)
+  CONTROLIZER                    building   CODE(polybench_timer_stop)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_stop)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_stop)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_stop)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_timer_start)
+                                 building   INPUT_FILE_NAME(polybench_timer_start)
+Registering synthesized file polybench_timer_start.cpp_processed.c
+Registering synthesized compilation unit polybench_timer_start!
+  C_PARSER                       building   PARSED_CODE(polybench_timer_start)
+                                 building   CALLEES(polybench_timer_start)
+  CONTROLIZER                    building   CODE(polybench_timer_start)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_start)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_start)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_start)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(kernel_trmm)
+  ATOMIC_CHAINS                  building   CHAINS(kernel_trmm)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(kernel_trmm)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(kernel_trmm)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(kernel_trmm)
+  C_PARSER                       building   PARSED_CODE(main)
+                                 building   CALLEES(main)
+  CONTROLIZER                    building   CODE(main)
+  C_PARSER                       building   PARSED_CODE(trmm!print_array)
+                                 building   CALLEES(trmm!print_array)
+  CONTROLIZER                    building   CODE(trmm!print_array)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(trmm!print_array)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(trmm!print_array)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(trmm!print_array)
+  C_PARSER                       building   PARSED_CODE(trmm!init_array)
+                                 building   CALLEES(trmm!init_array)
+  CONTROLIZER                    building   CODE(trmm!init_array)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(trmm!init_array)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(trmm!init_array)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(trmm!init_array)
+  C_INITIALIZER                  building   C_SOURCE_FILE(polybench_alloc_data)
+                                 building   INPUT_FILE_NAME(polybench_alloc_data)
+Registering synthesized file polybench_alloc_data.cpp_processed.c
+Registering synthesized compilation unit polybench_alloc_data!
+  C_PARSER                       building   PARSED_CODE(polybench_alloc_data)
+                                 building   CALLEES(polybench_alloc_data)
+  CONTROLIZER                    building   CODE(polybench_alloc_data)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_alloc_data)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_alloc_data)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_alloc_data)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(main)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(main)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(main)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_print)
+  CONTROLIZER                    building   CODE(polybench_timer_print!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_print!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_print!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_print!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_print!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_start)
+  CONTROLIZER                    building   CODE(polybench_timer_start!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_start!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_start!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_start!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_start!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_stop)
+  CONTROLIZER                    building   CODE(polybench_timer_stop!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_timer_stop!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_timer_stop!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_timer_stop!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_timer_stop!)
+  CONTROLIZER                    building   CODE(trmm!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(trmm!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(trmm!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(trmm!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(trmm!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(trmm!init_array)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(trmm!print_array)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_alloc_data)
+  CONTROLIZER                    building   CODE(polybench_alloc_data!)
+  PROPER_EFFECTS                 building   PROPER_EFFECTS(polybench_alloc_data!)
+  CUMULATED_EFFECTS              building   CUMULATED_EFFECTS(polybench_alloc_data!)
+  SUMMARY_EFFECTS                building   SUMMARY_EFFECTS(polybench_alloc_data!)
+  INITIAL_PRECONDITION           building   INITIAL_PRECONDITION(polybench_alloc_data!)
+  PROGRAM_PRECONDITION           building   PROGRAM_PRECONDITION()
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_timer_print)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_timer_stop)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_timer_start)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(kernel_trmm)
+  CALLGRAPH                      building   CALLERS(kernel_trmm)
+                                 building   CALLERS(main)
+                                 building   CALLERS(polybench_alloc_data)
+                                 building   CALLERS(polybench_alloc_data!)
+                                 building   CALLERS(polybench_timer_print)
+                                 building   CALLERS(polybench_timer_print!)
+                                 building   CALLERS(polybench_timer_start)
+                                 building   CALLERS(polybench_timer_start!)
+                                 building   CALLERS(polybench_timer_stop)
+                                 building   CALLERS(polybench_timer_stop!)
+                                 building   CALLERS(trmm!)
+                                 building   CALLERS(trmm!init_array)
+                                 building   CALLERS(trmm!print_array)
+                                 building   HEIGHT(kernel_trmm)
+                                 building   HEIGHT(main)
+                                 building   HEIGHT(polybench_alloc_data)
+                                 building   HEIGHT(polybench_alloc_data!)
+                                 building   HEIGHT(polybench_timer_print)
+                                 building   HEIGHT(polybench_timer_print!)
+                                 building   HEIGHT(polybench_timer_start)
+                                 building   HEIGHT(polybench_timer_start!)
+                                 building   HEIGHT(polybench_timer_stop)
+                                 building   HEIGHT(polybench_timer_stop!)
+                                 building   HEIGHT(trmm!)
+                                 building   HEIGHT(trmm!init_array)
+                                 building   HEIGHT(trmm!print_array)
+                                 building   DEPTH(kernel_trmm)
+                                 building   DEPTH(main)
+                                 building   DEPTH(polybench_alloc_data)
+                                 building   DEPTH(polybench_alloc_data!)
+                                 building   DEPTH(polybench_timer_print)
+                                 building   DEPTH(polybench_timer_print!)
+                                 building   DEPTH(polybench_timer_start)
+                                 building   DEPTH(polybench_timer_start!)
+                                 building   DEPTH(polybench_timer_stop)
+                                 building   DEPTH(polybench_timer_stop!)
+                                 building   DEPTH(trmm!)
+                                 building   DEPTH(trmm!init_array)
+                                 building   DEPTH(trmm!print_array)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(trmm!print_array)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(trmm!init_array)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(polybench_alloc_data)
+  TRANSFORMERS_INTER_FULL        building   TRANSFORMERS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(main)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(main)
+  INTERPROCEDURAL_SUMMARY_PRECONDITION building   SUMMARY_PRECONDITION(kernel_trmm)
+  PRECONDITIONS_INTER_FULL       building   PRECONDITIONS(kernel_trmm)
+  RICE_SEMANTICS_DEPENDENCE_GRAPH building   DG(kernel_trmm)
+  PRINT_WHOLE_DEPENDENCE_GRAPH   building   DG_FILE(kernel_trmm)
+PRINT_WHOLE_DEPENDENCE_GRAPH made for kernel_trmm.
+Module kernel_trmm selected
+Request: build resource DG_FILE for module kernel_trmm.
+DG_FILE made for kernel_trmm.
+Request: build phase/rule UNSPLIT for module main.
+  PRINT_CODE                     building   PRINTED_FILE(kernel_trmm)
+  PRINT_CODE                     building   PRINTED_FILE(main)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_alloc_data)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_alloc_data!)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_print)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_print!)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_start)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_start!)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_stop)
+  PRINT_CODE                     building   PRINTED_FILE(polybench_timer_stop!)
+  PRINT_CODE                     building   PRINTED_FILE(trmm!)
+  PRINT_CODE                     building   PRINTED_FILE(trmm!init_array)
+  PRINT_CODE                     building   PRINTED_FILE(trmm!print_array)
+  UNSPLIT                        building   USER_FILE()
+UNSPLIT made for main.
+Deletion of obsolete resources:
+none destroyed.
+Closing all modules.
+  Closing module kernel_trmm.
+  Closing module main.
+  Closing module polybench_alloc_data.
+  Closing module polybench_alloc_data!.
+  Closing module polybench_timer_print.
+  Closing module polybench_timer_print!.
+  Closing module polybench_timer_start.
+  Closing module polybench_timer_start!.
+  Closing module polybench_timer_stop.
+  Closing module polybench_timer_stop!.
+  Closing module trmm!.
+  Closing module trmm!init_array.
+  Closing module trmm!print_array.
+Closing program.
+Closing workspace.
+Workspace kernel_trmm closed.

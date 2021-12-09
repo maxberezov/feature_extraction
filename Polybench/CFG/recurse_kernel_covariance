@@ -1,0 +1,274 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/datamining/covariance -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/datamining/covariance/covariance.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/datamining/covariance/covariance.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/datamining/covariance/covariance.c
+Splitting file    ./recurse.database/Tmp/covariance.cpp_processed.c
+  Module         main
+  Module         kernel_covariance
+  Module         covariance!print_array
+  Module         covariance!init_array
+  Module         covariance!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_covariance.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(covariance!)
+  C_PARSER                       building   PARSED_CODE(kernel_covariance)
+                                 building   CALLEES(kernel_covariance)
+  CONTROLIZER                    building   CODE(kernel_covariance)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_covariance)
+[statement_filter] 	 IN
+int i, j, k;
+
+#pragma scop
+polybench_timer_start();
+
+for(j = 0; j <= m-1; j += 1) {
+   mean[j] = 0.0;
+loop_1:
+   for(i = 0; i <= n-1; i += 1)
+      mean[j] += data[i][j];
+   mean[j] /= float_n;
+}
+
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(i = 0; i <= n-1; i += 1)
+loop_2:
+   for(j = 0; j <= m-1; j += 1)
+      data[i][j] -= mean[j];
+
+polybench_timer_stop();
+
+polybench_timer_print();
+
+polybench_timer_start();
+
+for(i = 0; i <= m-1; i += 1)
+   for(j = i; j <= m-1; j += 1) {
+      cov[i][j] = 0.0;
+loop_3:
+      for(k = 0; k <= n-1; k += 1)
+         cov[i][j] += data[k][i]*data[k][j];
+      cov[i][j] /= float_n-1.0;
+      cov[j][i] = cov[i][j];
+   }
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i, j, k;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(j = 0; j <= m-1; j += 1) {
+   mean[j] = 0.0;
+loop_1:
+   for(i = 0; i <= n-1; i += 1)
+      mean[j] += data[i][j];
+   mean[j] /= float_n;
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+mean[j] = 0.0;
+loop_1:
+for(i = 0; i <= n-1; i += 1)
+   mean[j] += data[i][j];
+mean[j] /= float_n;
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+mean[j] = 0.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_1:
+for(i = 0; i <= n-1; i += 1)
+   mean[j] += data[i][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+mean[j] += data[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+mean[j] /= float_n;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= n-1; i += 1)
+loop_2:
+   for(j = 0; j <= m-1; j += 1)
+      data[i][j] -= mean[j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+loop_2:
+for(j = 0; j <= m-1; j += 1)
+   data[i][j] -= mean[j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+data[i][j] -= mean[j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= m-1; i += 1)
+   for(j = i; j <= m-1; j += 1) {
+      cov[i][j] = 0.0;
+loop_3:
+      for(k = 0; k <= n-1; k += 1)
+         cov[i][j] += data[k][i]*data[k][j];
+      cov[i][j] /= float_n-1.0;
+      cov[j][i] = cov[i][j];
+   }
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(j = i; j <= m-1; j += 1) {
+   cov[i][j] = 0.0;
+loop_3:
+   for(k = 0; k <= n-1; k += 1)
+      cov[i][j] += data[k][i]*data[k][j];
+   cov[i][j] /= float_n-1.0;
+   cov[j][i] = cov[i][j];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+cov[i][j] = 0.0;
+loop_3:
+for(k = 0; k <= n-1; k += 1)
+   cov[i][j] += data[k][i]*data[k][j];
+cov[i][j] /= float_n-1.0;
+cov[j][i] = cov[i][j];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+cov[i][j] = 0.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_3:
+for(k = 0; k <= n-1; k += 1)
+   cov[i][j] += data[k][i]*data[k][j];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+cov[i][j] += data[k][i]*data[k][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+cov[i][j] /= float_n-1.0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+cov[j][i] = cov[i][j];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_covariance.
+Request: build phase/rule UNSPLIT for module main.
+  CONTROLIZER                    building   CODE(covariance!)
+CONTROLIZER[covariance!] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+CONTROLIZER[covariance!] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

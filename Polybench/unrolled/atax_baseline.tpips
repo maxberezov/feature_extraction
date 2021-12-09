@@ -1,0 +1,8 @@
+delete atax_baseline
+setenv PIPS_CPP_FLAGS -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/utilities -I linear-algebra/kernels/atax -DPOLYBENCH_TIME
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty MEMORY_EFFECTS_ONLY FALSE
+create atax_baseline /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/linear-algebra/kernels/atax/atax.c /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/utilities/polybench.c
+apply UNSPLIT
+close
+quit

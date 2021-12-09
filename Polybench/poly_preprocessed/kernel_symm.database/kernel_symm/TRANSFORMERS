@@ -1,0 +1,18 @@
+16
+12
+0 T79 ()T63 E28 (()()())))13
+0 T79 ()T63 E28 ((1 kernel_symm:0`i 1 kernel_symm:0`j )()())))1
+0 T79 ()T63 E28 ((1 kernel_symm:m 1 kernel_symm:n )()())))3
+0 T79 ()T63 E28 (()()())))4
+0 T79 ()T63 E28 (()()())))15
+0 T79 ()T63 E28 (()()())))2
+0 T79 ()T63 E28 (()()())))10
+0 T79 ()T63 E28 (()()())))8
+0 T79 ()T63 E28 (()()())))7
+0 T79 (R77 "kernel_symm:0`k" )T63 E28 ((1 kernel_symm:0`i 1 kernel_symm:0`j 1 kernel_symm:0`k )()( (-1 kernel_symm:0`k 1 kernel_symm:0`i ) (-1 kernel_symm:0`k )))))11
+0 T79 ()T63 E28 (()()())))6
+0 T79 (R77 "kernel_symm:0`j" R77 "kernel_symm:0`k" )T63 E28 ((1 kernel_symm:0`i 1 kernel_symm:0`j 1 kernel_symm:0`k 1 kernel_symm:n )()( (1 kernel_symm:0`j -1 kernel_symm:n 1 . ) (-1 kernel_symm:0`j )))))5
+0 T79 (R77 "kernel_symm:0`i" R77 "kernel_symm:0`j" R77 "kernel_symm:0`k" )T63 E28 ((1 kernel_symm:0`i 1 kernel_symm:0`j 1 kernel_symm:0`k 1 *SEMANTICS*:o#2 1 kernel_symm:m 1 kernel_symm:n )()( (1 kernel_symm:0`i -1 kernel_symm:m 1 . ) (-1 kernel_symm:0`i )))))14
+0 T79 ()T63 E28 (()()())))16
+0 T79 ()T63 E28 (()()())))9
+0 T79 (R77 "kernel_symm:0`k" )T63 E28 ((1 kernel_symm:0`i 1 kernel_symm:0`k )()( (1 kernel_symm:0`k -1 kernel_symm:0`i 1 . ) (-1 kernel_symm:0`k )))))

@@ -1,0 +1,12 @@
+10
+9
+0 T79 ()T63 E28 ((1 fdtd-2d!init_array:0`i 1 fdtd-2d!init_array:0`j 1 fdtd-2d!init_array:ny )()())))10
+0 T79 ()T63 E28 ((1 fdtd-2d!init_array:0`i 1 fdtd-2d!init_array:0`j 1 fdtd-2d!init_array:nx )()())))2
+0 T79 ()T63 E28 (()()())))3
+0 T79 (R77 "fdtd-2d!init_array:0`i" )T63 E28 ((1 fdtd-2d!init_array:0`i 1 fdtd-2d!init_array:tmax )()( (1 fdtd-2d!init_array:0`i -1 fdtd-2d!init_array:tmax 1 . ) (-1 fdtd-2d!init_array:0`i )))))8
+0 T79 ()T63 E28 ((1 fdtd-2d!init_array:0`i 1 fdtd-2d!init_array:0`j 1 fdtd-2d!init_array:nx )()())))6
+0 T79 (R77 "fdtd-2d!init_array:0`j" )T63 E28 ((1 fdtd-2d!init_array:0`i 1 fdtd-2d!init_array:0`j 1 fdtd-2d!init_array:nx 1 fdtd-2d!init_array:ny )()( (1 fdtd-2d!init_array:0`j -1 fdtd-2d!init_array:ny 1 . ) (-1 fdtd-2d!init_array:0`j )))))5
+0 T79 (R77 "fdtd-2d!init_array:0`i" R77 "fdtd-2d!init_array:0`j" )T63 E28 ((1 fdtd-2d!init_array:0`i 1 fdtd-2d!init_array:0`j 1 fdtd-2d!init_array:nx 1 fdtd-2d!init_array:ny )()( (1 fdtd-2d!init_array:0`i -1 fdtd-2d!init_array:nx 1 . ) (-1 fdtd-2d!init_array:0`i )))))7
+0 T79 ()T63 E28 ((1 fdtd-2d!init_array:0`i 1 fdtd-2d!init_array:0`j 1 fdtd-2d!init_array:nx 1 fdtd-2d!init_array:ny )()())))1
+0 T79 ()T63 E28 ((1 fdtd-2d!init_array:nx 1 fdtd-2d!init_array:ny 1 fdtd-2d!init_array:tmax )()())))4
+0 T79 ()T63 E28 ((1 fdtd-2d!init_array:0`i )()())))

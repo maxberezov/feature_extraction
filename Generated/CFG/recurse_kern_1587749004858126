@@ -1,0 +1,948 @@
+Workspace recurse deleted.
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Generated/merged.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Generated/merged.c"
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749010176488’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:19:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a-1]-17;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:18:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a]-9;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:17:1: warning: label ‘kern_1587749010176488’ defined but not used [-Wunused-label]
+ kern_1587749010176488: for(a = 1; a <= 131071; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749011813622’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:45:1: warning: label ‘kern_1587749011813622’ defined but not used [-Wunused-label]
+ kern_1587749011813622: for(a = 5; a <= 250; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:34:5: warning: variable ‘B’ set but not used [-Wunused-but-set-variable]
+ int B[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749006554335’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:81:1: warning: label ‘kern_1587749006554335’ defined but not used [-Wunused-label]
+ kern_1587749006554335: for(a = 5; a <= 15; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749003904691’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:126:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = B[a+2][b+2][c]+10;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:125:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = B[a][b][c]-5;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:122:1: warning: label ‘kern_1587749003904691’ defined but not used [-Wunused-label]
+ kern_1587749003904691: for(a = 2; a <= 61; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:113:5: warning: unused variable ‘D’ [-Wunused-variable]
+ int D[1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:112:5: warning: unused variable ‘A’ [-Wunused-variable]
+ int A[1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:110:5: warning: unused variable ‘C’ [-Wunused-variable]
+ int C[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749002369943’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:154:1: warning: label ‘kern_1587749002369943’ defined but not used [-Wunused-label]
+ kern_1587749002369943: for(a = 5; a <= 123; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:145:5: warning: unused variable ‘B’ [-Wunused-variable]
+ int B[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587748999542687’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:178:1: warning: label ‘kern_1587748999542687’ defined but not used [-Wunused-label]
+ kern_1587748999542687: for(a = 4; a <= 124; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:174:5: warning: variable ‘B’ set but not used [-Wunused-but-set-variable]
+ int B[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749009106069’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:203:1: warning: label ‘kern_1587749009106069’ defined but not used [-Wunused-label]
+ kern_1587749009106069: for(a = 5; a <= 27; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587748998516653’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:236:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a+4][a+5][a]+22;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:235:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a][a][a]*43;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:231:1: warning: label ‘kern_1587748998516653’ defined but not used [-Wunused-label]
+ kern_1587748998516653: for(a = 0; a <= 10; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:227:5: warning: unused variable ‘E’ [-Wunused-variable]
+ int E[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:226:5: warning: unused variable ‘B’ [-Wunused-variable]
+ int B[1000][1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:224:5: warning: variable ‘D’ set but not used [-Wunused-but-set-variable]
+ int D[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:223:5: warning: unused variable ‘C’ [-Wunused-variable]
+ int C[1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749005689018’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:260:1: warning: label ‘kern_1587749005689018’ defined but not used [-Wunused-label]
+ kern_1587749005689018: for(a = 3; a <= 250; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749005468089’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:292:1: warning: label ‘kern_1587749005468089’ defined but not used [-Wunused-label]
+ kern_1587749005468089: for(a = 0; a <= 15; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749013210712’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:330:1: warning: label ‘kern_1587749013210712’ defined but not used [-Wunused-label]
+ kern_1587749013210712: for(a = 1; a <= 262143; a += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749011116815’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:352:1: warning: label ‘kern_1587749011116815’ defined but not used [-Wunused-label]
+ kern_1587749011116815: for(a = 5; a <= 31; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:345:5: warning: variable ‘C’ set but not used [-Wunused-but-set-variable]
+ int C[1000][1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749006722991’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:384:1: warning: label ‘kern_1587749006722991’ defined but not used [-Wunused-label]
+ kern_1587749006722991: for(a = 5; a <= 511; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749008067154’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:413:1: warning: label ‘kern_1587749008067154’ defined but not used [-Wunused-label]
+ kern_1587749008067154: for(a = 5; a <= 508; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749011292936’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:447:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a]*17;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:446:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a]-0;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:441:1: warning: label ‘kern_1587749011292936’ defined but not used [-Wunused-label]
+ kern_1587749011292936: for(a = 0; a <= 58; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749007396552’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:475:1: warning: label ‘kern_1587749007396552’ defined but not used [-Wunused-label]
+ kern_1587749007396552: for(a = 2; a <= 65535; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749010388676’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:512:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a][b+3]-6;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:511:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a][b]+8;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:505:1: warning: label ‘kern_1587749010388676’ defined but not used [-Wunused-label]
+ kern_1587749010388676: for(a = 5; a <= 63; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:498:5: warning: variable ‘B’ set but not used [-Wunused-but-set-variable]
+ int B[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587748998692201’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:536:1: warning: label ‘kern_1587748998692201’ defined but not used [-Wunused-label]
+ kern_1587748998692201: for(a = 0; a <= 122; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:532:5: warning: variable ‘B’ set but not used [-Wunused-but-set-variable]
+ int B[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:531:5: warning: unused variable ‘A’ [-Wunused-variable]
+ int A[1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749014283363’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:570:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = B[a+3][b]+43;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:569:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = B[a][b]-49;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:564:1: warning: label ‘kern_1587749014283363’ defined but not used [-Wunused-label]
+ kern_1587749014283363: for(a = 1; a <= 27; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749002794248’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:593:1: warning: label ‘kern_1587749002794248’ defined but not used [-Wunused-label]
+ kern_1587749002794248: for(a = 0; a <= 26; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749004483961’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:627:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a-5][b-2][a-1]-41;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:626:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a][b][a]+44;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:617:1: warning: label ‘kern_1587749004483961’ defined but not used [-Wunused-label]
+ kern_1587749004483961: for(a = 5; a <= 58; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749009653588’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:658:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = C[a][a-3]+14;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:657:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = C[a][a]+25;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:648:1: warning: label ‘kern_1587749009653588’ defined but not used [-Wunused-label]
+ kern_1587749009653588: for(a = 5; a <= 11; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749010939646’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:685:1: warning: label ‘kern_1587749010939646’ defined but not used [-Wunused-label]
+ kern_1587749010939646: for(a = 3; a <= 26; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749009828687’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:713:1: warning: label ‘kern_1587749009828687’ defined but not used [-Wunused-label]
+ kern_1587749009828687: for(a = 4; a <= 524287; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:704:5: warning: unused variable ‘B’ [-Wunused-variable]
+ int B[1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749004858126’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:753:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = B[a+2][b+4][c+5]-30;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:752:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = B[a][b][c]-6;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:743:1: warning: label ‘kern_1587749004858126’ defined but not used [-Wunused-label]
+ kern_1587749004858126: for(a = 4; a <= 13; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749013585037’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:779:1: warning: label ‘kern_1587749013585037’ defined but not used [-Wunused-label]
+ kern_1587749013585037: for(a = 2; a <= 60; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_15877490144631’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:814:1: warning: label ‘kern_15877490144631’ defined but not used [-Wunused-label]
+ kern_15877490144631: for(a = 4; a <= 253; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749010766286’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:847:1: warning: label ‘kern_1587749010766286’ defined but not used [-Wunused-label]
+ kern_1587749010766286: for(a = 0; a <= 507; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:843:5: warning: variable ‘A’ set but not used [-Wunused-but-set-variable]
+ int A[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:842:5: warning: unused variable ‘B’ [-Wunused-variable]
+ int B[1000][1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749001236222’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:874:1: warning: label ‘kern_1587749001236222’ defined but not used [-Wunused-label]
+ kern_1587749001236222: for(a = 2; a <= 28; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749006386581’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:908:1: warning: label ‘kern_1587749006386581’ defined but not used [-Wunused-label]
+ kern_1587749006386581: for(a = 3; a <= 65535; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:901:5: warning: unused variable ‘A’ [-Wunused-variable]
+ int A[1000][1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_158774899977151’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:944:5: warning: unused variable ‘var_d’ [-Wunused-variable]
+ int var_d = B[a-1][b-2][a]-7;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:943:5: warning: unused variable ‘var_c’ [-Wunused-variable]
+ int var_c = B[a][b][a]*29;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:941:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = B[a-1][b-2][a-3]*49;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:940:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = B[a][b][a]*38;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:933:1: warning: label ‘kern_158774899977151’ defined but not used [-Wunused-label]
+ kern_158774899977151: for(a = 5; a <= 15; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749008235272’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:969:1: warning: label ‘kern_1587749008235272’ defined but not used [-Wunused-label]
+ kern_1587749008235272: for(a = 3; a <= 63; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749015835003’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1006:1: warning: label ‘kern_1587749015835003’ defined but not used [-Wunused-label]
+ kern_1587749015835003: for(a = 3; a <= 10; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749007059508’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1047:1: warning: label ‘kern_1587749007059508’ defined but not used [-Wunused-label]
+ kern_1587749007059508: for(a = 2; a <= 255; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749001918364’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1089:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a+5][b+3][c+3]-5;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1088:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a][b][c]*6;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1083:1: warning: label ‘kern_1587749001918364’ defined but not used [-Wunused-label]
+ kern_1587749001918364: for(a = 3; a <= 58; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749014982876’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1112:1: warning: label ‘kern_1587749014982876’ defined but not used [-Wunused-label]
+ kern_1587749014982876: for(a = 5; a <= 127; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749003472841’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1151:5: warning: unused variable ‘var_d’ [-Wunused-variable]
+ int var_d = A[a][b-3]*35;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1150:5: warning: unused variable ‘var_c’ [-Wunused-variable]
+ int var_c = A[a][b]*48;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1148:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a-4][b-5]+18;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1147:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a][b]*30;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1144:1: warning: label ‘kern_1587749003472841’ defined but not used [-Wunused-label]
+ kern_1587749003472841: for(a = 4; a <= 511; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749012340606’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1172:1: warning: label ‘kern_1587749012340606’ defined but not used [-Wunused-label]
+ kern_1587749012340606: for(a = 4; a <= 27; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749005241701’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1201:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a]+6;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1200:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a]-10;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1197:1: warning: label ‘kern_1587749005241701’ defined but not used [-Wunused-label]
+ kern_1587749005241701: for(a = 0; a <= 26; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749003692633’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1222:1: warning: label ‘kern_1587749003692633’ defined but not used [-Wunused-label]
+ kern_1587749003692633: for(a = 2; a <= 131071; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1216:5: warning: unused variable ‘B’ [-Wunused-variable]
+ int B[1000][1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1215:5: warning: variable ‘A’ set but not used [-Wunused-but-set-variable]
+ int A[1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749013392258’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1244:1: warning: label ‘kern_1587749013392258’ defined but not used [-Wunused-label]
+ kern_1587749013392258: for(a = 3; a <= 58; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749003202385’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1271:1: warning: label ‘kern_1587749003202385’ defined but not used [-Wunused-label]
+ kern_1587749003202385: for(a = 4; a <= 11; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587748999028884’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1297:1: warning: label ‘kern_1587748999028884’ defined but not used [-Wunused-label]
+ kern_1587748999028884: for(a = 5; a <= 10; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1292:5: warning: unused variable ‘B’ [-Wunused-variable]
+ int B[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749015492525’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1325:1: warning: label ‘kern_1587749015492525’ defined but not used [-Wunused-label]
+ kern_1587749015492525: for(a = 0; a <= 65530; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749007563882’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1360:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = C[a-2][b-4]+22;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1359:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = C[a][b]*38;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1358:1: warning: label ‘kern_1587749007563882’ defined but not used [-Wunused-label]
+ kern_1587749007563882: for(a = 2; a <= 511; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1347:5: warning: unused variable ‘A’ [-Wunused-variable]
+ int A[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1346:5: warning: unused variable ‘B’ [-Wunused-variable]
+ int B[1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749007729511’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1383:1: warning: label ‘kern_1587749007729511’ defined but not used [-Wunused-label]
+ kern_1587749007729511: for(a = 4; a <= 252; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749009308153’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1415:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = C[a]-29;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1412:1: warning: label ‘kern_1587749009308153’ defined but not used [-Wunused-label]
+ kern_1587749009308153: for(a = 0; a <= 508; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1404:5: warning: unused variable ‘A’ [-Wunused-variable]
+ int A[1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749001052281’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1447:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = B[a][b-2][c-5]-31;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1446:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = B[a][b][c]-33;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1441:1: warning: label ‘kern_1587749001052281’ defined but not used [-Wunused-label]
+ kern_1587749001052281: for(a = 5; a <= 15; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749000884613’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1469:1: warning: label ‘kern_1587749000884613’ defined but not used [-Wunused-label]
+ kern_1587749000884613: for(a = 0; a <= 251; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1463:5: warning: variable ‘A’ set but not used [-Wunused-but-set-variable]
+ int A[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749004114872’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1496:1: warning: label ‘kern_1587749004114872’ defined but not used [-Wunused-label]
+ kern_1587749004114872: for(a = 1; a <= 31; a += 1)
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1488:5: warning: unused variable ‘D’ [-Wunused-variable]
+ int D[1000][1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_158774900432248’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1525:1: warning: label ‘kern_158774900432248’ defined but not used [-Wunused-label]
+ kern_158774900432248: for(a = 0; a <= 509; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749001752524’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1569:5: warning: unused variable ‘var_e’ [-Wunused-variable]
+ int var_e = A[a+3][b+2]-4;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1568:5: warning: unused variable ‘var_d’ [-Wunused-variable]
+ int var_d = A[a][b]*30;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1566:5: warning: unused variable ‘var_c’ [-Wunused-variable]
+ int var_c = B[a-4]*7;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1565:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = B[a]*3;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1562:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a][b]*29;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1559:1: warning: label ‘kern_1587749001752524’ defined but not used [-Wunused-label]
+ kern_1587749001752524: for(a = 4; a <= 252; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749000710404’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1595:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a-2]+27;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1594:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a]*15;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1591:1: warning: label ‘kern_1587749000710404’ defined but not used [-Wunused-label]
+ kern_1587749000710404: for(a = 2; a <= 65532; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749015151781’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1618:1: warning: label ‘kern_1587749015151781’ defined but not used [-Wunused-label]
+ kern_1587749015151781: for(a = 5; a <= 61; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749009481953’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1668:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = C[a-5][b-1][c-4]+4;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1667:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = C[a][b][c]-8;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1655:1: warning: label ‘kern_1587749009481953’ defined but not used [-Wunused-label]
+ kern_1587749009481953: for(a = 5; a <= 12; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749006892638’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1694:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a-1][a-1]+29;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1693:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a][a]-34;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1690:1: warning: label ‘kern_1587749006892638’ defined but not used [-Wunused-label]
+ kern_1587749006892638: for(a = 1; a <= 250; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749015322232’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1719:1: warning: label ‘kern_1587749015322232’ defined but not used [-Wunused-label]
+ kern_1587749015322232: for(a = 2; a <= 15; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749014640864’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1753:1: warning: label ‘kern_1587749014640864’ defined but not used [-Wunused-label]
+ kern_1587749014640864: for(a = 2; a <= 123; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749010590095’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1784:1: warning: label ‘kern_1587749010590095’ defined but not used [-Wunused-label]
+ kern_1587749010590095: for(a = 5; a <= 255; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587748998345859’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1830:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a-2][b-3]-49;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1829:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a][b]*24;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1819:1: warning: label ‘kern_1587748998345859’ defined but not used [-Wunused-label]
+ kern_1587748998345859: for(a = 5; a <= 31; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1812:5: warning: variable ‘B’ set but not used [-Wunused-but-set-variable]
+ int B[1000][1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587748998006003’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1855:1: warning: label ‘kern_1587748998006003’ defined but not used [-Wunused-label]
+ kern_1587748998006003: for(a = 3; a <= 12; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587748998860388’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1888:5: warning: unused variable ‘var_d’ [-Wunused-variable]
+ int var_d = A[a][a+5][a+2]+27;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1887:5: warning: unused variable ‘var_c’ [-Wunused-variable]
+ int var_c = A[a][a][a]+21;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1885:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a+5][a+1][a+5]*38;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1884:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a][a][a]-21;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1883:1: warning: label ‘kern_1587748998860388’ defined but not used [-Wunused-label]
+ kern_1587748998860388: for(a = 5; a <= 58; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749013927294’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1918:1: warning: label ‘kern_1587749013927294’ defined but not used [-Wunused-label]
+ kern_1587749013927294: for(a = 3; a <= 29; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749000172829’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1953:1: warning: label ‘kern_1587749000172829’ defined but not used [-Wunused-label]
+ kern_1587749000172829: for(a = 2; a <= 65530; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1943:5: warning: unused variable ‘A’ [-Wunused-variable]
+ int A[1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749007896029’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1987:1: warning: label ‘kern_1587749007896029’ defined but not used [-Wunused-label]
+ kern_1587749007896029: for(a = 0; a <= 507; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749011642694’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2019:1: warning: label ‘kern_1587749011642694’ defined but not used [-Wunused-label]
+ kern_1587749011642694: for(a = 0; a <= 12; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2015:5: warning: unused variable ‘B’ [-Wunused-variable]
+ int B[1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2014:5: warning: unused variable ‘A’ [-Wunused-variable]
+ int A[1000][1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2013:5: warning: variable ‘C’ set but not used [-Wunused-but-set-variable]
+ int C[1000][1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749006214207’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2046:1: warning: label ‘kern_1587749006214207’ defined but not used [-Wunused-label]
+ kern_1587749006214207: for(a = 0; a <= 507; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2038:5: warning: variable ‘A’ set but not used [-Wunused-but-set-variable]
+ int A[1000][1000];
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749000536372’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2086:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a-5]-9;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2085:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a]+8;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2076:1: warning: label ‘kern_1587749000536372’ defined but not used [-Wunused-label]
+ kern_1587749000536372: for(a = 5; a <= 63; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749008762926’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2112:1: warning: label ‘kern_1587749008762926’ defined but not used [-Wunused-label]
+ kern_1587749008762926: for(a = 2; a <= 524282; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587748998175907’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2146:5: warning: unused variable ‘var_b’ [-Wunused-variable]
+ int var_b = A[a][a-5]-23;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2145:5: warning: unused variable ‘var_a’ [-Wunused-variable]
+ int var_a = A[a][a]-16;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2142:1: warning: label ‘kern_1587748998175907’ defined but not used [-Wunused-label]
+ kern_1587748998175907: for(a = 5; a <= 511; a += 1) {
+ ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘main’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:2156:5: warning: variable ‘call_var’ set but not used [-Wunused-but-set-variable]
+ int call_var = 0;
+     ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749010176488’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:18:14: warning: ‘A[a]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ int var_a = A[a]-9;
+              ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:19:14: warning: ‘A[<unknown>]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ int var_b = A[a-1]-17;
+              ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c: In function ‘kern_1587749007563882’:
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1359:17: warning: ‘C[a][b]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ int var_a = C[a][b]*38;
+                 ^
+/home/maksim/PycharmProjects/unrolling/Generated/merged.c:1360:19: warning: ‘C[<unknown>][<unknown>]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ int var_b = C[a-2][b-4]+22;
+                   ^
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Generated/merged.c
+Splitting file    ./recurse.database/Tmp/merged.cpp_processed.c
+  Module         main
+  Module         kern_1587748998175907
+  Module         kern_1587749008762926
+  Module         kern_1587749000536372
+  Module         kern_1587749006214207
+  Module         kern_1587749011642694
+  Module         kern_1587749007896029
+  Module         kern_1587749000172829
+  Module         kern_1587749013927294
+  Module         kern_1587748998860388
+  Module         kern_1587748998006003
+  Module         kern_1587748998345859
+  Module         kern_1587749010590095
+  Module         kern_1587749014640864
+  Module         kern_1587749015322232
+  Module         kern_1587749006892638
+  Module         kern_1587749009481953
+  Module         kern_1587749015151781
+  Module         kern_1587749000710404
+  Module         kern_1587749001752524
+  Module         kern_158774900432248
+  Module         kern_1587749004114872
+  Module         kern_1587749000884613
+  Module         kern_1587749001052281
+  Module         kern_1587749009308153
+  Module         kern_1587749007729511
+  Module         kern_1587749007563882
+  Module         kern_1587749015492525
+  Module         kern_1587748999028884
+  Module         kern_1587749003202385
+  Module         kern_1587749013392258
+  Module         kern_1587749003692633
+  Module         kern_1587749005241701
+  Module         kern_1587749012340606
+  Module         kern_1587749003472841
+  Module         kern_1587749014982876
+  Module         kern_1587749001918364
+  Module         kern_1587749007059508
+  Module         kern_1587749015835003
+  Module         kern_1587749008235272
+  Module         kern_158774899977151
+  Module         kern_1587749006386581
+  Module         kern_1587749001236222
+  Module         kern_1587749010766286
+  Module         kern_15877490144631
+  Module         kern_1587749013585037
+  Module         kern_1587749004858126
+  Module         kern_1587749009828687
+  Module         kern_1587749010939646
+  Module         kern_1587749009653588
+  Module         kern_1587749004483961
+  Module         kern_1587749002794248
+  Module         kern_1587749014283363
+  Module         kern_1587748998692201
+  Module         kern_1587749010388676
+  Module         kern_1587749007396552
+  Module         kern_1587749011292936
+  Module         kern_1587749008067154
+  Module         kern_1587749006722991
+  Module         kern_1587749011116815
+  Module         kern_1587749013210712
+  Module         kern_1587749005468089
+  Module         kern_1587749005689018
+  Module         kern_1587748998516653
+  Module         kern_1587749009106069
+  Module         kern_1587748999542687
+  Module         kern_1587749002369943
+  Module         kern_1587749003904691
+  Module         kern_1587749006554335
+  Module         kern_1587749011813622
+  Module         kern_1587749010176488
+  Module         merged!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kern_1587749004858126.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(merged!)
+  C_PARSER                       building   PARSED_CODE(kern_1587749004858126)
+                                 building   CALLEES(kern_1587749004858126)
+C_PARSER[kern_1587749004858126] (SizeOfArray) Array size incompatible with 32 bit signed integers
+Maximum number of elements: 536870911, number of elements declared: 1000000000
+  CONTROLIZER                    building   CODE(kern_1587749004858126)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kern_1587749004858126)
+[statement_filter] 	 IN
+
+
+
+int A[1000][1000];
+int B[1000][1000][1000];
+
+int d;
+
+for(d = 4; d <= 10; d += 1) {
+   int c;
+   for(c = 3; c <= 27; c += 1) {
+      int b;
+      for(b = 4; b <= 13; b += 1) {
+         int a;
+kern_1587749004858126:
+         for(a = 4; a <= 13; a += 1) {
+            B[a][b][c] = B[a-4][b-3][c-4]*42;
+
+            A[a][b] = 50;
+            A[a+1][b+1] = 5;
+
+            A[a][b] = A[a][b]+B[a][b][c];
+            B[a][b][c] = A[a+4][b+1]-B[a][b][c];
+
+            int var_a = B[a][b][c]-6;
+            int var_b = B[a+2][b+4][c+5]-30;
+         }
+      }
+   }
+}
+
+
+
+
+
+return 0;
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+
+
+
+int A[1000][1000];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+int B[1000][1000][1000];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+int d;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(d = 4; d <= 10; d += 1) {
+   int c;
+   for(c = 3; c <= 27; c += 1) {
+      int b;
+      for(b = 4; b <= 13; b += 1) {
+         int a;
+kern_1587749004858126:
+         for(a = 4; a <= 13; a += 1) {
+            B[a][b][c] = B[a-4][b-3][c-4]*42;
+
+            A[a][b] = 50;
+            A[a+1][b+1] = 5;
+
+            A[a][b] = A[a][b]+B[a][b][c];
+            B[a][b][c] = A[a+4][b+1]-B[a][b][c];
+
+            int var_a = B[a][b][c]-6;
+            int var_b = B[a+2][b+4][c+5]-30;
+         }
+      }
+   }
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+int c;
+for(c = 3; c <= 27; c += 1) {
+   int b;
+   for(b = 4; b <= 13; b += 1) {
+      int a;
+kern_1587749004858126:
+      for(a = 4; a <= 13; a += 1) {
+         B[a][b][c] = B[a-4][b-3][c-4]*42;
+
+         A[a][b] = 50;
+         A[a+1][b+1] = 5;
+
+         A[a][b] = A[a][b]+B[a][b][c];
+         B[a][b][c] = A[a+4][b+1]-B[a][b][c];
+
+         int var_a = B[a][b][c]-6;
+         int var_b = B[a+2][b+4][c+5]-30;
+      }
+   }
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int c;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(c = 3; c <= 27; c += 1) {
+   int b;
+   for(b = 4; b <= 13; b += 1) {
+      int a;
+kern_1587749004858126:
+      for(a = 4; a <= 13; a += 1) {
+         B[a][b][c] = B[a-4][b-3][c-4]*42;
+
+         A[a][b] = 50;
+         A[a+1][b+1] = 5;
+
+         A[a][b] = A[a][b]+B[a][b][c];
+         B[a][b][c] = A[a+4][b+1]-B[a][b][c];
+
+         int var_a = B[a][b][c]-6;
+         int var_b = B[a+2][b+4][c+5]-30;
+      }
+   }
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+int b;
+for(b = 4; b <= 13; b += 1) {
+   int a;
+kern_1587749004858126:
+   for(a = 4; a <= 13; a += 1) {
+      B[a][b][c] = B[a-4][b-3][c-4]*42;
+
+      A[a][b] = 50;
+      A[a+1][b+1] = 5;
+
+      A[a][b] = A[a][b]+B[a][b][c];
+      B[a][b][c] = A[a+4][b+1]-B[a][b][c];
+
+      int var_a = B[a][b][c]-6;
+      int var_b = B[a+2][b+4][c+5]-30;
+   }
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int b;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(b = 4; b <= 13; b += 1) {
+   int a;
+kern_1587749004858126:
+   for(a = 4; a <= 13; a += 1) {
+      B[a][b][c] = B[a-4][b-3][c-4]*42;
+
+      A[a][b] = 50;
+      A[a+1][b+1] = 5;
+
+      A[a][b] = A[a][b]+B[a][b][c];
+      B[a][b][c] = A[a+4][b+1]-B[a][b][c];
+
+      int var_a = B[a][b][c]-6;
+      int var_b = B[a+2][b+4][c+5]-30;
+   }
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+int a;
+kern_1587749004858126:
+for(a = 4; a <= 13; a += 1) {
+   B[a][b][c] = B[a-4][b-3][c-4]*42;
+
+   A[a][b] = 50;
+   A[a+1][b+1] = 5;
+
+   A[a][b] = A[a][b]+B[a][b][c];
+   B[a][b][c] = A[a+4][b+1]-B[a][b][c];
+
+   int var_a = B[a][b][c]-6;
+   int var_b = B[a+2][b+4][c+5]-30;
+}
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int a;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+kern_1587749004858126:
+for(a = 4; a <= 13; a += 1) {
+   B[a][b][c] = B[a-4][b-3][c-4]*42;
+
+   A[a][b] = 50;
+   A[a+1][b+1] = 5;
+
+   A[a][b] = A[a][b]+B[a][b][c];
+   B[a][b][c] = A[a+4][b+1]-B[a][b][c];
+
+   int var_a = B[a][b][c]-6;
+   int var_b = B[a+2][b+4][c+5]-30;
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+B[a][b][c] = B[a-4][b-3][c-4]*42;
+
+A[a][b] = 50;
+A[a+1][b+1] = 5;
+
+A[a][b] = A[a][b]+B[a][b][c];
+B[a][b][c] = A[a+4][b+1]-B[a][b][c];
+
+int var_a = B[a][b][c]-6;
+int var_b = B[a+2][b+4][c+5]-30;
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+B[a][b][c] = B[a-4][b-3][c-4]*42;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+A[a][b] = 50;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+A[a+1][b+1] = 5;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+A[a][b] = A[a][b]+B[a][b][c];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+B[a][b][c] = A[a+4][b+1]-B[a][b][c];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+int var_a = B[a][b][c]-6;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+int var_b = B[a+2][b+4][c+5]-30;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+
+
+
+
+return 0;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kern_1587749004858126.
+Request: build phase/rule UNSPLIT for module main.
+  C_PARSER                       building   PARSED_CODE(kern_1587748998006003)
+                                 building   CALLEES(kern_1587748998006003)
+C_PARSER[kern_1587748998006003] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+C_PARSER[kern_1587748998006003] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

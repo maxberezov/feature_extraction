@@ -1,0 +1,8 @@
+delete symm_baseline
+setenv PIPS_CPP_FLAGS -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/utilities -I linear-algebra/blas/symm -DPOLYBENCH_TIME
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty MEMORY_EFFECTS_ONLY FALSE
+create symm_baseline /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/linear-algebra/blas/symm/symm.c /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/utilities/polybench.c
+apply UNSPLIT
+close
+quit

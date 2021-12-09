@@ -1,0 +1,8 @@
+delete 2mm_baseline
+setenv PIPS_CPP_FLAGS -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/utilities -I linear-algebra/kernels/2mm -DPOLYBENCH_TIME
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty MEMORY_EFFECTS_ONLY FALSE
+create 2mm_baseline /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/linear-algebra/kernels/2mm/2mm.c /home/maksim/PycharmProjects/unrolling/Polybench/poly_baseline/utilities/polybench.c
+apply UNSPLIT
+close
+quit

@@ -1,0 +1,153 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/syr2k -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/syr2k/syr2k.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/syr2k/syr2k.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/linear-algebra/blas/syr2k/syr2k.c
+Splitting file    ./recurse.database/Tmp/syr2k.cpp_processed.c
+  Module         main
+  Module         kernel_syr2k
+  Module         syr2k!print_array
+  Module         syr2k!init_array
+  Module         syr2k!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_syr2k.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(syr2k!)
+  C_PARSER                       building   PARSED_CODE(kernel_syr2k)
+                                 building   CALLEES(kernel_syr2k)
+  CONTROLIZER                    building   CODE(kernel_syr2k)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_syr2k)
+[statement_filter] 	 IN
+int i, j, k;
+
+//BLAS PARAMS
+//UPLO  = 'L'
+//TRANS = 'N'
+//A is NxM
+//B is NxM
+//C is NxN
+#pragma scop
+polybench_timer_start();
+
+for(i = 0; i <= n-1; i += 1) {
+   for(j = 0; j <= i; j += 1)
+      C[i][j] *= beta;
+   for(k = 0; k <= m-1; k += 1)
+loop_1:
+      for(j = 0; j <= i; j += 1)
+         C[i][j] += A[j][k]*alpha*B[i][k]+B[j][k]*alpha*A[i][k];
+}
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int i, j, k;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+//BLAS PARAMS
+//UPLO  = 'L'
+//TRANS = 'N'
+//A is NxM
+//B is NxM
+//C is NxN
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(i = 0; i <= n-1; i += 1) {
+   for(j = 0; j <= i; j += 1)
+      C[i][j] *= beta;
+   for(k = 0; k <= m-1; k += 1)
+loop_1:
+      for(j = 0; j <= i; j += 1)
+         C[i][j] += A[j][k]*alpha*B[i][k]+B[j][k]*alpha*A[i][k];
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 0; j <= i; j += 1)
+   C[i][j] *= beta;
+for(k = 0; k <= m-1; k += 1)
+loop_1:
+   for(j = 0; j <= i; j += 1)
+      C[i][j] += A[j][k]*alpha*B[i][k]+B[j][k]*alpha*A[i][k];
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+for(j = 0; j <= i; j += 1)
+   C[i][j] *= beta;
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+C[i][j] *= beta;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+for(k = 0; k <= m-1; k += 1)
+loop_1:
+   for(j = 0; j <= i; j += 1)
+      C[i][j] += A[j][k]*alpha*B[i][k]+B[j][k]*alpha*A[i][k];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+loop_1:
+for(j = 0; j <= i; j += 1)
+   C[i][j] += A[j][k]*alpha*B[i][k]+B[j][k]*alpha*A[i][k];
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+C[i][j] += A[j][k]*alpha*B[i][k]+B[j][k]*alpha*A[i][k];
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_syr2k.
+Request: build phase/rule UNSPLIT for module main.
+  PRINT_CODE                     building   PRINTED_FILE(kernel_syr2k)
+PRINT_CODE[kernel_syr2k] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+PRINT_CODE[kernel_syr2k] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

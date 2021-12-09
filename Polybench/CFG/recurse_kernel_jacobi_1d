@@ -1,0 +1,129 @@
+Workspace recurse deleted.
+setenv PIPS_CPP_FLAGS "-I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/utilities -I /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/jacobi-1d -DPOLYBENCH_TIME"
+setproperty ABORT_ON_USER_ERROR TRUE
+setproperty PREPROCESSOR_MISSING_FILE_HANDLING "generate"
+setproperty FOR_TO_DO_LOOP_IN_CONTROLIZER TRUE
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/jacobi-1d/jacobi-1d.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/jacobi-1d/jacobi-1d.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/jacobi-1d/jacobi-1d.c
+Splitting file    ./recurse.database/Tmp/jacobi-1d.cpp_processed.c
+  Module         main
+  Module         kernel_jacobi_1d
+  Module         jacobi-1d!print_array
+  Module         jacobi-1d!init_array
+  Module         jacobi-1d!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_jacobi_1d.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(jacobi-1d!)
+  C_PARSER                       building   PARSED_CODE(kernel_jacobi_1d)
+                                 building   CALLEES(kernel_jacobi_1d)
+  CONTROLIZER                    building   CODE(kernel_jacobi_1d)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_jacobi_1d)
+[statement_filter] 	 IN
+int t, i;
+
+#pragma scop
+polybench_timer_start();
+
+for(t = 0; t <= tsteps-1; t += 1) {
+   for(i = 1; i <= n-1-1; i += 1)
+      B[i] = 0.33333*(A[i-1]+A[i]+A[i+1]);
+loop_1:
+   for(i = 1; i <= n-1-1; i += 1)
+      A[i] = 0.33333*(B[i-1]+B[i]+B[i+1]);
+}
+polybench_timer_stop();
+
+polybench_timer_print();
+#pragma endscop
+
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+int t, i;
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+#pragma scop
+polybench_timer_start();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+for(t = 0; t <= tsteps-1; t += 1) {
+   for(i = 1; i <= n-1-1; i += 1)
+      B[i] = 0.33333*(A[i-1]+A[i]+A[i+1]);
+loop_1:
+   for(i = 1; i <= n-1-1; i += 1)
+      A[i] = 0.33333*(B[i-1]+B[i]+B[i+1]);
+}
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+for(i = 1; i <= n-1-1; i += 1)
+   B[i] = 0.33333*(A[i-1]+A[i]+A[i+1]);
+loop_1:
+for(i = 1; i <= n-1-1; i += 1)
+   A[i] = 0.33333*(B[i-1]+B[i]+B[i+1]);
+[sequence_filter] 	 IN
+[statement_filter] 	 IN
+for(i = 1; i <= n-1-1; i += 1)
+   B[i] = 0.33333*(A[i-1]+A[i]+A[i+1]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+B[i] = 0.33333*(A[i-1]+A[i]+A[i+1]);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+loop_1:
+for(i = 1; i <= n-1-1; i += 1)
+   A[i] = 0.33333*(B[i-1]+B[i]+B[i+1]);
+[loop_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[call_filter] 	 IN
+[statement_filter] 	 IN
+A[i] = 0.33333*(B[i-1]+B[i]+B[i+1]);
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[loop_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+polybench_timer_stop();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+
+polybench_timer_print();
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[statement_filter] 	 IN
+#pragma endscop
+
+[call_filter] 	 IN
+[statement_rewrite] 	 OUT
+[sequence_rewrite] 	 OUT
+[statement_rewrite] 	 OUT
+GEN_MULTI_RECURSE_EXPLORER made for kernel_jacobi_1d.
+Request: build phase/rule UNSPLIT for module main.
+  CONTROLIZER                    building   CODE(jacobi-1d!)
+CONTROLIZER[jacobi-1d!] (set_current_module_entity) [internal error] (/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/ri-util/static.c:74) 
+assertion failed
+
+ 'current module is undefined' not verified
+CONTROLIZER[jacobi-1d!] (pips_log_end) [internal error] stopping pips on code -1 (ABORT) at ("/home/maksim/Documents/MYPIPS/pips_dev/ml/src/Libs/misc/message.c":1134) for internal error raised
+Aborted (core dumped)

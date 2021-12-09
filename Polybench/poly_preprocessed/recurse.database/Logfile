@@ -1,0 +1,22 @@
+Registering file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/seidel-2d/seidel-2d.c
+Checking C syntax of file "/home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/seidel-2d/seidel-2d.c"
+Preprocessing file /home/maksim/PycharmProjects/unrolling/Polybench/poly_preprocessed/stencils/seidel-2d/seidel-2d.c
+Splitting file    ./recurse.database/Tmp/seidel-2d.cpp_processed.c
+  Module         main
+  Module         kernel_seidel_2d
+  Module         seidel-2d!print_array
+  Module         seidel-2d!init_array
+  Module         seidel-2d!
+Workspace recurse created and opened.
+Main module PROGRAM "main" selected.
+Module main selected
+Request: build phase/rule GEN_MULTI_RECURSE_EXPLORER for module kernel_seidel_2d.
+  BOOTSTRAP                      building   ENTITIES()
+  COMPILATION_UNIT_PARSER        building   DECLARATIONS(seidel-2d!)
+  C_PARSER                       building   PARSED_CODE(kernel_seidel_2d)
+                                 building   CALLEES(kernel_seidel_2d)
+  CONTROLIZER                    building   CODE(kernel_seidel_2d)
+  GEN_MULTI_RECURSE_EXPLORER     updating   CODE(kernel_seidel_2d)
+GEN_MULTI_RECURSE_EXPLORER made for kernel_seidel_2d.
+Request: build phase/rule UNSPLIT for module main.
+  PRINT_CODE                     building   PRINTED_FILE(kernel_seidel_2d)

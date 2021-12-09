@@ -1,0 +1,27 @@
+25
+9
+0 T79 (R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:0`nx 1 main:0`ny 1 main:0`tmax )( (-500 . 1 main:0`tmax ) (-1000 . 1 main:0`nx ) (-1200 . 1 main:0`ny ))())))3
+0 T79 (R77 "main:0`tmax" )T63 E28 ((1 main:0`tmax )( (-500 . 1 main:0`tmax ))())))4
+0 T79 (R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:0`nx 1 main:0`tmax )( (-500 . 1 main:0`tmax ) (-1000 . 1 main:0`nx ))())))25
+0 T79 (R77 "main:argc" R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:argc 1 main:0`nx 1 main:0`ny 1 main:0`tmax )()())))20
+0 T79 (R77 "main:argc" R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:argc 1 main:0`nx 1 main:0`ny 1 main:0`tmax )()())))22
+0 T79 (R77 "main:argc" R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:argc 1 main:0`nx 1 main:0`ny 1 main:0`tmax )()())))6
+0 T79 (R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:0`nx 1 main:0`ny 1 main:0`tmax )( (-500 . 1 main:0`tmax ) (-1000 . 1 main:0`nx ) (-1200 . 1 main:0`ny ))())))2
+0 T79 ()T63 E28 (()()())))19
+0 T79 (R77 "main:argc" R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:argc 1 main:0`nx 1 main:0`ny 1 main:0`tmax )()( (43 . -1 main:argc )))))23
+0 T79 (R77 "main:argc" R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:argc 1 main:0`nx 1 main:0`ny 1 main:0`tmax )()())))17
+0 T79 (R77 "main:argc" R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:argc 1 main:0`nx 1 main:0`ny 1 main:0`tmax )()())))24
+0 T79 (R77 "main:argc" R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:argc 1 main:0`nx 1 main:0`ny 1 main:0`tmax )()())))1
+0 T79 ()T63 E28 (()()())))8
+0 T79 (R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:0`nx 1 main:0`ny 1 main:0`tmax )( (-1200 . 1 main:0`ny ) (-1000 . 1 main:0`nx ) (-500 . 1 main:0`tmax ))())))13
+0 T79 (R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:0`nx 1 main:0`ny 1 main:0`tmax )( (-500 . 1 main:0`tmax ) (-1000 . 1 main:0`nx ) (-1200 . 1 main:0`ny ))())))18
+0 T79 (R77 "main:argc" R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:argc 1 main:0`nx 1 main:0`ny 1 main:0`tmax )()())))12
+0 T79 (R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:0`nx 1 main:0`ny 1 main:0`tmax )( (-1200 . 1 main:0`ny ) (-1000 . 1 main:0`nx ) (-500 . 1 main:0`tmax ))())))10
+0 T79 (R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:0`nx 1 main:0`ny 1 main:0`tmax )( (-500 . 1 main:0`tmax ) (-1000 . 1 main:0`nx ) (-1200 . 1 main:0`ny ))())))5
+0 T79 (R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:0`nx 1 main:0`ny 1 main:0`tmax )( (-500 . 1 main:0`tmax ) (-1000 . 1 main:0`nx ) (-1200 . 1 main:0`ny ))())))21
+0 T79 (R77 "main:argc" R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:argc 1 main:0`nx 1 main:0`ny 1 main:0`tmax )()())))16
+0 T79 (R77 "main:argc" R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:argc 1 main:0`nx 1 main:0`ny 1 main:0`tmax )()())))14
+0 T79 (R77 "main:argc" R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:argc 1 main:0`nx 1 main:0`ny 1 main:0`tmax )()())))7
+0 T79 (R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:0`nx 1 main:0`ny 1 main:0`tmax )( (-1200 . 1 main:0`ny ) (-1000 . 1 main:0`nx ) (-500 . 1 main:0`tmax ))())))15
+0 T79 (R77 "main:argc" R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:argc 1 main:0`nx 1 main:0`ny 1 main:0`tmax )()())))11
+0 T79 (R77 "main:0`ny" R77 "main:0`nx" R77 "main:0`tmax" )T63 E28 ((1 main:0`nx 1 main:0`ny 1 main:0`tmax )( (-1200 . 1 main:0`ny ) (-1000 . 1 main:0`nx ) (-500 . 1 main:0`tmax ))())))

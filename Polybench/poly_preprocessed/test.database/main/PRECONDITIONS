@@ -1,0 +1,27 @@
+25
+16
+0 T79 (R77 "main:argc" R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:argc 1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))18
+0 T79 (R77 "main:argc" R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:argc 1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))24
+0 T79 (R77 "main:argc" R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:argc 1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))9
+0 T79 (R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ) (-1400 . 1 main:0`n ) (-1200 . 1 main:0`m ))())))6
+0 T79 (R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ) (-1400 . 1 main:0`n ) (-1200 . 1 main:0`m ))())))15
+0 T79 (R77 "main:argc" R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:argc 1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))23
+0 T79 (R77 "main:argc" R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:argc 1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))4
+0 T79 (R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ) (-1400 . 1 main:0`n ) (-1200 . 1 main:0`m ))())))13
+0 T79 (R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ) (-1400 . 1 main:0`n ) (-1200 . 1 main:0`m ))())))20
+0 T79 (R77 "main:argc" R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:argc 1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))22
+0 T79 (R77 "main:argc" R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:argc 1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))17
+0 T79 (R77 "main:argc" R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:argc 1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))21
+0 T79 (R77 "main:argc" R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:argc 1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))25
+0 T79 (R77 "main:argc" R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:argc 1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))12
+0 T79 (R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (-1200 . 1 main:0`m ) (-1400 . 1 main:0`n ) (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))1
+0 T79 ()T63 E28 ((1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))5
+0 T79 (R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ) (-1400 . 1 main:0`n ) (-1200 . 1 main:0`m ))())))8
+0 T79 (R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (-1200 . 1 main:0`m ) (-1400 . 1 main:0`n ) (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))7
+0 T79 (R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (-1200 . 1 main:0`m ) (-1400 . 1 main:0`n ) (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))11
+0 T79 (R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (-1200 . 1 main:0`m ) (-1400 . 1 main:0`n ) (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))3
+0 T79 (R77 "main:0`n" )T63 E28 ((1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (-1400 . 1 main:0`n ) (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))10
+0 T79 (R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ) (-1400 . 1 main:0`n ) (-1200 . 1 main:0`m ))())))14
+0 T79 (R77 "main:argc" R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:argc 1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))2
+0 T79 ()T63 E28 ((1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))())))19
+0 T79 (R77 "main:argc" R77 "main:0`m" R77 "main:0`n" )T63 E28 ((1 main:argc 1 main:0`m 1 main:0`n 1 TOP-LEVEL:polybench_papi_counters_threadid )( (1 TOP-LEVEL:polybench_papi_counters_threadid ))( (43 . -1 main:argc )))))

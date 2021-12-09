@@ -1,0 +1,16 @@
+! module / file
+polybench!: ./gemm_baseline.database/Src/polybench.c
+gemm!: ./gemm_baseline.database/Src/gemm.c
+polybench!rtclock: ./gemm_baseline.database/Src/polybench.c
+polybench_flush_cache: ./gemm_baseline.database/Src/polybench.c
+polybench_prepare_instruments: ./gemm_baseline.database/Src/polybench.c
+polybench_timer_start: ./gemm_baseline.database/Src/polybench.c
+polybench_timer_stop: ./gemm_baseline.database/Src/polybench.c
+polybench_timer_print: ./gemm_baseline.database/Src/polybench.c
+polybench!xmalloc: ./gemm_baseline.database/Src/polybench.c
+polybench_free_data: ./gemm_baseline.database/Src/polybench.c
+polybench_alloc_data: ./gemm_baseline.database/Src/polybench.c
+gemm!init_array: ./gemm_baseline.database/Src/gemm.c
+gemm!print_array: ./gemm_baseline.database/Src/gemm.c
+gemm!kernel_gemm: ./gemm_baseline.database/Src/gemm.c
+main: ./gemm_baseline.database/Src/gemm.c
